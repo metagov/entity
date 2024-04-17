@@ -1,0 +1,11 @@
+{
+  "@context": "https://www.daostar.org/schemas",
+  "type": "Entity",
+  "name": "Metagov",
+  "description": "Metagov is a laboratory for digital governance.",
+  "membersURI": "<URI>",
+  "proposalsURI": "<URI>",
+  "activityLogURI": "<URI>",
+  "governanceURI": "<URI>",
+  "contractsURI": "<URI>"
+}
