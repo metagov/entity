@@ -10,7 +10,7 @@ EIP-4824 introduces a standardized way to handle DAO metadata using a `daoURI`, 
 
 One effective method for publishing and managing DAO URIs is using a GitHub repository. This approach offers several advantages, including modifiability, version control, and ease of use. By leveraging GitHub, DAOs can maintain their metadata in a familiar and widely adopted platform, reducing the need for on-chain transactions for updates.
 
-### Steps to Publish DAO URI via GitHub
+### Creating and Hosting DAO URIs via GitHub
 
 #### Step 1: Clone the Repository
 
@@ -99,7 +99,35 @@ One effective method for publishing and managing DAO URIs is using a GitHub repo
 }
 ```
 
+### Publishing DAO URI On-Chain
 
+After creating and hosting your DAO URI via GitHub, the next crucial step is to publish it on-chain. This ensures that the metadata is verifiable and publicly accessible in a decentralized manner. You can choose any methods listed below to publish DAO URI
+
+#### Method 1: Deploy a Registration Contract
+
+1. **Initiate a Forum Proposal**:
+   - Start a forum proposal/discussion on adopting EIP-4824 and the potential daoURI for your DAO.
+   
+2. **Create the daoURI**:
+   - Follow the steps above to create the daoURI and host it on GitHub.
+
+3. **Execute the Transaction**:
+   - If the governance proposal passes, execute the transaction to deploy a registration contract that stores your daoURI on-chain.
+   - The EIP-4824 registration factory contract is deployed to nearly all EVM chains. For mainnet, the address is `0x2Dac5DBbF1D024c1E0D9c92D3AeDa7618e15aDd7`.
+
+#### Method 2: Use an ENS Text Record
+
+1. **Set as an ENS Text Record**:
+   - You can set the daoURI as an ENS (Ethereum Name Service) text record. Depending on the management of the ENS name, this may require governance approval.
+
+#### Method 3: Use Ethereum Attestation Service (EAS)
+
+1. **EAS Attestations**:
+   - Utilize the Ethereum Attestation Service to issue on-chain attestations containing the DAO's daoURI.
+   - This method is akin to notarizing the daoURI on the blockchain, providing a secure and transparent way to verify the DAO’s metadata.
+
+
+##### Congratulations on taking a step towards transparent governance!
 
 ### Support
 
@@ -107,3 +135,7 @@ For further assistance or questions, feel free to reach out to the community or 
 
 Contact: rashmi@daostar.org
 Telegram: https://t.me/+3gf-K5c2iDllOGZl
+
+
+
+
