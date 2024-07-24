@@ -1,6 +1,6 @@
 ## EIP-4824 
 
-Instructions at [instructions.md](instructions.md). [Copy all of the below over.]
+Instructions at [instructions.md](instructions.md). [Copy all of the below over. Keep just a few very easily digestable isntructions here.]
 
 ### Introduction to EIP-4824
 
