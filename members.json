@@ -1,9 +1,0 @@
-{
-  "@context": "<http://www.daostar.org/schemas>",
-  "members": [
-    {
-        "type": "EthereumAddress",
-        "id": "0x977841f226482F7938e179f6Fc6F45c175252114"
-    }
-  ]
-}

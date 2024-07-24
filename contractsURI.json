@@ -1,0 +1,20 @@
+{
+    "@context": "https://www.daostar.org/schemas",
+    "contracts": [
+        {
+            "id": "<CAIP-10 address, DID address, or other URI identifier>",
+            "name": "<name, e.g. Treasury>",
+            "description": "<description, e.g. Primary operating treasury for the DAO>"
+        },
+        {
+            "id": "<CAIP-10 address, DID address, or other URI identifier>",
+            "name": "<name, e.g. Governance Token>",
+            "description": "<description, e.g. ERC20 governance token contract>"
+        },
+        {
+            "id": "<CAIP-10 address, DID address, or other URI identifier>",
+            "name": "<name, e.g. Registration Contract>",
+            "description": "<description, e.g. ERC-4824 registration contract>"
+        }
+    ]
+}
