@@ -131,7 +131,7 @@ After creating and hosting your DAO URI via GitHub, the next crucial step is to 
 
 ### Support
 
-For further assistance or questions, feel free to reach out to the community or the DAOstar support team. Start setting up your GitHub repository today and take advantage of this modern approach to DAO metadata management.
+For further assistance or questions, feel free to reach out to the community or the DAOstar support team.
 
 Contact: rashmi@daostar.org
 Telegram: https://t.me/+3gf-K5c2iDllOGZl
