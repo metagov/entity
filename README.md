@@ -6,18 +6,21 @@ EIP-4824 addresses the challenge of collecting and standardizing essential DAO m
 
 EIP-4824 introduces a standardized way to handle DAO metadata using a `daoURI`, which is a URI (Uniform Resource Identifier) that points to a DAO's metadata.
 
-### Publishing DAO URIs 
+### Adopting daoURI
 
-One effective method for publishing and managing DAO URIs is using a GitHub repository. 
+Adopting daoURI involves two main steps:
 
-Here are the instructions for it, [Instructions.md](instructions.md)
+1. **Creating and hosting DAO URI JSON**: Follow the instructions to create and host your DAO URI JSON file. One effective method for hosting and managing DAO URI is using a GitHub repository.
+2. **Publishing DAO URI**: Use one of the methods to publish the daoURI on-chain. 
+
+For detailed instructions on both steps, refer to [Instructions.md](instructions.md).
 
 ### Support
 
 For further assistance or questions, feel free to reach out to the community or the DAOstar support team.
 
 Contact: rashmi@daostar.org
-Telegram: https://t.me/+3gf-K5c2iDllOGZl
+Telegram: [https://t.me/+3gf-K5c2iDllOGZl](https://t.me/+3gf-K5c2iDllOGZl)
 Documentation: https://docs.daostar.org/
 
 
