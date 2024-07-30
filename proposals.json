@@ -1,23 +1,1042 @@
 {
-    "@context": "https://www.daostar.org/schemas",
+    "@context": "http://daostar.org/schemas",
+    "name": "arbitrumfoundation.eth",
+    "next_cursor": 1695644253,
     "proposals": [
-        {
-            "type": "proposal",
-            "id": "<proposal ID>",
-            "name": "<name or title of proposal>",
-            "contentURI": "<URI to content/text of the proposal>",
-            "discussionURI": "<URI to discussion or thread for the proposal>",
-            "status": "<status of proposal>",
-            "calls": [
-                {
-                    "type": "CallDataEVM",
-                    "operation": "<call or delegate call>",
-                    "from": "<EthereumAddress>",
-                    "to": "<EthereumAddress>",
-                    "value": "<value>",
-                    "data": "<call data>"
-                }
-            ]
-        }
+      {
+        "author": "0x74369AdDA9E1c8482599B4614f2f31af0d9084e8",
+        "body": "## Category: Constitutional - Process\n\n### Submitted by: Lemma Ltd\n\n### Abstract\nThis document (\u201c**AIP-1**\u201d) proposes the structure of a decentralized autonomous organization called the ArbitrumDAO that would be governed by holders of $ARB, the decentralized token that will serve as the primary token for fostering, developing, authorizing and/or governing the ArbitrumDAO-approved chains (as defined in the ArbitrumDAO Constitution). The ArbitrumDAO Constitution, located at https://docs.arbitrum.foundation/dao-constitution is incorporated herein by reference.\n\n### Motivation\n\nThe Arbitrum Foundation, a Cayman Islands foundation company, which will serve the ArbitrumDAO community and be governed by it, aims to foster the growth and development of the Arbitrum ecosystem.\n\nThe ArbitrumDAO will have the ability to submit Arbitrum Improvement Proposals (\u201c**AIPs**\u201d), vote on them and make them a reality through The Arbitrum Foundation.\n\nThe guiding values of The Arbitrum Foundation and ArbitrumDAO are described in Section 5 of the ArbitrumDAO Constitution and are incorporated herein.\n\n### Rationale\n\nThe Arbitrum Foundation serves the ArbitrumDAO by administering the wishes of the community and otherwise adhering to its guiding values. The Arbitrum Foundation and DAO governance are intended to serve as vehicles enabling impactful, transparent and fair decentralized governance by the broader Arbitrum community.\n\nThrough the submission of AIPs, the ArbitrumDAO will be able to collectively decide and effectuate changes ranging from core protocol technology to non-technical decisions that otherwise impact the community and $ARB tokenholders.\n\n\n### Specifications\n\n**Governance powers breakdown**\n\n**1. $ARB Tokenholders**\n\n* $ARB tokenholders, who make up the ArbitrumDAO, play the most critical role in the proper functioning of decentralized governance in the pursuit of a trustless, transparent and verifiable Arbitrum ecosystem. As Arbitrum is intended to be a public good, it is only right that governance over it should be governed by those for whom such public good is intended for.\n\n* $ARB tokenholders have the ability to directly propose, vote on and effectuate on-chain AIPs with respect to the ArbitrumDAO-approved chains.\n\n\n**2. Special Grants**\n\n* The Arbitrum Foundation shall be permitted to issue grants out of the Administrative Budget Wallet without undergoing a full on-chain AIP process (such grants, \u201c**Special Grants**\u201d).\n\n* The rationale behind the ability of The Arbitrum Foundation to issue Special Grants is to avoid inundating governance with grant applications, while at the same time alleviating voter fatigue.\n\n* The Special Grants application process and criteria will be released at a later date by The Arbitrum Foundation.\n\n\n**3. Directors**\n\nAs a Cayman Islands foundation, The Arbitrum Foundation is required to have at least 1 director responsible for the management and operation of The Arbitrum Foundation, in particular approving and entering into contractual arrangements on behalf of The Arbitrum Foundation (i.e., the parties actually approving and signing agreements).|\n\nThe directors are responsible for ensuring that AIPs do not:\n\n* Compromise their fiduciary duties owed to The Arbitrum Foundation;\n* Violate The Arbitrum Foundation\u2019s Amended & Restated Memorandum of Association or bylaws, the ArbitrumDAO Constitution, the AIP Process or any other laws or regulations of applicable jurisdictions (including but not limited to Cayman Islands laws); and \n* Cause The Arbitrum Foundation to be in breach or violation of any contracts, agreements or any other arrangements.\n\nThe initial directors of The Arbitrum Foundation are: \n* Campbell Law, \n* Edward Noyons and \n* Ani Banerjee\n\nThe ArbitrumDAO may remove or elect The Arbitrum Foundation\u2019s directors or expand or reduce the number of directors at any time pursuant to a Non-Constitutional AIP\n\n**4.\tSecurity Council**\nThe Security Council is a committee of 12 members of a multi-sig wallet which has the ability to perform both Emergency and Non-Emergency Actions, which are further detailed in Section 3 of the [ArbitrumDAO Constitution](https://docs.arbitrum.foundation/dao-constitution), which is incorporated herein by reference.\n\nThe initial Security Council members, split by cohort, are as follows:\n\ni.\tSeptember Cohort\n1.\t[Mo Dong](https://twitter.com/no89thkey) is the Co-Founder of Celer Network. Mo received a PhD from the University of Illinois Urbana-Champaign in computer science.\n0x526C0DA9970E7331d171f86AeD28FAFB5D8A49EF\n2. [Harry Kalodner](https://www.linkedin.com/in/hkalodner/) is Co-Founder and CTO at Offchain Labs, the developers behind Arbitrum. Harry started working on building Arbitrum while studying at Princeton University.\n0xf8e1492255d9428c2Fc20A98A1DeB1215C8ffEfd\n3.\t[Diane Dai](https://www.linkedin.com/in/diane-dai-649890a7/) is the Co-Founder of DODO, a leading decentralized trading platform. Diane has extensive marketing experience in Defi space since 2017 and was named to Forbes Asia 30 under 30 in 2022.\n0x0E5011001cF9c89b0259BC3B050785067495eBf5\n4.\t[Caleb Lau](https://twitter.com/EnigmaticUnreal) has been a software engineer at Etherscan since 2019. He works closely with L2 scaling teams to bring users the Etherscan experience on the explorer front.\n0x8688515028955734350067695939423222009623\n5.\t[Ed Felten](https://www.linkedin.com/in/ed-felten-275171/) is Co-Founder and Chief Scientist at Offchain Labs, the developers behind Arbitrum. Prior to this, Ed served as the Robert E. Kahn Professor of Computer Science and Public Affairs at Princeton University. Ed also served as the Deputy U.S. Chief Technology Officer from 2015-17.\n0x6e77068823f9D0fE98F80764c21Ec294e4d96AdB\n6.\t[Bryan Pellegrino](https://www.linkedin.com/in/bryanpellegrino) is Co-Founder and CEO at LayerZero Labs, an omnichain interoperability protocol.  Bryan is a multi-time founder/serial entrepreneur who has been active in crypto for more than 10 years.\n0x8e6247239CBeB3Eaf9d9a691D01A67e2A9Fea3C5\n\nii.\tMarch Cohort\n1.\t[Patrick McNab](https://twitter.com/pat_mcnab) Is a Co-founder of Mycelium who have been developing and deploying decentralized financial infrastructure since 2018. Mycelium (previously Tracer DAO) were one of the first protocols deployed on Arbitrum in 2021 and support the Arbitrum ecosystem through running validators and Chainlink nodes.\n0x566a07C3c932aE6AF74d77c29e5c30D8B1853710\n2.\t[Justin Drake](https://www.linkedin.com/in/drakefjustin) has been a researcher at the Ethereum Foundation since 2017. He focuses on Ethereum consensus layer upgrades.\n0x5280406912EB8Ec677Df66C326BE48f938DC2e44\n3.\t[Bartek Kiepuszewski](https://www.linkedin.com/in/bartek-kiepuszewski-b3a299/?originalSubdomain=pl) has been a blockchain architect at MakerDAO since 2017. He also co-founded l2beat.com and TokenFlow Insights. Bartek holds a PhD in computer science from Queensland University of Technology.\n0x0275b3D54a5dDbf8205A75984796eFE8b7357Bae\n4.\t[Rachel Bousfield](https://github.com/rachel-bousfield) has been a software engineer at Offchain Labs since 2021. She is currently leading the development of Stylus.\n0x5A1FD562271aAC2Dadb51BAAb7760b949D9D81dF\n5.\t[Patricio Worthalter](https://www.linkedin.com/in/worthalter/?originalSubdomain=ar) has been working full time in the Ethereum space since 2015. In 2018 he founded POAP, a web3 native public good that mints digital collectibles for the preservation of memories.\n0xf6B6F07862A02C85628B3A9688beae07fEA9C863\n6.\t[Yoav Weiss](https://twitter.com/yoavw) is a security researcher at the Ethereum Foundation and has been building in the Ethereum space since 2017, working on account abstraction (ERC-4337), OpenGSN, L2 security, etc. Yoav brings over 25 years of experience and has developed security technologies used by industry leading companies.\n0x475816ca2a31D601B4e336f5c2418A67978aBf09\n\nCompensation: \nSecurity Council members are each paid $5,000 per month in $ARB tokens.  \n\nSecurity Council Elections:\nSection 4 of the [ArbitrumDAO Constitution](https://docs.arbitrum.foundation/dao-constitution) describes the Security Council election process and is incorporated herein by reference.\n\n**5. Data Availability Committee (Arbitrum Nova chain only)**\n\nTransactions occurring on the Arbitrum Nova chain are settled on Ethereum mainnet, but, unlike transactions occurring on the Arbitrum One chain, the underlying transaction data batches are posted and stored by the members of the Data Availability Committee on a [Data Availability Server](https://developer.arbitrum.io/das/daserver-instructions) (and not on Ethereum mainnet).\n\nThe initial members of the Data Availability Committee are authorized representatives of the following parties:\n* Reddit, Inc.\n* ConsenSys Software Inc.\n* QuikNode, Inc.\n* P2P Business Technologies\n* Google Cloud ( Google LLC.)\n* Offchain Labs, Inc.\n* Opensea Innovation Labs Private Limited\n\n\nData Availability Committee members can be appointed and removed at any time pursuant to a Constitutional AIP approved by the ArbitrumDAO. In the event that a Data Availability Committee member is removed (and not otherwise replaced) pursuant to a Constitutional AIP approved by the ArbitrumDAO, or in the event that a Data Availability Committee member resigns without a replacement, the Security Council may execute an emergency action (9-of-12 approval required) to appoint a replacement for such removed or resigned Data Availability Committee member.\n\n### AIP Guidelines and Process Breakdown\n\nSection 2 of the ArbitrumDAO Constitution lays out the AIP process and voting procedures, as well as the various categories of AIPs, and is incorporated herein.\n\n**Arbitrum Voting Protocol Procedure**\n\n1. [Tally.xyz](https://www.tally.xyz/gov/arbitrum) will act as the initial on-chain voting platform for the ArbitrumDAO to submit and vote on AIPs\n\n2. Tally will serve as a front-end user interface that allows DAO members to do several things, namely:\n*   Create AIPs;\n*   View delegates and their voting share;\n*   Re-delegate votes to a different delegate;\n*   View current and past AIPs;\n*   Vote on AIPs on-chain, interacting with the on-chain governance contracts via the Tally front-end; and\n*   View the status of AIP execution during all voting stages\n\n### **Steps to Implement**\n\n1. Ratification of formation of The Arbitrum Foundation and its [Amended & Restated Memorandum of Association](https://docs.google.com/document/d/19MLHbkvCgbP9grygn6YfxxM9oA_T1mEK-aYDD7nRA04/edit?usp=sharing) and [bylaws](https://docs.google.com/document/d/1YkV8IC-TXQFjPZn5_IJGb2wjlxNTjDZXK3cCzoF8hqM/edit?usp=sharing) linked in this AIP-1.\n2. Ratification of the [ArbitrumDAO Constitution](https://docs.arbitrum.foundation/dao-constitution)\n3. Ratification of Security Council and Data Availability Committee member appointments and respective powers\n4. Ratification of the following allocations of the L2 basefee on the Arbitrum Nova chain: 8% of the basefee to the Data Availability Committee and 12% of the basefee to Arbitrum Nova validators\n5. Ratification of the funding of the DAO Treasury (as defined in the ArbitrumDAO Constitution)\n6. Approval of the AIP process as described in this AIP-1\n7. Completed setup of the [Arbitrum ](https://forum.arbitrum.foundation)[Forum](http://forum.arbitrum.io), [Snapshot](https://snapshot.org/#/arbitrumfoundation.eth) and [Tally](https://www.tally.xyz/gov/arbitrum)\n8. Ratification of funding the Administrative Budget Wallet\n9. Ratification of reimbursement of costs as illustrated in the Overall Cost sections below and disbursement of such reimbursements to applicable service providers\n\n**Timeline**\n\nSolution prepared and ready to be ratified and approved\n\n**Overall Costs**\n\n**Initial Setup Costs of The Arbitrum Foundation and ArbitrumDAO**\n\nTotal setup costs, including legal costs, DAO administration setup and registration fees to be reimbursed to service providers:  $3.5 million (\u201c**Total Setup Costs**\u201d)\n\n**DAO Treasury**\nIn order to best provide the ArbitrumDAO with the ability to effectively govern and foster the development of Governed Chains (as defined in the ArbitrumDAO Constitution), 3,527,046,079 $ARB tokens have been transferred to the DAO Treasury. The ArbitrumDAO will have direct on-chain governance powers over the DAO Treasury in accordance with the AIP process as delineated in the ArbitrumDAO Constitution.\n\n\n**The Arbitrum Foundation Administrative Budget Wallet**\n\nFor the sake of operational and administrative efficiency, a separate account controlled by The Arbitrum Foundation will be created (\u201c**Administrative Budget Wallet**\u201d). 750 million $ARB tokens will be transferred to the Administrative Budget Wallet for purposes of making Special Grants, reimbursing applicable service providers for the Total Setup Costs and covering ongoing administrative and operational costs of The Arbitrum Foundation. Further funding of the Administrative Budget Wallet shall require approval of an AIP by the ArbitrumDAO pursuant to the AIP process.\n\n[The Arbitrum Foundation Memorandum of Association](https://docs.google.com/document/d/19MLHbkvCgbP9grygn6YfxxM9oA_T1mEK-aYDD7nRA04)\n\n[The Arbitrum Foundation Bylaws](https://docs.google.com/document/d/1YkV8IC-TXQFjPZn5_IJGb2wjlxNTjDZXK3cCzoF8hqM/edit?usp=sharing)",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1679955390,
+        "discussion": "",
+        "end": 1680560004,
+        "flagged": false,
+        "id": "0x3be7368a662d1cf12fa4da768d626edbc013be0dc7b994fef2e24d9a54e4033a",
+        "ipfs": "bafkreiep4xiwhdtvhrkax2p6cbijkimz4i7drkdlx6wjj2rg4lk6qdxe5a",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x3be7368a662d1cf12fa4da768d626edbc013be0dc7b994fef2e24d9a54e4033a",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          16418340.15083403,
+          100343537.24475034,
+          14120336.076898294
+        ],
+        "scores_by_strategy": [
+          [
+            16418340.15083403
+          ],
+          [
+            100343537.24475034
+          ],
+          [
+            14120336.076898294
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 130882213.47248442,
+        "scores_updated": 1680560014,
+        "snapshot": "74357879",
+        "start": 1679955204,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "AIP-1: Arbitrum Improvement Proposal Framework",
+        "type": "basic",
+        "updated": null,
+        "votes": 26141
+      },
+      {
+        "author": "0x4bca130D4D1387Ec00705Dc24e8eB63488136e71",
+        "body": "Abstract\n\nReturn the 700M $ARB unjustly allocated to the Foundation from the DAO\n\nWhat happened with AIP-1 was a clear overreach of the DAO\u2019s power of treasury resources\n\nThis is a symbolic gesture to demonstrate that the governance holders ultimately control the DAO, not the Arbitrum service provider nor the Foundation\n\nOnly after this has occurred, can we move forward with Budget proposals.\n\nMotivation\nAs stated in (Proposal: AIP-1.1 - Lockup, Budget, Transparency 3),\n\nOn March 16, 2023, the Arbitrum networks (Arbitrum One and Arbitrum Nova) were decentralized and given to the newly formed Arbitrum DAO. Included in this transition were:\n\n* Control of the upgradeability and technical future of the chains\n* Control over the DAO treasury\n* Control over net fee revenue - i.e. the net difference between fees collected by on-chain operations and L1 fees paid by the Sequencer\n* All Arbitrum social media platforms and accounts\n* Ability to elect and, if deemed appropriate, remove the Security Council and Directors\n\nFull responsibility of the chain\u2019s technology, future, and fee revenue were given to the DAO directly. With the DAO assuming those rights and controls, the DAO also assumed the responsibility to fund the ongoing operations of the chains and the costs of running critical chain infrastructure, including RPCs, the Sequencer, and third-party vendors and service contracts.\nThe DAO has full control of the resources of the DAO treasury.\n\nThough it is acknowledged that there is nuance in the chicken and egg problem, the DAO undeniably has the right to reverse any decisions made unilaterally by the foundation or the service provider.\n\nWhen the public on medium distribution was released, it marked the creation of the DAO.\n\nIn the prospectus, it was clearly outlined that the DAO would receive 42.78% of the token supply\n\nThe legal rationale behind the decision from the service provider to not initially allocate resources to the foundation is not clear, but what is done is done.\n\nOnce public communication is disseminated and people make investment decisions based on the terms of decentralization, that is binding and there is no going back.\n\nThe Foundation has unilaterally been allocated $750M tokens from the DAO that was not approved by the governance token holders.\n\nAny funds must be returned until it has been properly allocated by the DAO and the DAO only.\n\nHealth of the Foundation\n\nWe understand that the Foundation needs resources for the ecosystem to succeed and compete versus its competitors.\n\nWe are in support of AIP1.1 and AIP 1.2 as proposed.\n\nIt is prudent that full faith and trust be restored in the governance process before we proceed with anything else.\n\nAsk\nReturn 700M $ARB from the Foundation to the DAO as a symbolic gesture that the governance token holders hold ultimate power and authority over the resources that were granted to the DAO\n\nBuyback $ARB via Wintermute with whatever fiat is left from the $10M OTC sale\n\nDisclose terms of the market making deal with Wintermute\n\nPause AIP 1.1 and 1.2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1680888724,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-return-700m-arb-to-the-dao-treasury/13490",
+        "end": 1681830000,
+        "flagged": false,
+        "id": "0xe8bc33b7849bd1d7984a8d638444e2dd97b0dfa3f5f2c9dff28fcfe0247bdab3",
+        "ipfs": "bafkreich6vg7rgrdmycoeoqbtatetaibdys7tx2ucgt5b4lyibt4aywu6y",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xe8bc33b7849bd1d7984a8d638444e2dd97b0dfa3f5f2c9dff28fcfe0247bdab3",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          14363542.24058144,
+          44234794.890667774,
+          594279.0683995599
+        ],
+        "scores_by_strategy": [
+          [
+            14363542.24058144
+          ],
+          [
+            44234794.890667774
+          ],
+          [
+            594279.0683995599
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 59192616.19964863,
+        "scores_updated": 1681830010,
+        "snapshot": "78047794",
+        "start": 1681225200,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "AIP 1.05: Return 700M $ARB to the DAO Treasury ",
+        "type": "basic",
+        "updated": null,
+        "votes": 26246
+      },
+      {
+        "author": "0x4bca130D4D1387Ec00705Dc24e8eB63488136e71",
+        "body": "Abstract\n\nReturn the 700M $ARB unjustly allocated to the Foundation from the DAO\n\nWhat happened with AIP-1 was a clear overreach of the DAO\u2019s power of treasury resources\n\nThis is a symbolic gesture to demonstrate that the governance holders ultimately control the DAO, not the Arbitrum service provider nor the Foundation\n\nOnly after this has occurred, can we move forward with Budget proposals.\n\nMotivation\nAs stated in (Proposal: AIP-1.1 - Lockup, Budget, Transparency 3),\n\nOn March 16, 2023, the Arbitrum networks (Arbitrum One and Arbitrum Nova) were decentralized and given to the newly formed Arbitrum DAO. Included in this transition were:\n\nControl of the upgradeability and technical future of the chains\nControl over the DAO treasury\nControl over net fee revenue - i.e. the net difference between fees collected by on-chain operations and L1 fees paid by the Sequencer\nAll Arbitrum social media platforms and accounts\nAbility to elect and, if deemed appropriate, remove the Security Council and Directors\nFull responsibility of the chain\u2019s technology, future, and fee revenue were given to the DAO directly. With the DAO assuming those rights and controls, the DAO also assumed the responsibility to fund the ongoing operations of the chains and the costs of running critical chain infrastructure, including RPCs, the Sequencer, and third-party vendors and service contracts.\nThe DAO has full control of the resources of the DAO treasury.\n\nThough it is acknowledged that there is nuance in the chicken and egg problem, the DAO undeniably has the right to reverse any decisions made unilaterally by the foundation or the service provider.\n\nWhen the public on medium distribution was released, it marked the creation of the DAO.\n\nIn the prospectus, it was clearly outlined that the DAO would receive 42.78% of the token supply\n\nThe legal rationale behind the decision from the service provider to not initially allocate resources to the foundation is not clear, but what is done is done.\n\nOnce public communication is disseminated and people make investment decisions based on the terms of decentralization, that is binding and there is no going back.\n\nThe Foundation has unilaterally been allocated $750M tokens from the DAO that was not approved by the governance token holders.\n\nAny funds must be returned until it has been properly allocated by the DAO and the DAO only.\n\nHealth of the Foundation\n\nWe understand that the Foundation needs resources for the ecosystem to succeed and compete versus its competitors.\n\nWe are in support of AIP1.1 and AIP 1.2 as proposed.\n\nIt is prudent that full faith and trust be restored in the governance process before we proceed with anything else.\n\nAsk\nReturn 700M $ARB from the Foundation to the DAO as a symbolic gesture that the governance token holders hold ultimate power and authority over the resources that were granted to the DAO\n\nBuyback $ARB via Wintermute with whatever fiat is left from the $10M OTC sale\n\nDisclose terms of the market making deal with Wintermute\n\nPause AIP 1.1 and 1.2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1680918744,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-return-700m-arb-to-the-dao-treasury/13490",
+        "end": 1681523541,
+        "flagged": false,
+        "id": "0x3ae4c725f7cb82d450b6fe8517178b2a0a51d1105beaad0adb421df1bc8f8cc4",
+        "ipfs": "bafkreiccr6pfwg52comz7ttso2cklomz2omswkvyzpkxwzbhgtxnavywzy",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x3ae4c725f7cb82d450b6fe8517178b2a0a51d1105beaad0adb421df1bc8f8cc4",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          20526942.094755903,
+          118334390.35010344,
+          1993792.7157490484
+        ],
+        "scores_by_strategy": [
+          [
+            20526942.094755903
+          ],
+          [
+            118334390.35010344
+          ],
+          [
+            1993792.7157490484
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 140855125.16061005,
+        "scores_updated": 1681523561,
+        "snapshot": "78163289",
+        "start": 1680918741,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "AIP 1.05: Return 700M $ARB to the DAO Treasury [REAL]",
+        "type": "basic",
+        "updated": null,
+        "votes": 43392
+      },
+      {
+        "author": "0xA5dF0cf3F95C6cd97d998b9D990a86864095d9b0",
+        "body": "Abstract\ntl;dr: AIP-1.1 proposes (1) a lockup, (2) a budget and (3) transparency reporting regarding the 7.5% of the $ARB tokens distributed to the Foundation\u2019s \u201cAdministrative Budget Wallet\u201d.\n\nThe Administrative Budget Wallet will be used for covering ongoing administrative and operational costs of The Arbitrum Foundation, payment of service providers, and for the purpose of fostering the growth and development of the Arbitrum ecosystem. In respect to the 7.5% that has been distributed to the Administrative Budget Wallet, a transparency report regarding the 0.5% that has already been transferred is available here 163.\n\nThe remaining 7% of tokens will not be used until the approval of a budget, such as the one proposed in this AIP. The proposed budget is in-line with the Foundation\u2019s strategic needs to represent and service the DAO and the allocation is smaller than initial allocations to peer foundations. This AIP proposes placing the 7% outstanding distribution in a smart contract-controlled lockup \u2013 linearly unlocking over 4 years \u2013 alongside transparency report structures to allow the DAO to periodically monitor expenditures and other activities of the Foundation.\n\nThe Administrative Budget Wallet will be used in pursuit of the Foundation\u2019s mission statement as set out in the bylaws 24, which includes financing technical improvements and operations of the Arbitrum network, fostering ecosystem growth through grants to align with partner projects and educational initiatives with in-person and online events.\n\nMotivation\nOn March 16, 2023, the Arbitrum networks (Arbitrum One and Arbitrum Nova) were decentralized and given to the newly formed Arbitrum DAO. Included in this transition were:\n\n-Control of the upgradeability and technical future of the chains\n-Control over the DAO treasury\n-Control over net fee revenue - i.e. the net difference between fees collected by on-chain operations and L1 fees paid by the Sequencer\n-All Arbitrum social media platforms and accounts\n-Ability to elect and, if deemed appropriate, remove the Security Council and Directors\n\nFull responsibility of the chain\u2019s technology, future, and fee revenue were given to the DAO directly. With the DAO assuming those rights and controls, the DAO also assumed the responsibility to fund the ongoing operations of the chains and the costs of running critical chain infrastructure, including RPCs, the Sequencer, and third-party vendors and service contracts.\n\nWhile there are many activities that the DAO can do directly on-chain, several of its responsibilities require a representative that can engage, maintain and enter new agreements with service providers to run infrastructure that\u2019s critical for the ecosystem (e.g. servers, RPCs, block explorers, data feeds and analytics platforms, and tooling), and ensure that both the chain and the ecosystem have the support they need to continue to thrive. In order to ensure a smooth transition to the DAO without any interruption of services, it was necessary to create an organization that would be ready to service the DAO immediately from launch.\n\nThe Arbitrum Foundation was created to fill this need, with its mission and scope outlined across the Foundation Bylaws 24. Prior to the launching of the DAO, The Arbitrum Foundation assumed responsibilities for funding and running chain infrastructure. However, in an arrangement that appears to be unique amongst Arbitrum\u2019s peers, the Foundation does not receive or control the net revenue from transaction fees as this is given directly to the DAO treasury.\n\nThe DAO is also tasked with fostering and developing the Arbitrum ecosystem, where the DAO may seek to partner with companies or organizations that either cannot or will not publicly negotiate collaborations or partnerships due to confidentiality and other operational requirements. Often, large enterprises negotiate partnership opportunities in private without public processes, where these relationships can only be disclosed after they are agreed upon. Having a well-funded Foundation empowered to represent the DAO in this arena, alongside peer foundations, is in the best interests of the DAO to further develop the growth of the Arbitrum ecosystem.\n\nRationale\nWhile the need for the Foundation to exist and represent the DAO is well-motivated, it became clear through community discourse around AIP-1 that it was important to have additional insight and restrictions on the Foundation\u2019s initial funding. This AIP-1.1 proposes a detailed set of controls and initiatives to achieve that goal.\n\n1. Smart Contract Lockup:\n\nThe remaining 7% of ARB tokens in the \u201cAdministrative Budget Wallet\u201d will be subject to a four year lockup schedule, unlocking on a continuous linear time basis commencing from the date of the Snapshot approval of AIP-1.1 by the DAO (i.e., a total of 175m $ARB released over each year for 4 years). The lockup will be enforced on-chain through a smart contract which will designate a multisig wallet controlled by The Arbitrum Foundation as the beneficiary. The lockup contract will be configured in a manner that allows the DAO to adjust future funding and/or modify the unlock schedule.\n\n2. Operating Budget:\n\nBelow is a proposed annual operational budget for the first year of the Foundation. While the operational costs are denominated in USD, the expectation is that approximately half will be paid in USD and half will be paid in locked $ARB tokens.\n\nAs this will be the first year of the Foundation\u2019s operation and as the Foundation is still young at the time of this AIP, it goes without saying that these are estimates with the expectation that this will be an upper bound on the operational costs for the first 12 months. The transparency reports described in the next section will be an opportunity to track the actual expenses against the budgeted categories and keep the community informed.\n\nOperating Budget: Cost ($USD)\nGeneral and Administrative:\t$16,000,000\nR&D:\t$9,000,000\nTechnical Infrastructure:\t$5,000,000\nEvents, Marketing & Communications:\t$6,000,000\nTotal - Next Twelve Months:\t$36,000,000\n(50% $USD/50% $ARB)\n\n*The General and Administrative line-item includes personnel, contractors, legal, insurance and other operational costs. As of the date of this AIP, the Foundation currently has five full-time contributors, 8 contractors, and the Security Council engaged to support the Arbitrum ecosystem. The Foundation\u2019s budget anticipates the need to hire an additional 15 full-time contributors across technical, growth and community functions over the course of this year.\n\nThis operating budget presents best-faith estimates of the Foundation\u2019s anticipated budgetary needs which may be subject to change.\n\n3. Ecosystem Growth Initiatives\n\nAny additional funds released in compliance with the lock-up schedule above will be made available, but not necessarily deployed, to opportunistically pursue ecosystem growth opportunities and strategic partnerships on behalf of the DAO. The expectation is that the vast majority of ecosystem growth funds will be paid in tokens, and thus will not require the Foundation to sell any tokens. Wherever reasonable, the Foundation will include additional lockups and/or vesting when making distributions in tokens.\n\nThe Mission Statement in the Foundation\u2019s bylaws 24 highlights the varied nature of the opportunities the Foundation intends to pursue, and a set of KPIs that can track all of these opportunities being developed. The basis of those KPIs will stem from a focus on onboarding and growing both the developer and user base of the Arbitrum ecosystem, attracting best-in-class infrastructure providers to the network, expanding across various industries, use-cases and scope of projects that engage with Arbitrum technology. The ultimate goal of the Foundation is to continue to foster the development of the technology and expand the Arbitrum ecosystem globally.\n\nIn addition to the Foundation\u2019s processes for selecting grants, it is important to note that the DAO maintains control over the 3.527 billion $ARB and has the ability to distribute any additional grants as it sees fit. Additionally, should the DAO choose, it has the ability to trigger the inflation of the total supply of $ARB which will supplement the on-chain DAO treasury with 2% growth of the total supply of $ARB each year.\n\n4. Transparency Reports\n\nThe Foundation understands and agrees that the community should have oversight across how these funds are being utilized to gain comfort that spending is in the interest of the community. In furtherance of this goal, the Foundation is committed to providing a comprehensive annual report and a semi-annual progress update. This will provide the community with a better understanding of the Foundation\u2019s expenditures, balance sheet and its pursuit of ecosystem growth opportunities alongside partnership developments, as well as the various internal and external committees and stakeholders that are involved in the decision making process.\n\nThe Foundation is continuing to build out its internal personnel to service grant requests and has already engaged a DAO service provider to assist with the administrative components of servicing grants. The Foundation is also talking with a number of different external service providers to assist in both the review and diligence processes.\n\nThe financial element of these transparency reports will include a breakdown of operational costs incurred while running the Foundation, including infrastructure spending for the Arbitrum chains, events, community building efforts, grants, etc.\n\nIn addition to the aforementioned reports, the Foundation is providing an initial transparency report alongside this AIP covering all major actions and decisions the Foundation made during set-up, including the costs incurred up until now, which can be found here 163.\n\nSteps to Implement\n\n1. Foundation to deploy smart contract vesting wallet in the specified configuration and transfer 700 million $ARB to it.\n2. Foundation to implement all processes described in this AIP.\nTimeline\n\nThis AIP-1.1 shall be posted on the DAO forum and will have at least a 72-hour period for DAO comments and input. After the end of the 72-hour period and appropriate updates incorporating DAO feedback, this AIP-1.1 will be posted for vote on Snapshot for an additional 7 days.\n\n",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1681148815,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-aip-1-1-lockup-budget-transparency/13360/2",
+        "end": 1681754400,
+        "flagged": false,
+        "id": "0x7203289844e807781e8d2ec110d4b97a79a29944cae06a52dbe315a16381a2ae",
+        "ipfs": "bafkreidnm4ccoaj7udm66s77dtsip2ekzbgqixbxeg4atxbwxymwxam5oy",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x7203289844e807781e8d2ec110d4b97a79a29944cae06a52dbe315a16381a2ae",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          137012024.61667585,
+          1224386.4833715,
+          1390839.3014264964
+        ],
+        "scores_by_strategy": [
+          [
+            137012024.61667585
+          ],
+          [
+            1224386.4833715
+          ],
+          [
+            1390839.3014264964
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 139627250.40147364,
+        "scores_updated": 1681754417,
+        "snapshot": "79073961",
+        "start": 1681149600,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "AIP-1.1 - Lockup, Budget, Transparency",
+        "type": "basic",
+        "updated": null,
+        "votes": 45230
+      },
+      {
+        "author": "0xA5dF0cf3F95C6cd97d998b9D990a86864095d9b0",
+        "body": "Category: Constitutional - Process\n\nAbstract:\nThis document (\u201cAIP-1.2\u201d) proposes amendments to the Constitution, and The Arbitrum Foundation Amended & Restated Memorandum & Articles of Association (the \u201cA&R M&A\u201d) and Bylaws (the \u201cBylaws\u201d) to (1) remove references to AIP-1, and (2) make other changes reflecting feedback from the community.\n\nMotivation:\nAIP-1 set out critical aspects of governance and included key governance documents for the ArbitrumDAO, and The Arbitrum Foundation which referenced AIP-1 throughout: the ArbitrumDAO Constitution (the \u201cConstitution\u201d), the Bylaws and the A&R M&A. However, after vigorous community debate, AIP-1 did not pass.\n\nRationale:\nThe Constitution is a foundational document that lays out the governance system and capabilities of the ArbitrumDAO; the Bylaws and A&R M&A outline The Arbitrum Foundation\u2019s relationship with and obligations to the ArbitrumDAO. These documents should be updated, via amendment, to remove references to AIP-1 and also to reflect other changes requested by the community during the debate process over AIP-1.\n\nSpecifications:\n\n1. Amendments to the Constitution (https://drive.google.com/file/d/1pIYxg9rJzIPcP0bvQAaPgmLITM9rVBIf/view?usp=share_link)\n-Remove references to AIP-1, except as reference to the moment the original Constitution became effective.\n-Make explicit that proposals to amend The Arbitrum Foundation\u2019s A&R M&A and Bylaws take the form of a Constitutional AIP.\n-Make explicit that the DAO may make a Non-Constitutional Funding AIP with respect to the Administrative Budget Wallet.\n-Lower the threshold number of Votable Tokens required for an AIP to be posted on-chain from 5,000,000 $ARB to 1,000,000 $ARB.\n-Add a new Section 5, which details the Data Availability Committee, including processes for removing and appointing Data Availability Committee members.\n\n2. Amendments to the Bylaws (https://drive.google.com/file/d/1VLYNk9VYUWMl0sL2wchot6I6arHCzd4r/view?usp=share_link)\n-Remove references to AIP-1.\n-Clarify that the definition of \u201cAdministrative Budget Wallet\u201d includes all assets that are contributed to or otherwise acquired by the Administrative Budget Wallet, inclusive of assets specifically approved by the ArbitrumDAO. As pointed out by the DAO in its feedback in response to AIP-1, the \u201cAdministrative Budget Wallet\u201d defined term in the Bylaws was unclear and didn\u2019t clearly reflect the reality of The Arbitrum Foundation\u2019s receipt of 7.5% of the token supply upon the $ARB token genesis.\n-Remove references to \u201cSpecial Grants\u201d and replace with the concept of Arbitrum ecosystem growth.\n-Remove \u201cAIP Threshold\u201d defined term as it is not used elsewhere in the Bylaws\n-Clarify that the ArbitrumDAO may replace The Arbitrum Foundation\u2019s directors, change the number of directors, and require The Arbitrum Foundation to take certain actions.\n\n3. Amendments to the A&R M&A (https://drive.google.com/file/d/1Zmi5w21skdwuC7EAe59mYBC_4fS1vqzJ/view?usp=share_link)\n-Remove references to AIP-1.\n\n\nSteps to Implement:\n1. Approval of amended Constitution.\n2. Approval of Amended & Restated Bylaws.\n3. Approval of amendments to the A&R M&A.\n\n\nTimeline:\nThis AIP-1.2 will be posted on the DAO forum and will have at least a 72-hour period for DAO comments and input. After the end of the 72-hour period and appropriate updates incorporating DAO feedback, this AIP-1.2 will be posted for vote on Snapshot for an additional 7 days. Subsequent to the Snapshot vote, an on-chain vote will be conducted according to the terms of the Constitution.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1681149282,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-aip-1-2-foundation-and-dao-governance/13362?u=blockworksresearch",
+        "end": 1681754400,
+        "flagged": false,
+        "id": "0x373dfa89fc9c5ccba8ed83fa3fa4f233edd270075b5f8f4f3902b408318d9d17",
+        "ipfs": "bafkreic7gjfzagr2hycg5j5qk56it7dr5elxjzmkjqfrwwvmsru576y4ne",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x373dfa89fc9c5ccba8ed83fa3fa4f233edd270075b5f8f4f3902b408318d9d17",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          137606930.3529121,
+          280121.7956632606,
+          895054.3385153797
+        ],
+        "scores_by_strategy": [
+          [
+            137606930.3529121
+          ],
+          [
+            280121.7956632606
+          ],
+          [
+            895054.3385153797
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 138782106.48709065,
+        "scores_updated": 1681754412,
+        "snapshot": "79075841",
+        "start": 1681149600,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "AIP-1.2 - Foundation and DAO Governance",
+        "type": "basic",
+        "updated": null,
+        "votes": 46269
+      },
+      {
+        "author": "0xdb5781a835b60110298fF7205D8ef9678Ff1f800",
+        "body": "Author\nJason Windawi, Alchemy\n\nType\nThis is a Constitutional proposal.\n\nAbstract\nAs part of the broader development of account abstraction standards and tooling, Ethereum researchers have proposed a new RPC endpoint eth_sendRawTransactionConditional that adapts L2 sequencers to the specific needs of ERC-4337 bundlers. Offchain Labs has contributed to this new method by developing, testing and incorporating adjustments necessary to support the endpoint for Arbitrum\u2019s sequencer into Nitro with v.2.0.14, which is now live on the Arbitrum testnet. This AIP proposes that the Arbitrum DAO activate support for this endpoint on the One and Nova mainnets.\n\nMotivation\nEIP-4337 has created significant momentum for account abstraction across the EVM ecosystem. Among other innovations, the proposal split validation and execution into distinct steps in the process of bundling transactions for submission to an alternative mempool. This split introduced a potential issue for bundlers working on their L2 transactions. The delay between simulated transaction validation by the bundlers, and the final inclusion by sequencers, introduces a risk for reverting bundle submissions. This is due to the lag between the initial submission of a transaction and its ultimate inclusion, during which a smart contract account\u2019s storage can change and invalidate the transaction. Reverted bundle transactions result in lost value for the bundler, discouraging operation of these services until the issue is addressed.\n\nEthereum researchers developed the eth_sendRawTransactionConditional endpoint to address this issue. This endpoint adds new options to the standard eth_sendRawTransaction endpoint that allow users to specify valid ranges for block height and timestamps. This will allow sequencers to reject transactions that don\u2019t meet conditions for inclusion during the earlier validation stage, addressing the risk that in-account storage might change between validation and execution.\n\nOffchain Labs developed, tested and implemented a version of the eth_sendRawTransactionConditional endpoint in the v.2.0.14 update to Nitro, and have since implemented the endpoint on the Arbitrum testnet. This proposal requests that the DAO approve activating this endpoint for Arbitrum mainnets.\n\nRationale\nThis proposal directly supports the DAO\u2019s constitutional value of maintaining alignment with the broader Ethereum ecosystem. The eth_sendRawTransactionConditional endpoint was developed by the Ethereum Foundation to address the proposal\u2019s implications for layer 2 sequencers. Variations of this endpoint are being actively explored and developed by prominent EVM L2s and others in the ecosystem, indicating that the need for this endpoint in the context of sequencer/bundler interactions is a known problem with the need for active work toward a solution.\n\nOur proposal is also aligned with the DAO\u2019s objective of ensuring decisions are sustainable over the medium and long term. As Arbitrum continues to push toward decentralization beyond Vitalik\u2019s second milestone, the need for a flexible and secure endpoint for 4337-compliant transactions on Arbitrum will only become more critical.\n\nFinally, the proposal is aligned with the Arbitrum community\u2019s values of social and technical inclusion. By enabling one of the core features of account abstraction, Arbitrum\u2019s ecosystem would have access to the enormous potential for improvements in UX and other benefits of account abstraction.\n\nSpecifications\nPR # 1474 on Github provides a history of the development and testing done by Offchain Labs, as well as the multiple stages of review by the team before it was merged on April 11, 2023. Making the endpoint viable for Arbitrum entailed two key adjustments to the checks performed before transactions reach the sequencer. The most fundamental was a config value change to the load balancer. The protocol\u2019s load balancer has historically limited the computational costs of processing transactions by setting the number of acceptable slots in a transaction to zero. The new endpoint\u2019s design allows for up to 1,000 slots. To accommodate this increase for conditional transactions, PR 1474 removed this 0 restriction for Nitro and for the testnet.\n\nAllowing conditional transactions also introduces a risk of DOS attacks spamming the protocol with transactions regardless of whether they meet the state conditions at the time they were submitted. To address this, Labs updated the Arbitrum sequencer\u2019s pre-check to incorporate a backward-looking validity check of a given account\u2019s state, meaning that transactions can only execute if they met their own conditions as of one second prior to submitting the transaction.\n\nSteps to Implement\nThe work already done by Offchain Labs on this endpoint means that the steps to implement this AIP reduce to changing the load balancer config value as described above.\n\nTimeline\nIdeally ASAP, or as soon as is practical for Offchain Labs.\n\nOverall Cost\nThe upfront costs for implementation should effectively be zero given the work done already by Offchain Labs.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1687220586,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-activate-support-for-account-abstraction-endpoint-on-one-and-nova/14790",
+        "end": 1687825260,
+        "flagged": false,
+        "id": "0xb0156cfc112bbe4275b0a1d6cacc3970affdad6057047b8cee79ba54d45446aa",
+        "ipfs": "bafkreicawj27uifbovuotkqfheew346pvs7ajyedir5zyrjcbjjb6oogy4",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb0156cfc112bbe4275b0a1d6cacc3970affdad6057047b8cee79ba54d45446aa",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          60523829.13279885,
+          105311.60145292307,
+          78643.78040694348
+        ],
+        "scores_by_strategy": [
+          [
+            60523829.13279885
+          ],
+          [
+            105311.60145292307
+          ],
+          [
+            78643.78040694348
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 60707784.514658876,
+        "scores_updated": 1687825270,
+        "snapshot": "102915502",
+        "start": 1687220460,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Proposal: Activate support for account abstraction endpoint on One and Nova",
+        "type": "basic",
+        "updated": null,
+        "votes": 45999
+      },
+      {
+        "author": "0xb29A655f3D67B2B6724Fb22B2C2303cB660c946B",
+        "body": "Author\nSaurabh, Questbook \n\nType \n**Non-Constitutional**\n\n### **Abstract**\n\n- We propose Arbitrum DAO to launch Arbitrum grants program with a budget of $1M spread across 2 quarters to fund a\u00a0*wide variety*\u00a0of teams building apps on top of Arbitrum in a transparent manner. Questbook is leading\u00a0[Compound](https://compound.finance/governance/proposals/136)\u00a0grants program through\u00a0[delegated domain capital allocation model](https://blog.questbook.xyz/posts/min-grants-dao-max-community-participation/)\u00a0, a community-run grants program.\n- We additionally propose that this budget be managed by\u00a0**4**\u00a0**individuals called Domain Allocators - chosen from the community and by the community**. These domain allocators would manage grants for a\u00a0*domain*. These domains are strategic areas of focus for which Arbitrum wants to disburse grants\n- The performance of each of these\u00a0*domain allocators*\u00a0will be publicly viewable and auditable using rich dashboards. At the end of the quarter, the Arbitrum community can vote to replace, continue domain allocators or increase budgets for each\u00a0*domain allocator.*\n- We ([Questbook.xyz](https://questbook.xyz/)\u00a0)\u00a0**will help facilitate setting up these\u00a0*domain allocators*\u00a0and provide the tooling to run the grants program in an efficient and transparent way**. We have previously set up or currently setting up the grants process for Compound, Polygon, Solana, Celo, and Aave.\n\n### **Motivation**\n\nAs we continue to experience the depth of the bear market, it is increasingly important for Arbitrum to retain the mindshare of key ecosystem contributors and incentivize builders to build on top of it. Grants program is a great way to attract high-quality builders and grow the ecosystem more quickly. This proposal details the benefit to all the stakeholders involved - token holders, builders and DAO members\n### **Rationale**\u00a0**(Benefits to Arbitrum)**\n\nThe proposed structure will lead to the following outcomes:\n\n1. **Aligned allocation of funds:**\u00a0By leveraging the Delegated Domain Allocator (DDA) model, Arbitrum DAO can ensure that funds are allocated to projects that align with the domain (selected by the Arbitrum community), promoting efficient and effective use of resources. This approach aligns with Arbitrum\u2019s goal of enabling the distribution of grants and empower the community to build and participate in the future of the Arbitrum.\n2. **Increased transparency:**\u00a0The Delegated Domain Allocator approach provides a clear and transparent process for allocating funds, ensuring stakeholders understand the decision-making process and building community confidence. Questbook, a decentralized grant management platform, provides a transparent space for teams to showcase their backgrounds and experience. In addition, Questbook\u2019s reporting features will allow Arbitrum to quickly generate monthly reports on the allocation of funds, with the details for each grant proposal.\n3. **Increased accountability:**\u00a0With a dedicated group of stakeholders responsible for allocating funds, the Delegated Domain Allocator approach promotes increased accountability, ensuring that the funds are used effectively and efficiently. Domain allocators can be replaced through a community vote if their performance is not up to the standards accepted by the community.\n4. **Lower**\u00a0**Turnaround Time (TAT):**\u00a0The Delegated Domain Capital Allocation model will help improve proposals\u2019 turnaround time and overall outcomes for the ecosystem.\u00a0**An example of this is Compound who\u2019s already leveraging the DDA model and has a communication TAT of less than 48 hours.**\u00a0The performance of domain allocators will be measured using objectives and key results (OKRs) to ensure goals are achieved efficiently and effectively.\n5. **Strong Brand Recognition**\u00a0: The Delegated Domain Allocator model will play a crucial role in boosting developer engagement with Arbitrum, as well as forming strategic partnerships with important ecosystems to jointly fund grants in mutually beneficial areas. \n\n### **Specifications**\n\nThe program structure focuses on having community members as domain allocators. Arbitrum DAO will be required to set a budget of $1M to be disbursed by 4 domain allocators and for committee compensation. Each domain allocator will be elected by the community. Interested community members can self-nominate themselves to be considered for becoming a domain allocator. The domain allocator for each domain will be selected via a community-wide Snapshot vote. Domain allocators will run their domain on-chain for full transparency. The data and performance across key metrics will be visible to the community in order to evaluate the domain allocator\u2019s performance.\n\n### **Steps to Implement**\n\n**Arbitrum Grants Committee**\n\nThe program will consist of\n\n1. A Program Manager\n2. 4 Domain Allocators\n\n \n![1.1.png](ipfs://bafkreicew52tsgud3subrurhrv6jud3zyep743fpgfiv4yzw54nnty423m)\n    \n\nWe propose \u00a0[Tally\u2019s Zodiac Governor Module](https://docs.tally.xyz/user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs)\u00a0for security purposes. Furthermore, a Grants SAFE with 4/6 multi-sig will be set up between the program manager and 4 domain allocators. We will then have 4 SAFEs for each of the domains with a 3/3 multi-sig setup between the program manager, the specific domain allocator, and one member from the DAO.\n\nWe have identified the following domains based on our thorough research and the feedback from the Arbitrum team and community.\n\n![1.2.png](ipfs://bafkreifk7yaqw2lvwj35tx2rumagctyd3of6nd2bh3fawsiij74bmdlyv4)\n\n## Domain Allocator Roles & Responsibilities:\n\nThe following will be the roles and responsibilities of the selected domain allocators.\n\n1. Time commitment per week: Maximum of 25 hours per week for the program manager and 15 hours per week for the domain allocator, which might vary based on the number of applications. The program manager will ensure that the workload is evenly distributed\n2. Program Manager:\n    1. Communication:\n        1. Work with the Arbitrum team and the elected domain allocators to create and list out the necessary RFPs\n        2. Identify key areas and relevant ecosystem partners who will co-fund grants alongside Arbitrum\n        3. Create marketing content for communicating RPFs to the builders\n        4. Coordinate between Arbitrum team and the community regarding cohort announcement and funding requirements\n        5. Communicate the information regarding approval/rejection of proposals to the Arbitrum community regularly\n        6. Attend community calls, actively participate in the community forum, and keep the community updated and take their feedback on the program\n        7. Regularly update the progress of the grants program to the Arbitrum community over Discord and community calls\n        8. Bi-weekly reporting of key metrics of the\u00a0grants program\u00a0and progress each selected project such as:\n  \n \n![13a.png](ipfs://bafybeihd4opx3atmhvarhrd5t6edpmpyfi4m6ptblpl4siihpqip5qh2wu)\n    \n    \n\n2. Grants Program: \na. Source good-quality proposals from developer communities\nb. Sign the transactions for the approved projects\nc. Ensure a quick turnaround time for proposers regarding their proposal decision\nd. Coordinate between the domain allocators to ensure that the workload is evenly distributed and take their feedback consistently\n\n3. Domain Allocator:\n    1. Review proposals received for their domains based on the rubrics set by the domain allocator\n    2. Reject/Approve proposals and coordinate consistently with the program manager\n    3. Source applications by reaching out to developer communities in their network\n    4. Discuss program improvements with the other domain allocators and program manager during scheduled meetings.\n\n### **Compensation:**\n\nThe grant budget will be $1M with $200k for each domain. The committee compensation will be $200K for 4 domain allocators and one program manager for 6 months. Note that this is the proposed budget. All unallocated funds from every domain and committee compensation will be returned to the treasury. The compensation for Domain Allocators and Program Managers has been factored into this overall proposed budget. Please find below its details.\n \n![14aaa.png](ipfs://bafybeig7zsa7e7vdk7zdnmspuq4z6ciajxorckhiy3ckpro4xfcv6ycheq)\n    \nP.S\n\n1. We are inviting applications for all domain allocator roles. Once this proposal passes through Snapshot, we will create a separate forum post for the nomination of domain allocators. Delegates and community members can self-nominate themselves under the post for two weeks. After the nomination period, a snapshot vote will be conducted.\n\n## **What does success look like?**\n\nObjective\n1. The prime objective of this model is to have domains that align with Arbitrum\u2019s priorities. This way the contribution of the projects as part of the grants program is directly adding value to the DAO and the token holders.\n2. Increase in the number of builders, proposals, and funded projects\n3. Number of partners who are co-funding grants alongside Arbitrum in mutually beneficial areas\n4. Increase in the homegrown leadership to run grant programs (measured by the number of people running grant programs)\n5. Increase in the community members\u2019 participation to keep grant programs accountable (measured by the number of people looking at the dashboard and participating in the program)\n6. Diversity in projects being funded across technologies, geographies, and demographics, to name a few. We encourage the community to regularly review the project domains during Arbitrum\u2019s community call\n7. Increased engagement in builder community\u2019s\nDiscourse\nDiscord, Telegram\nSocial media (Twitter, Reddit)\nGitHub\n\nSubjective\n1. Improved community involvement in the grants program\n2. Strengthened builders\u2019 sentiment towards Arbitrum\n3. Enhanced Arbitrum\u2019s brand recognition in builder circles\n\n## **About Questbook:**\n\nQuestbook\u2019s role in Arbitrum\u2019s Grant Program\n\n- Saurabh from Questbook will be the program manager. Thereafter, the program manager will be elected from the community. Saurabh was previously working very closely with the Program manager of Polygon, where he facilitated the disbursement of approximately $1 million in grants. Saurabh has received a grant from IoTeX to establish their grant program, and he works closely with the Program Manager of Compound Grants Program 2.0. Saurabh has spoken to more than 100 builders and teams over the last 6-8 months and understands what it takes to make a grant program successful - from both program manager and builder perspectives.\n- Questbook Grants tool will make sure the workflows are systematic and transparent.\n\n### Product Flows\n\n1. Posting a grant -\u00a0[Link](https://www.notion.so/72eac960081b4a57911d0f6ea165095c?pvs=21)\n2. Reviewing and Funding Proposals -\u00a0[Link](https://www.notion.so/009f9cc2b9cd409da8cb4b822f56024a?pvs=21)\n3. Settings -\u00a0[Link](https://www.notion.so/572a2fdb8d354e7aa6b6d505c0e4479a?pvs=21)\n4. Communicating with Builders -\u00a0[Link](https://www.notion.so/f7a7e6aef74542f3abc147d31f8f0a1f?pvs=21)\n5. Funding Builders -\u00a0[Link](https://www.notion.so/ad02afc7a6ab4079907a5ce884330eb0?pvs=21)\n\n### **Credentials**\n\n- Questbook (YC-W21) is a decentralized grant orchestration tool, currently being used by Compound, Polygon, AAVE, Celo & Solana Ecosystem\n- Saurabh from Questbook will be the program manager. Thereafter, the program manager will be elected from the community. Saurabh was previously working very closely with the Program manager of Polygon, where he facilitated the disbursement of approximately $1 million in grants. Saurabh has received a grant from IoTeX to establish their grant program, and he works closely with the Program Manager of Compound Grants Program 2.0. Saurabh has spoken to more than 100 builders and teams over the last 6-8 months and understands what it takes to make a grant program successful - from both program manager and builder perspectives.\n\n**Questbook Product Compensation:**\n\n- We are willing to share the tool for free with Arbitrum Grants Program\n- However, for any specific ask from the grants team, to run the process more smoothly, we charge for the additional features based on the development overhead.\n\n### **Timeline**\n\nWe will start implementing the grants program once this proposal is passed through Tally.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1688064284,
+        "discussion": "https://forum.arbitrum.foundation/t/delegated-domain-allocation-by-questbook-arbitrum-dao-grants/14688",
+        "end": 1688670000,
+        "flagged": false,
+        "id": "0xe07fb357b2b40e042ca58a36a1534afc33a1d313d4781ac433536bc884fc3c65",
+        "ipfs": "bafkreih3ljt5dndhpjichadzbhzyf3yx3zgo6j6f6eana4zc3onrlyt75u",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xe07fb357b2b40e042ca58a36a1534afc33a1d313d4781ac433536bc884fc3c65",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          85968691.21274212,
+          18458458.967357945,
+          119892.67470859864
+        ],
+        "scores_by_strategy": [
+          [
+            85968691.21274212
+          ],
+          [
+            18458458.967357945
+          ],
+          [
+            119892.67470859864
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 104547042.85480964,
+        "scores_updated": 1688670049,
+        "snapshot": "106202734",
+        "start": 1688065200,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Arbitrum DAO Grants - Delegated Domain Allocation by Questbook",
+        "type": "basic",
+        "updated": null,
+        "votes": 51622
+      },
+      {
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "body": "Proposer: disruptionjoe.eth\n\nAuthors: Plurality Labs\n\nReviewers: ccerv1.eth, emu.eth, dennison.eth, nich.eth, zer8\ud83e\udde0.eth, pepperonijoe.eth, shawn164.eth, azeemkhan.eth, jmcook.eth, boilerrat.eth, jord.eth, ui369.eth, spengrah.eth, griff.eth\n\n[A 7 min explainer](https://www.loom.com/share/2852597b76b74fec8ce6c6698fa73bd3)\n\n### TL;DR\nThis proposal requests 3.971 million ARB (0.08% of the total treasury) to fund the first of three milestones in a comprehensive plan to build an Arbitrum DAO Pluralistic Grants Program.\n\nIf successful, the project will further establish Arbitrum as the go to scaling solution for Ethereum.\n\nMilestone 1 is the start of this journey with a funding request that breaks down as follows:\n1. 2.6 million ARB (72%): Funding Arbitrum ecosystem development\n2. 450k ARB (12.5%): Plurality Labs Services\n3. 260k ARB (7.2%): Grant Program Managers\n4. 300k ARB (8.3%): Matching Gitcoin funding pools using Arbitrum\n5. 361k ARB project buffer*\n\n*Representing 10% of funds requested. This will be used as a project buffer with funds either deployed in support of the program, recycled into ecosystem development or returned to Arbitrum DAO.\n\nSuccessful completion of these deliverables will be a major value driver for the Arbitrum ecosystem. This success of this program will be assessed through metrics including, but not limited to:\n\n* Number of active developers\n* Dev Github quality\n* Delegate engagement satisfaction\n* Voter participation\n* Capture-resistance\n\n### Deliverables\n\nAt the end of Milestone 1, Plurality Labs will have delivered:\n\n**Discover | Facilitate DAO native workshops**\n\n* Conduct Arbitrum DAO Vision, Mission, Values workshops\n* Clearly define funding priorities in a bottom-up way\n* Establish and confirm key success metrics for the Grants Program\n* Scope out requirements for a Gitcoin Grants round on Arbitrum\n* Establish clear communications cadences & channels for all key stakeholders to engage with the program\n\n**Design | Construct best in class Pluralistic Grants Program**\n\n* Identify suitable tools and technology to support a robust, secure and efficient grants program (i.e. Allo)\n* Design and process map the end to end grant funding flows\n* Design approach, process and channels for sourcing high impact grants ideas\n* Design Grantee Registration process and grant pipeline management structure\n* Design Grant Program manager application process and assessment criteria\n* Work with Gitcoin to set up and launch a Gitcoin Grants round on Arbitrum\n* Design credibly neutral grant funding evaluation criteria, reporting structure and cadence\n\n**Execute | Facilitate the successful execution of Pluralist Grants Programs**\n\n* Onboard and coach Pluralist Program Managers in grant program best practices\n* Deploy 2.6 million ARB in funding to programs selected via the Pluralist Program Managers\n* Deploy 300k ARB to Gitcoin Grants round recipients\n* Oversee grants rounds to ensure they are free from fraud or abuse\n\n**Evaluate | Report back on grant funding outcomes**\n\n* Publish financial & analytics reports on grant funding value, volume, outcomes and other relevant metrics requested by the community\n* Share key learnings and grants program best practices with Arbitrum DAO and the wider web3 community\n* Collate community feedback and input on grants programs efficacy and success\n* Evaluate, review and iterate based on this feedback to continually improve the overall impact of the Arbitrum DAO grants program\n\n### Motivation\n\nWe are here because Arbitrum intends to deploy one of the largest DAO treasuries ever to grow their ecosystem. A 10% difference in the allocation efficiency of funds could mean hundreds of millions of waste which would impede Arbitrum\u2019s ability to actualize its full potential. It\u2019s easy to say, \u201cwe can solve these problems later\u201d, but we have an opportunity to start on the right track and solve these problems today\n\nThe Plurality Labs team has a chip on our shoulder. We have all been in DAOs and have seen how governance can fail, sometimes quickly, sometimes quietly. Our common thread is the shared values of trust, transparency and freedom combined with a passion for helping DAOs solve hard problems.\n\n### Issues with fully Centralized and Decentralized Grants Programs\n\nWithin web3 we have seen three main vehicles by which Grants Funding can be allocated to builders. Below we have outlined why we believe Arbitrum DAO should take a pluralist approach to grants funding.\n\n### Centralised Grants Program: Problems\n \n![0311b2837f5d19e1de6302c085e0eb8b800963cf_2_624x345.png](ipfs://bafkreidp5ob5oiuy77fqrklknkgy2jujbdeavyhhxyxptnaar7txya4ybu)\n    \n* Limited transparency and auditability: A centrally managed grants program may lack transparency in decision-making processes, grant distribution, and fund allocation. This opacity can undermine trust and hinder the overall effectiveness of the program\n* Limited community participation: Web3 communities thrive on active participation and collaboration. A centrally managed grants program may not effectively engage community members at all levels of the organization in the decision-making and codesign processes.\n* Domain expertise and scale: Volume of grants requests may overwhelm capacity of small centralized team who may also lack domain specific expertise on programs requesting funding\n* Bias and limited experimentation: Centralized Grants teams bring their standardized approach to grant vetting leading to a lack of experimentation which creates an inherent selection bias. The selection bias can even be non-malicious as they are biased by forces like being more likely to \u201copen the door\u201d for those who they know or have worked with before.h.\n\n### Decentralised Grants Program: Problems\n\n![b5cb3f790e8de949030775b29bba6030f6ef6421_2_624x287.png](ipfs://bafkreidqzewoyc2jyhr6a5mbqrcaml4cowvjqbp7bmtjgpzyfe2hqcwcbe)\n    \n* Lack of time: Delegates will stop engaging if the request is for more than is reasonable. Reviewing a grant, especially if it is a direct grant for larger amounts can be expected to take from 1-4 hours each. Delegates cannot take that much time.\n* Inclusion and accessibility: Navigating the delegates and governance process of a large DAO represents a major lift for any prospective grants applicants. Those able to do so will likely have the best network and most capital, not necessarily the best grants ideas\u2026\n* Lack of coordination: With a decentralized grants program, decision-making and coordination are distributed among multiple stakeholders. This can lead to challenges in achieving consensus, coordinating efforts, and aligning priorities.\n* Evaluation of impact: It is challenging for the DAO to assess the relative impact of different grants programs if no standardized reporting cadence, key metrics and evaluation criteria is maintained centrally.\n* Mitigating risks and fraud: Decentralized grants programs are vulnerable to risks such as fraudulent proposals, mismanagement of funds, and malicious actors. Implementing mechanisms for due diligence, verification, reputation systems and Sybil defense can help mitigate these risks and protect the integrity of grants funding.\n* Not fully developed: Even solutions like quadratic funding which lets users directly express their interest still require a program manager. They must shepherd the round and ensure quality fraud protection while making objective decisions about eligibility criteria, user and project appeals, and more. Until we design the open and permissionless protocol to handle these subjective components, the model still has single points of failure.\n\n### Launching the Arbitrum DAO Pluralistic Grants program\n\nA Pluralist Grants program provides a perfect middle ground between Decentralized and Centralized Grants programs, unlocking the \u201cbest of both worlds.\n\nAt its core the Pluralistic Grants Model will see the Pluralistic Grants Program Allocator onboard 4-6 pluralist grants managers who will be responsible for distributing funds to grant applicants that benefits the Arbitrum Ecosystem. Sourcing and selection of these ideas will use novel combinations of bottoms-up and top-down mechanisms facilitated by Plurality Labs.\n\nThe programs will focus on specific needs within the ecosystem and their potential impact, for example, one Pluralist Grants Manager may focus on bringing a novel new technique for fund allocation or deep grants proposal expertise (i.e. Questbook). Another might stand up an Arbitrum gaming specific grants program. This flexibility allows for experimentation to allow Arbitrum DAO to discover what works best and allows for the specific needs of the Arbitrum ecosystem to be catered to.\n\nOur approach includes a progressive decentralization of the Pluralist Grants Program Allocator. During Milestone 1, Plurality Labs will maintain accountability for sourcing, selecting, reporting on and delivering results of the chosen pluralist grants programs.\n\nMilestones 2 & 3 will see experimentation with decentralized allocation mechanisms in a Proof of Concept stage with the goal of running at least one round of Pluralist Grants Program selection in a fully decentralized way without needing any corrective intervention.\n\n![0e9c91acb14f197ac0396d79f28b7f530aedfd36_2_624x363.png](ipfs://bafkreiaumlf7kbilxwrxnx7hixajjiz5pzbpr73ciybkkgdnbqsjefqzru)\n    \n> \ud83d\udca1The Pluralist Grants Programs will be selected after the proposal passes governance and the Discovery Phase is completed.\n\nDuring the discovery phase, we will gather input from delegates and the broader community to define the vision, mission, and values of the Arbitrum DAO, and determine what needs to be funded.\n\nOnce this foundation is established, we will evaluate the best domains and mechanisms for allocating resources and capital to grantees. Pluralistic Program managers will play a crucial role in promoting experimentation, decentralization of decisions, and improved resource allocation outcomes.\n\nWe have observed that many previous grants programs has struggled with an inability to source great grant opportunities, which we hope to address in the following ways:\n\n* Applications to be program managers should separate from the applications for grant program ideas\n* Create a backlog of \u201chigh impact work to be done\u201d be created, allowing competent builders to step to deliver impact for Arbiturm DAO\n* Create a list of builders, potential grantees, and those interested in supporting the Arbitrum ecosystem which can be direct towards the \u201chigh impact work that needs to be done\u201d\n* Robust evaluation and reporting facilitated by Plurality Labs reduce time/effort/reliance on Project Manager and Grantees to demonstrate their success to the community\n* Launch a Grant Program accelerator program to provide grantees clear guidelines, training and support to develop a high quality grant submissions\n\nThe selection of the Pluralist Grants Programs and their managers will involve a facilitated bottoms-up approach, sourcing ideas, people, and processes. Factors considered in the selection may include, but are not limited to:\n\n* Previous experience delivering grants programs.\n* Domain expertise and knowledge\n* Ability to source innovate grants projects and support in the maintenance of a health pipeline of grants submission\n* Maturity of program specific processes and tooling\n* Nature of proposed funding allocation mechanism and data on demonstrated impact/success of mechanism\n* Demonstrated involvement with and commitment to Arbitrum ecosystem and its values\n\nThis is an exhaustive list, and the criteria for selecting Program Managers will be further refined in the Discovery and Design phase, with input from delegates and the broader community. We are committed to maintaining credible neutrality in the selection process.\n\nWith this approach we are confident that the Arbitrum DAO Pluralistic Grants Program will be fair, impactful and ultimately support the growth and success of the Arbitrum Ecosystem.\n\n### The Pluralistic Grants model also provides 300k ARB to support matching Gitcoin rounds which run on Arbitrum.\n\nThis is not payment to Gitcoin the organization, but a payment to grant recipients in a Gitcoin Arbitrum round we intend to launch. Gitcoin core rounds include support for Open Source Software, Ethereum Infrastructure, & Zero Knowledge. This aligns with the stated Arbitrum goal of supporting the Ethereum ecosystem while also attracting users which might otherwise choose another L2. It also allows us to tap into support of the Gitcoin DevRel team to help source builders, host hackathons.\n\nFunding grants this way will not only benefit the Arbitrum ecosystem, but enable the Gitcoin product team to prioritize making their Allo protocol available on Arbitrum. By being able to execute pluralistic programs on their Allo protocol allows us an open data substrate which will enable us to compare programs and projects across the pluralist framework. It also allows program managers to use quadratic funding and quadratic voting (if they choose) which require Sybil defense. This is a crucial enabler for the next section.\n\n![88d617338384427ed53607b929264bc8b623ef43_2_624x281.png](ipfs://bafkreiaylf4ugerhg5c755rx2ffjydpjcri6sx7mohjrafoiuylihkijfy)\n    \n### Improved Accountability, Transparency and Reporting are key benefits of the Pluralistic Grants model.\n\nWeb3 spends 100\u2019s of millions annually on different grants and grants programs and to date, there has been little focus on the efficiency of those grant programs or the efficacy of their spend. We intend to build grant program efficiency metrics as well specific grantee project efficacy (or results) metrics.\n\nBy using a common framework for executing a plurality of grant programs, we have the ability to identify, track and refine metrics for each unique grant program. Something that has not been done to date, and would be more difficult to do in stand alone grant environments.\n\nBy doing this, we can begin to build qualitative data on the efficiency of each distribution method in a way that can identify improvements for that mechanism, but also compare mechanisms across stakeholder groups and use cases. By building these metrics, Arbitrum will be able to parse down the crowded field of grant-execution options and deliver the most effective Grants Program web3 has seen to date.\n\nGrant program execution typically stops when the money has been distributed, and we think that is premature. As part of this program we intend to experiment with a series of existing post-project evaluation tools (after action reviews, qualitative/quantitative metrics, case studies) but add in or invent novel web3 project evaluation solutions (hypercerts, on-chain analysis, panel reviews) to rate every project receiving funding in a way that can demonstrate the efficacy of the spending as it relates to building the Arbitrum ecosystem.\n\nWe know there are inefficiencies and fraud in the web3 grant mechanisms; this part of the program allows Arbitrum to make the most of its investments. Doing this will lead to a higher return on the Arbitrum investment and more funding for the most worthy projects, while leaving room to experiment with the novel web3 mechanism that can help us revolutionize the grant process.\n\n### Multisig Management\n\nAll funds will be sent to a Grants Safety Multisig*. This multisig will review, sign and execute all fund disbursement for the Arbitrum DAO Pluralistic Grants program. The role of the grants multisig is to process the requests made by Plurality Labs while also being able to review issues. At no point will Plurality Labs hold the funds designated for grant funding. The final form of this proposal will either name the selected individual or state the electoral process.\n\n> \ud83d\udca1 We also intend to use the Zodiac module shared by the Tally team allowing the DAO the ability to clawback funds from the grants program at any time.\n\n### Team\n\nPlurality Labs Team\n\n**Disruption Joe**\n\nRan grants operations for Gitcoin Grants rounds 8-10 growing gross marketplace value from $2 - $10 million. First Gitcoin employee to leave the company and work full-time for the DAO. Started the Fraud Detection & Defense (FDD) workstream. FDD is responsible for stopping over $3 million in fraud while Gitcoin Grants delivered over $50 million in funding.\n\nMore reading about the work done in the [FDD Review](https://gov.gitcoin.co/t/introducing-the-fdd-review/11095). Joe will be supporting overall project management and grants framework design.\n\n**Pepperoni Jo3 (on behalf of [r3gen.finance](https://www.r3gen.finance/))**\n\nCofounder of r3gen, a web3 financial service provider working with clients including Squid, Coordinape, Inverse Finance and Treasure DAO. Previously PwC consulting alumni specializing in Org Design, Operational Excellence and Change. Joined web3 full time at Index Coop where he served on the Leadership Council as Head of People and Community.\n\nMore information on the r3gen services and team [can be found here](https://docsend.com/view/xj359rx3fj83irdg).\n\n**Mary Quandt**\n\nPeople-first strategic design-thinking and organizational development leader. Partners with global business leaders to accelerate business strategies and execute people- and organization-focused solutions. Leadership approach combines possibility and participation while keeping firm foot in practical implementation. Thrives on building, leading and growing inclusive cross-functional teams to challenge the status quo. Experience includes IndexCoop, US Election Assistance Commission, Johnson & Johnson, Human Performance Institute, GE, Amazon, Martha Stewart and Charles Schwab to name a few.\n\n**Shawn Grubb**\n\nAs former CIO, CEO, and non-profit chairman of the board, Shawn spent his corporate career preparing for DAO governance. Introduced to the blockchain in 2015 he went full-time degen in 2019 but moved to DAOs in 2021 when he joined Index Coop leading the governance communications and people operations. In August 2022, he joined Gitcoin where he currently leads governance\n\n### Looking Ahead: Milestone 2 & 3\n\nThe overall plan is to deploy a pluralist grants framework which operates in a politically decentralized & capture resistant way. This will fund grants programs in a continuous way that minimizes bureaucracy and increases action while providing accountability as part of the system.\n\nPrior to releasing funds for milestone 2 to begin, Plurality Labs will offer a review of the previous milestone accomplishments and failures. They will provide a breakdown at that time based on how this project evolves.\n\nMilestones 2 & 3 are about scaling the frameworks and models we use while iteratively testing them. After Milestone 3, we hope to have built the needed components for this whole process to run on chain.\n\nIf successful, Plurality Labs would no longer be needed as a project manager of the overall grants program. Onchain decisions of the community would allocate funding to the programs which have been proven useful. Plurality labs could then be an equal peer to any other program competing for a portion of continuous funding available to the ecosystem.\n\n### Voting Options\n\n1. Yes, fund Milestone 1 (3.971 million ARB)\n2. No, do not fund Milestone 1\n3. Abstain",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1688663215,
+        "discussion": "",
+        "end": 1689271200,
+        "flagged": false,
+        "id": "0xa0e14b85197d73e825ac30f72b7d895d644ed06159a32a578f4efe47a2739b2f",
+        "ipfs": "bafkreiapr2vw4raa26qxjzyshr7h64wtvgln7np2tywvna5xo5vsvj6soi",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xa0e14b85197d73e825ac30f72b7d895d644ed06159a32a578f4efe47a2739b2f",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          53146424.65610952,
+          46959029.86642403,
+          606267.4958540833
+        ],
+        "scores_by_strategy": [
+          [
+            53146424.65610952
+          ],
+          [
+            46959029.86642403
+          ],
+          [
+            606267.4958540833
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 100711722.01838684,
+        "scores_updated": 1689271204,
+        "snapshot": "108504324",
+        "start": 1688666400,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "[Non-Constitutional] Fund the Arbitrum Grants Framework Proposal Milestone 1",
+        "type": "basic",
+        "updated": null,
+        "votes": 49531
+      },
+      {
+        "author": "0x2e3BEf6830Ae84bb4225D318F9f61B6b88C147bF",
+        "body": "**Non-Constitutional Proposal**\n\n**AUTHORS**\n[Iron Boots](https://twitter.com/SirBootsOfIron) (BD Lead), [Myrddin](https://twitter.com/0xmyrddin) (Dev Lead)\n\n...\n\n## Abstract\n\nThis post proposes granting 1.5M ARB per month to Camelot DAO for the next 6 months to fund liquidity incentives for Arbitrum-focused projects on Camelot, including the onboarding of new and multi-chain protocols entering the ecosystem. Camelot strives to support the native ecosystem through collaborative relationships and has a proven track record of allocating incentives to enable sustainable growth and long-term liquidity for ecosystem protocols. This proposal will therefore support deeper spot liquidity for Arbitrum native builders, as well as supporting integration partners and the launch of new protocols, thereby enabling significant growth through an approach that prioritizes Arbitrum\u2019s core values. Most importantly, this will further the adoption of ARB as a base asset within liquidity pools and partner integrations.\n\n...\n\n## Motivation\n\nCamelot is not just a DEX - it\u2019s the infrastructure that enables native protocols to build sustainable and efficient liquidity. As Arbitrum\u2019s first major native DEX, Camelot strives to support the ecosystem with a long-term and collaborative approach that moves beyond the traditional role of DEXs as simple \u2018yield farms\u2019.\n\nIn just over 6 months of being live, Camelot has achieved over $2,500,000,000 total volume traded, highs of $100m TVL, and the successful onboarding of countless protocols to the Arbitrum ecosystem. The Round Table is the hub for Camelot\u2019s official long-term partners, and the initial members consisted of the core Arbitrum protocols such as Vela, Jones, Pendle, Plutus, GMX, Sperax, and more. On average, Round Table partners have over 90% of their total DEX liquidity and volume on Camelot.\n\nSince then, the Round Table now consists of over 25 official partner protocols, and through its launchpad Camelot has supported over 9 protocols to raise funds in a community-focused and decentralized way. Most importantly, Camelot is home to numerous community builders that leverage the custom-built features to manage their liquidity, with a combined reach of over 40 native protocols present on Camelot and over 15 integrations being built on top of its infrastructure. Camelot is one of the most used dapps in the ecosystem, with over 300,000 unique users since launch. Camelot is not a fork, and is custom-built code that has been thoroughly tested and audited by Paladin. In addition, Camelot has no private investors and was launched in a truly community-focused and decentralized way. The ownership of Camelot has been spread through the key Arbitrum players, thereby making the protocol truly part of the ecosystem and community.\n\nThis grant would have a significant impact on the growth of the Arbitrum ecosystem in several ways:\n\n* Deep spot liquidity is the foundation for DeFi protocols to thrive, enabling further innovation and use cases for Arbitrum native protocols. For example, deeper spot liquidity unlocks the potential for tokens to be used in lending markets, options and perps protocols, structured products, and much more. Whilst other DEXs also tackle this for blue chip tokens, Camelot is uniquely positioned to most effectively support the native ecosystem builders. This proposal will specifically focus on Arbitrum protocols throughout their lifecycle, whilst leveraging the network and community of Camelot to generate sustainable growth with real users. Deepening pools that already have significant liquidity is not our only focus, as Camelot is positioned to ensure the distribution of ARB tokens materializes into a stronger ecosystem. Most importantly, Camelot can work with partners to pair their tokens with ARB as a base asset. This will advance ARB as a foundational asset of the ecosystem, providing it with direct value and utility.\n\n* Camelot has a proven track record of effectively allocating rewards in a sustainable and economical way. Therefore, not only will this grant proposal deepen liquidity, it will also ensure that the most active and aligned builders on Arbitrum directly benefit from it too. As an ecosystem hub for native builders, Camelot will leverage this grant to support and incentivise new protocols launching in the ecosystem, further cementing Arbitrum\u2019s position as the go-to layer 2 for innovation and DeFi. Through its launchpad and network of Round Table partners, Camelot additionally offers protocols marketing, BD, and general support.\n\n* In addition to liquidity, Camelot is one of the largest Arbitrum governance delegates and has continued to foster collaboration in the ecosystem. Therefore, this proposal would also focus on integration partners that enable more efficient liquidity management and further use cases. These protocols also build on top of our partner liquidity pools, therefore multiplying the network effects of the allocated Arb incentives. Camelot currently has over 15 integration partners, ranging from advanced liquidity management apps, leveraged yield farming, derivatives, structured products, and more.\n\n...\n\n## Rationale\n\nCamelot was conceived to help deliver Arbitrum\u2019s goal of scaling and revolutionizing the future of Ethereum. Through its commitment to supporting native builders, Camelot strives to build the foundation of sustainable liquidity and collaboration that will allow Arbitrum and its diverse ecosystem to thrive.\n\nSince its inception in December 2022, Camelot has maintained a robust upward trajectory, steered by a long-term, sustainable incentives approach. We've avoided the common pitfalls of being a \u2018yield-farm for mercenary capital,\u2019 and our proven track record of allocating incentives effectively to yield maximum returns for our community, protocol, and ecosystem stands testament to our potential. We plan to harness the power of Arbitrum grant incentives to maintain this growth trajectory.\n\nThough past performance doesn't necessarily predict future success, it does offer valuable insights into the potential of this proposal. Over the period from December 2022 to May 2023, Camelot experienced an impressive average monthly increase in volume and Total Value Locked (TVL) of 275% and 79% respectively. Even more noteworthy is that during this period, Camelot generated over $10m in protocol fees, with a significant proportion of these channelled back to our token holders. This strongly suggests that, with the additional Arbitrum incentives, we can stimulate significant growth and capture substantial long-term value across a large number of native protocols. Moreover, we can achieve this while ensuring a decentralized and sustainable token ownership distribution. Camelot also received an airdrop of over 2,000,000 ARB, which has so far been fully dedicated to being an active governance participant.\n\nTo allocate the Arbitrum incentives even more effectively we will distribute it across 4 different categories: Ecosystem Builders, Integration Partners, Core Pairs, and Liquid Staking Derivatives.\n\n![image](ipfs://bafkreicjatrrpsk2u22lkmiqwklpmnk5jqkacc45odyf7npqib3hrgydse)    \n\n### Ecosystem Builders\n\nCamelot is home to many of Arbitrum\u2019s favourite protocols, and this category will distribute incentives to builders that are fully aligned with Camelot\u2019s approach to sustainable liquidity and long-term collaboration. As detailed in the \u2018Specifications\u2019 section below, Camelot is one of the most effective hubs to distribute incentives, due to the large and expansive network of long-term partners.\n\n### Integration Partners\n\nBy providing incentives to partners that are building on top of Camelot\u2019s infrastructure, we are diversifying the use of incentives to fuel even further innovation and growth that benefits all partners and the broader ecosystem, whilst also deepening the underlying liquidity at the same time. These partners would include concentrated liquidity managers, leveraged yield protocols, lending markets, liquidity management dapps and more.\n\n### Core pairs\n\nWhilst Camelot\u2019s primary focus is on the native Arbitrum builders, ensuring Camelot can offer deep liquidity for the most actively traded tokens like ETH and USDC is also important as the native DEX. With the number of protocols actively building on Camelot, deep liquidity for core pairs will be an important piece to ensure we have a strong foundation that can expand to longer-tail tokens too.\n\n### Liquid staked derivatives\n\nLiquid staked derivatives are seeing rapid growth as they unlock significant liquidity on Ethereum whilst securing the network at the same time. The majority of LSD liquidity is currently on Ethereum, and we think it\u2019s an important catalyst for the broader Arbitrum ecosystem to support LSD adoption natively too. Deeper LSD liquidity will allow Arbitrum native builders to tap into a highly productive asset to build on top of, leading to further growth, utility, and products for the ecosystem.\n\n### Velodrome on Optimism as Precedent\n\nWhile Arbitrum is a unique ecosystem which is difficult to compare to other networks, the effect of Optimism\u2019s grant to Velodrome in July of 2022 supports that a similar grant to Camelot could have a positive effect on the Arbitrum ecosystem. Velodrome received a 3M OP grant from the Optimism Foundation in July of 2022 that was meant to last 4-5 months. As seen in the visual below, Velodrome had around $14M in TVL, generated around $3.3k in weekly fees, and had $2M in daily volume before the grant. In the last 3 months, Camelot has averaged over $80M in TVL, $450,000 in weekly fees, and $18M in daily volume. While TVL and volume numbers can be skewed by low fee-generating mercenary TVL, fees paid are less biased, and Camelot has been earning over 100x more fees than Velodrome before incentives.\n\n![image](ipfs://bafkreidwm2wtosajdmpiqyryhwv3wvbrr634fp2zavgebk5z7jjl6igwdu)    \n\nCamelot has surpassed Velodrome by nearly every metric by using novel, long-term emission incentives. Thus, we\u2019re asking for 1.5M ARB per month vs Velodrome\u2019s 3M OP over 4-5 months. Because Camelot is currently in a much better position than pre-grant Velodrome, we expect that the ARB grant will increase liquidity depth on Camelot and the general ecosystem expansion even more, supercharging the network to a new level.\n\nTo provide additional perspective, the Arbitrum DAO treasury currently holds 3,527,046,084 ARB tokens. Assuming a hypothetical 10-year runway of treasury spending, this would be equivalent to 352m ARB tokens a year. Camelot\u2019s grant proposal for a total of 9m ARB tokens would therefore represent 2.56% of the annual budget, with the expectation of significant ecosystem growth and expansion.\n\n***Camelot TVL, Volume and Fees before ARB Grant***\n![image](ipfs://bafkreiflwh7et2aybm4bhk2aunxtlloz6h3yxtxdd4gffgawyhajcno4l4)\n\n...\n\n## Specifications\n\nCamelot will distribute 1,500,000 ARB tokens per month as incentives across a broad range of Arbitrum liquidity pools and integrations. The distribution of these incentives will adhere to the Proposal Objectives, the proposal parameters, and the Transparency Report. \n\nThe transparency report will ensure that Camelot has clearly documented where every $ARB token has been allocated, the relevant growth metrics achieved, and most importantly the progress for its broader Arbitrum objectives. You can see the objectives and parameters below and a template of the transparency report attached. This report will be provided at the latest 72 hrs before the following month\u2019s incentives are to be distributed.\n\n### Proposal Objectives\n*(As measured and tracked within the transparency report, attached below)*\n\n* To grow the liquidity of Arbitrum builders, bringing new users into the ecosystem and directly supporting the growth of ecosystem protocols\n* To use the incentives to bring new protocols into the Arbitrum ecosystem\n* To support the launch of native builders and their liquidity requirements\n* To advance the adoption of ARB as a base asset in liquidity pools\n* To advance the adoption of ARB within integration partner strategies\n* To provide marketing and community support to the ecosystem builders included in the incentive programme\n\n### Proposal Parameters\n*(As measured and tracked within the transparency report, attached below)*\n\n* Incentives will be distributed to a minimum of 30 partner pools, as documented in the transparency report. Any new pool or integration needs to be clearly documented beforehand in the transparency report.\n* No single pool or partner (excluding core $ARB pools) can receive more than 5% of the total incentives (as measured over a 30-day period)\n* No single pool or integration partner can receive more than 5% of its TVL in monthly incentives (as measured over a 30-day period)\n* A pool must maintain a minimum trading volume of $1,000,000 annualized to be valid to receive rewards (as measured over a 30-day period).\n* A minimum of 33% of the total incentives will be used on liquidity pools with $ARB as the base asset. On top of this minimum, Camelot will provide bonus incentives to teams that actively transition their liquidity to ARB as a base asset too. This will be included and measured within the aforementioned transparency report.\n* The partner integration section has now been merged into the \u201cEcosystem Builders\u201d section, with the relevant parameters above being applicable.\n* If at any point the Arbitrum community or DAO is not satisfied with the performance or delivery, they can move forward with a governance vote to end the grant early.\n\nCamelot will distribute the incentives across the following categories and pools detailed below. The distribution across these various pools will adhere to the Proposal Objectives and parameters, please reference the transparency report for a more in-depth breakdown:\n\n[TRANSPARENCY REPORT](https://docs.google.com/document/d/1_os6yN7G2kdoeoXNotX0nqsYXQyJ0bakGXavmLNIXdc/edit?usp=sharing)\n \n![image](ipfs://bafkreifbxdwctnf335rkwqpw7k5dejulbgc3wbcmjxew45pkxxttyamhrq)\n\n* Ecosystem Builders 75%\n  * Liquidity incentives for partner pools such as Vela, Pendle, Plutus, Jones and a diverse range of Arbitrum protocols. This will include integration partners that build on top of Camelot liquidity pools, such as Gamma and DeFi Edge, following the same parameters and guidelines shared above.\n  * The transparency report contains a broader breakdown of the ecosystem pools that this will be focused on. In addition, these incentives will be used to encourage the adoption of ARB as a base asset for ecosystem protocol liquidity pools.\n\n* Core Pairs 15%\n  * These represent the core liquidity pools such as ARB/ETH, ETH/USDC, and USDC/USDC. Further examples are included in the transparency report.\n\n* Liquid Staking Derivatives 10%\n  * Focusing on a diverse range of LSDs, most of which have little liquidity on Arbitrum. This will therefore target protocols such as unshETH, Lido, Rocket Pool, Swell, Stafi and more.\n\nCamelot will utilize its Nitro Pools technology to release the granted ARB in combination with $GRAIL and $xGRAIL emissions to liquidity providers. Nitro Pools are custom-built permissionless solutions to distribute incentives to any liquidity pool, with the ability to add custom requirements also. Along with the rest of the protocol, Nitro Pools have been audited by Paladin, and used by Camelot and numerous partners over the previous 8 months.\n\n\n...\n\n## Steps to implement\n\nCamelot will receive 1,5000,000 monthly over a period of 6 months, for a total of 9m ARB. In order to most transparently receive the tokens requested, Camelot will use a new multisig that will have several ecosystem players from other Arbitrum protocols. The makeup of this multisig, including the protocol affiliation(s) of each signer will be made public upon the creation of the multisig (before the proposal is moved to snapshot), and all changes to the makeup of the multisig will be announced in advance. This multisig will be governed by a multisig participation agreement wherein each signer will agree to use their signing authority only to further the interest of the wallet itself, using the ARB tokens to incentivise liquidity in approved nitro pools. By structuring the multi-sig with signers representative of the broader Arbitrum ecosystem, Camelot will ensure that the ARB tokens granted by the Arbitrum DAO will be leveraged to support new protocols, DAOs, and projects that are broadly value additive for Arbitrum.\n\nCamelot currently has [2,189,094 ARB tokens](https://debank.com/profile/0x03ff2d78afb69e0859ec6beb4cf107d3741e97ab) in its treasury, which it has used entirely for governance purposes. As an additional safeguard and sign of assurance, Camelot commits to placing its own ARB into the grant multisig for the duration of the 6 month proposal, therefore at any given time, Camelot will have \u201cguaranteed\u201d more ARB than it would receive from the Arbitrum DAO. Once the grant is over, Camelot will receive its own 2,189,094 ARB tokens back.\n\nOnce the ARB tokens have been distributed to the intended multisig wallet, Camelot will bear the full responsibility and workload to ensure the effective allocation of these tokens. Camelot will actively manage and continuously analyze the effectiveness of the incentives being used, following the aforementioned proposal objectives and parameters, and clearly documenting any changes or adjustments in the transparency report.\n\nMore information on the mechanics of Camelot\u2019s nitro pools is available [here](https://docs.camelot.exchange/protocol/nitro-pools). Once the ARB tokens have been distributed to the grant multisig, Camelot will then further distribute them to internal wallets where the tokens will be used as incentives for the pools and partner integrations mentioned above under \u2018Specifications\u2019.\n\n* Camelot will receive 1,500,000 ARB tokens per month for 6 months, which it will distribute in accordance to the proposal objectives and parameters.\n* Camelot will detail how every ARB token is allocated and the progress towards the proposal objectives within the [transparency report](https://docs.google.com/document/d/1_os6yN7G2kdoeoXNotX0nqsYXQyJ0bakGXavmLNIXdc/edit?usp=sharing).\n* The transparency report will be shared no later than 72 hours before the next month's incentives are distributed.\n* Camelot will hold a bi-weekly public community call to discuss the performance and progress of the grant and the transparency report in further detail.\n\n...\n\n## Timeline\n\nCamelot will begin the grant distribution from the date this proposal is passed and the ARB is delivered until 6 months after. The 1.5M ARB will be distributed monthly to the relevant ecosystem multisig mentioned above, for a total of 6 months.\n\nOnce the grant is active, Camelot will provide the subsequent transparency reports no later than 72 hours before the next month's incentives are to be distributed. The transparency report will follow the template that is attached and will include all relevant information. Following the conclusion of the grant, Camelot will provide a comprehensive analysis of the performance of the grant and its impact.\n\n...\n\n## Overall cost\n\n1,500,000 ARB distributed monthly over 6 months, for a total of 9M ARB tokens.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1689364726,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-accelerating-arbitrum-leveraging-camelot-as-an-ecosystem-hub-to-support-native-builders/15116",
+        "end": 1689969600,
+        "flagged": false,
+        "id": "0x6b001068a3aa7f58e0e334a1f717be2145eb4c7b3f3af479cd827020aa2993a6",
+        "ipfs": "bafkreiesiox25mglaazamedsvjgchuceqaznvreumyvjjvtftwme6tn2ly",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x6b001068a3aa7f58e0e334a1f717be2145eb4c7b3f3af479cd827020aa2993a6",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          49223240.008841634,
+          62763012.2478821,
+          52128168.08225786
+        ],
+        "scores_by_strategy": [
+          [
+            49223240.008841634
+          ],
+          [
+            62763012.2478821
+          ],
+          [
+            52128168.08225786
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 164114420.33897847,
+        "scores_updated": 1689969607,
+        "snapshot": "111229329",
+        "start": 1689364800,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Accelerating Arbitrum - leveraging Camelot as an ecosystem hub to support native builders",
+        "type": "basic",
+        "updated": null,
+        "votes": 49504
+      },
+      {
+        "author": "0xA5dF0cf3F95C6cd97d998b9D990a86864095d9b0",
+        "body": "Category: Constitutional - Process\n\nHigh Level Overview\nThe ArbitrumDAO Constitution specifies that the first Security Council election should start on the 15th September alongside a specification for the election.\n\nAn on-chain implementation of the entire election is still a work in progress. The Arbitrum Foundation has sponsored the implementation of a smart contract suite by Offchain Labs, an extension of Tally\u2019s user interface, and the respective audits.\n\nThis proposal seeks to revise the ArbitrumDAO Constitution to provide flexibility for the start date of the election. If passed by a Constitutional Vote, the new start date will be on the 15th September or the earliest possible date in which an on-chain election can begin.\n\nThe motivation to change the election\u2019s start date is to provide time for the implementation to be completed, security audits to be performed, for the community to gain confidence in the quality of its implementation and for the Arbitrum DAO to vote on a separate Constitutional AIP to install an on-chain election system.\n\nThe overarching goal is to still allow the election to begin on the 15th September, but it is prudent to provide leeway and ensure all parties, especially the Arbitrum DAO, are confident in the election software\u2019s security and completeness.\n\nPath to a Smart Contract Enabled Election\nThis proposal seeks approval from the Arbitrum DAO that the first and all subsequent security elections should be performed via the on-chain election process.\n\nThe activation of the Security Council election is dependent on:\n\nComplete implementation for the on-chain smart contracts,\nComplete implementation of the user interface,\nSmart contract audit by a highly regarded auditing firm,\nAll parties, including the Arbitrum DAO, have gained confidence in the implementation\u2019s completeness and security,\nSuccessful Constitutional Vote by the DAO to install the new election software.\nA vote on this proposal is approving that the above conditions are mandatory for any election software before it can be installed into the on-chain smart contracts.\n\nModified Start Date for Election\nThe implementation sponsored by the Arbitrum Foundation should be ready for the start date of the 15th September.\n\nEven so, given the naunces of implementation details and the potential security risks to a critical part of the system, we believe it is still prudent to provide leeway and extra time for the Security Council elections to begin some time after the required date set out by The Arbitrum Foundation.\n\nAfter all, it is not just about having a complete implementation, but ensuring all parties have confidence that all efforts have made been to minimize the risk of bugs in the implementation.\n\nRevision to ArbitrumDAO Constitution\nThe revised text focuses on the election beginning at the earliest possible date from the 15th September. Additionally, the election can only begin once an on-chain election system is installed via a separate Constitutional Vote.\n\nAll future elections can begin exactly six months after the previous election. As such, the chosen date for the first election will decide the earliest start date for the next election.\n\nFor extra clarity in the text, we have renamed \u201cSeptember Cohort\u201d to \u201cFirst Cohort\u201d and \u201cMarch Cohort\u201d to \u201cSecond Cohort\u201d\n\nFinally, to remove any ambiguity, all security council members are expected to serve the time until the new Security Council members are installed in the respective smart contracts.\n\nCurrent text of ArbitrumDAO Constitution:\nThe Security Council has 12 members, who are divided into a September Cohort of 6 members, and a March Cohort of 6 members. Every year on September 15, 12:00 UTC, an election starts for the 6 September Cohort seats; and every year on March 15, 12:00 UTC, an election starts for the 6 March Cohort seats.\n\nThis means that the initial September Cohort will serve an initial term of 6 months, whereas the initial March Cohort will serve an initial term of 1 year.\n\nThe initial Security Council Cohorts were determined by randomly splitting the 12 members into two 6-member cohorts - 6 members in the September Cohort and 6 members in the March Cohort. The members of the initial Security Council Cohorts are detailed in a transparency report here.\n\nProposed Revision of Arbitrum Constitution:\nThe Security Council has 12 members, who are divided into two Cohorts of 6 members.\n\nThe initial Security Council Cohorts were determined by randomly splitting the 12 members into two 6-member cohorts - 6 members in the \u2018First Cohort\u2019 and 6 members in the \u2018Second Cohort\u2019. The members of the initial Security Council Cohorts are detailed in a transparency report here.\n\nThe first security election is scheduled to begin on the 15th September 2023 or the earliest possible date. The election can only begin upon the availability of an on-chain election process that was approved and installed by the Arbitrum DAO. This first election replaces the \u2018First Cohort\u2019.\n\nThe date chosen for the first election will form the basis for all future elections. Every election will begin exactly 6 months after the previous election has finished and it will replace its respective cohort of 6 members.\n\nAll Security Council members are expected to serve their term until the election is complete and the new Security Council members are installed.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1689965368,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-update-security-council-election-start-date-to-ensure-time-for-security-audit/15426",
+        "end": 1690570167,
+        "flagged": false,
+        "id": "0x5e43fdcaa085476a7be4fb638dd57f7b3f6b708fbbbe1380e54da126c7a095d2",
+        "ipfs": "bafkreifq2b7ddbkzdrj7jfb6tidhmenfkucmlbps55yrpjilaaevmprqvy",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x5e43fdcaa085476a7be4fb638dd57f7b3f6b708fbbbe1380e54da126c7a095d2",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          83105069.84913562,
+          349955.1739001044,
+          94342.99417016088
+        ],
+        "scores_by_strategy": [
+          [
+            83105069.84913562
+          ],
+          [
+            349955.1739001044
+          ],
+          [
+            94342.99417016088
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 83549368.01720633,
+        "scores_updated": 1690570503,
+        "snapshot": "113554933",
+        "start": 1689965367,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Proposal: Update Security Council Election Start Date to Ensure Time for Security Audit",
+        "type": "basic",
+        "updated": null,
+        "votes": 51495
+      },
+      {
+        "author": "0x9808E45C613eBA00bA18fB3D314dC4d4712c4A85",
+        "body": "Category: Constitutional - Process\nAs part of its governance, the Arbitrum DAO incorporates a Security Council that can take certain emergency and non-emergency actions:\n\nSection 3 of the Constitution 10 describes this council in more detail.\nInitial Setup Transparency Report 3 details the current members of the council.\nSection 4 on the Constitution outlines an election process that will replace six security council members every six months.\nThe first election to replace the first cohort of Security Council Members is expected to begin on the 15th September.\n\nExecutive summary\nThis vote relates to the enactment of the Arbitrum Security Council elections.\nA smart contract system has been developed to enable on-chain voting. That system is final and under multiple security audits.\nThis vote is meant to temperature check with the DAO both the process that will be conducted for the elections, as well as the smart contract system that will enable them.\nA successful vote will lead to an on-chain proposal that updates the constitution text with the new sections below, as well as the new Security Council election system being activated within the broader Arbitrum governance architecture.\nImplementation Status\nThe code representing the proposed architecture is currently under audit and is available for full review in: GitHub - ArbitrumFoundation/governance at c18de53820c505fc459f766c1b224810eaeaabc5.\n\nThe work has already been audited by Trail of Bits and the identified issues have been patched in, the full audit report will be made available in the codebase soon. A Code4Rena audit competition has also been commissioned for the election system and can be viewed at Code4rena | Keeping high severity bugs out of production\n\nBackground\nAn overview of the election process as described by the Constitution alongside the process for how to enact a code change to Arbitrum\u2019s smart contract suite:\n\nConstitution of the Arbitrum DAO 2 (esp. sections 3 10 and 4) - As noted above, this proposal seeks to enact what is already described in the Constitution.\nDAO Governance Architecture 5 - The proposed architecture makes use of a number of existing governance components.\nAn understanding of the following smart contract suites will help the reader evaluate this proposal as it re-uses several components:\n\nOpen Zeppelin Governor - The proposed architecture inherits a number of OpenZeppelin contracts.\nGnosis Modules 1 - Each of the security councils is a Gnosis Safe, and updating members of the security council is handled via adding Gnosis modules.\nHigh-level Election Overview\nThe Constitution specifies that membership of the Security Council is split into two cohorts. Every 6 months, all positions in a single cohort are put up for election.\n\nThe proposed election implementation, which must adhere to the specification laid out in the Constitution, is split into:\n\nElection stages: The process for selecting and voting for nominees.\nUpdate stages: Installing the newly elected cohort into the Arbitrum smart contracts.\nThe election process and update stages are performed via on-chain smart contracts. A brief overview of each stage includes:\n\nElection Stages\nProcess for selecting and voting for the new cohort of Security council members.\n\nNominee selection (7 days). Candidates must gain 0.2% of total votable tokens in order to make it to the next step.\nCompliance check by Foundation (14 days). As dictated in the Constitution, the selected nominees must undergo a compliance check to ensure they comply with the legal requirements, service agreements, and additional rules dictated by the Constitution.\nMember election (21 days). Votes are cast and the top 6 nominees are selected.\nUpdate Stages\nProcess to install the newly elected cohort of Security Council members into the Arbitrum smart contracts.\n\nSecurity Council manager update (0 days). The manager is the source of truth for specifying who are the current council members. It processes the election result and takes note on who will be the new security council members.\nL2 timelock + withdrawal + L1 timelock (3 + 7 + 3 days). All actions that directly affect the core Arbitrum contracts must go through a series of timelocks to protect the right for all users to exit. This is a built-in safety mechanism for users who are unhappy with the approved changes.\nIndividual council update (0 days). Once the updates have passed through the relevant timelocks, the Security Council manager can install the security council members. This requires updating 4 Gnosis Safe smart contracts that are controlled by the Security Council members.\nSecurity Council Election Flow\n \n![image](ipfs://bafkreia2bk2mmknletnshsvxbohkbszppbkb3wdntpnraj7x2gwgx2rgqq)\n    \nElection Stages in detail\n1. Nominee selection (7 days)\nThis stage consists of handling election timing, candidate registration, candidate endorsement:\n\nElection creation. Elections can be created by anyone, but only every 6 months. The election alternates between targeting the positions on the two cohorts. Once created, this first stage of the election process lasts for 7 days.\nCandidate registration. During these 7 days, any candidate can register, unless they are already a member of the other cohort. Members of the current cohort (the cohort up for election) are allowed to register for re-election.\nEndorsing candidates. Delegates can endorse a candidate during this 7 day window. A single delegate can split their vote across multiple candidates. No candidate can accrue more than 0.2% of all votable tokens.\nFallback in case of too few candidates. In the event that fewer than 6 candidates receive a 0.2% endorsement, outgoing members of the cohort up for election will be selected to make up to 6 candidates.\nImplementation details\nThe nominee selection process is implemented by the SecurityCouncilNomineeElectionGovernor contract.\n\nIt inherits most of its functionality from the Open Zeppelin Governor contracts and we have extended it with an extra feature:\n\nCustom counting module to allow delegates to endorse multiple candidates.\nThe governor contract has the following characteristics:\n\nA new proposal is created each election cycle, with an identifier unique to that election cycle.\nCandidates can the put themselves forward by calling addContender.\nDelegates can call castVoteWithReasonAndParams, supplying custom arguments in the params to indicate which candidate they wish to endorse with what weight.\n2. Compliance check by the Foundation(14 days)\nThe Foundation will be given 14 days to vet the prospective nominees. If they find that a candidate does not meet the compliance check, they can exclude the candidate from progressing to the next stage. Note that grounds for exclusion could include greater than 3 members of a given organisation being represented in the nominee set (as described in section 4 of the Constitution).\n\nImplementation details\nThe foundation can exclude a nominee by:\n\nCalling a custom excludeNominee function on the same SecurityCouncilNomineeElectionGovernor contract.\nThe Governor smart contract enforces the 2 week time period and the Foundation must exclude nominees by this deadline.\n\nOnce the compliance check has completed:\n\nAnyone can call the execute function on the SecurityCouncilNomineeElectionGovernor to proceed to the member election stage.\nIf there are less than 6 eligible nominees, then the Foundation will consult with outgoing members of the cohort on whether they will continue in this role for another 12 months. Members of the existing cohort may be selected at random to fill the remaining seats.\n\n3. Member election (21 days)\nThe voting process can begin once a set of compliant candidates have been successfully nominated.\n\nThe voting process is designed to encourage voters to cast their vote early. Their voting power will eventually decay if they do not cast their vote within the first 7 days:\n\n0 - 7 days. Votes cast will carry weight 1 per token\n7 - 21 days. Votes cast will have their weight linearly decreased based on the amount of time that has passed since the 7 day point. By the 21st day, each token will carry a weight of 0.\nAdditionally, delegates can cast votes for more than one nominee:\n\nSplit voting. delegates can split their tokens across multiple nominees, with 1 token representing 1 vote.\nImplementation details\nThe Security Council member election will take place in a separate SecurityCouncilMemberElectionGovernor contract which will also inherit from Open Zeppelin Governor contracts.\n\nAfter the 14 day waiting period for the compliance check, anyone can trigger a new member election:\n\nCall the execute function in SecurityCouncilNomineeElectionGovernor to deploy a new election proposal for SecurityCouncilMemberElectionGovernor\nThe SecurityCouncilMemberElectionGovernor includes:\n\nA custom counting module that allows delegates to split their vote and accounts for the linear decrease in voting weight.\nThese additional parameters are supplied as the params argument when calling castVoteWithReasonAndParams.\nThe custom counting module also checks that the nominee being voted is a compliant one by checking against the compliant nominee list in the SecurityCouncilNomineeElectionGovernor.\nAt the end of the 21 days of election:\n\nAnyone can call the execute function on the SecurityCouncilMemberElectionGovernor contract to initiate the update of top 6 nominees with the most votes into SecurityCouncilManager.\nUpdate stages in detail\n1. Security Council manager update\nThe security council manager is a contract which contains the canonical list of security council members, and which cohort they are part of. When a member election completes, the manager updates its local list of the current cohorts then forms cross chain messages to propagate those updates to each of the Security Council Gnosis safes.\n\nThe manager also provides some additional functionality to allow the security council to:\n\nRemove a member: As described in the Constitution, the council can remove one of its own members. The DAO can also remove a member under special conditions described by the Constitution.\nAdd a member: After removing a member, the council can add a member\nAddress rotation: As a practical matter, a council member can rotate one of their own keys. This can only be done with the approval of at least 9/12 council members as well as explicit approval from the member carrying out the rotation.\nImplementation details\nThe manager functionality is contained within a custom SecurityCouncilManager smart contract. Since the SecurityCouncilManager is indirectly able to make calls to the standard UpgradeExecutor contracts which have far reaching powers, special care must be take to ensure the manager only makes council member updates.\n\nCalling the UpgradeExecutors on each of the chains requires navigating withdrawals transactions, timelocks and inboxes, the SecurityCouncilManager outsources the calldata creation for these routes to a UpgradeExecRouteBuilder contract.\n\n2. Timelocks and withdrawal\nConstitutional DAO proposals all pass through:\n\nL2 timelock (3 days),\nL2 \u2192 L1 withdrawal (~7 days),\nL1 timelock (3 days).\nYou can read more about these stages in the governance docs 1. The purpose of these delays is to ensure that users wishing to withdraw their assets before the proposal is executed will have the time to do so. Changing the Security Council members should also provide this guarantee, so after the election has completed and before the Security Councils are updated the update message also goes through these same stages. The update message will use the existing timelocks to enforce these delays.\n\nImplementation details\nThe existing governance timelock contracts are used as part of this flow.\n\nThe SecurityCouncilManager is given the PROPOSER role on the L2 timelock enabling it to create messages that will eventually be received by each UpgradeExecutor.\n\n3. Individual council updates\nThe new Security Council members need to be installed into 4 Gnosis safes:\n\nArbitrum One 9 of 12 Emergency Security Council\nArbitrum One 7 of 12 Non-Emergency Security Council\nEthereum 9 of 12 Emergency Security Council\nNova 9 of 12 Emergency Security Council\nThe old cohort of members will be removed, and the new cohort will replace them.\n\nImplementation details\nTo do this the existing Upgrade Executor contracts on each chain will be installed as Gnosis Safe modules into the Security Council safes. A custom Governance Action Contract 2 will be used to call the specific OwnerManager addOwnerWithThreshold and removeOwner methods on the Gnosis safes.\n\nAdditional affordances\nThe Constitution also declares some other additional affordances to certain parties\n\nThe DAO can vote to remove a member prior to the end of their term, as long as 10% of possible votes are cast in favour and 5/6 of cast votes are in favour. This will be implemented as a governor with correct quorum and proposal passed thresholds. This governor will be given the rights to call removeMember on the SecurityCouncilManager.\nThe Security Council can remove a member prior to the end of their term, if 9 of 12 members agree. The 9 of 12 council will be given the rights to call removeMember on the SecurityCouncilManager.\nThe Security Council can add a member once one has been removed, if 9 of 12 members agree and if there are less than 12 members currently on the council. The 9 of 12 council will be given the rights to call addMember on the SecurityCouncilManager.\nConstitution Updates\nThe proposed implementation mostly satisfies the specification outlined by the Arbitrum Constitution. There are some minor changes that are required to the Constitution\u2019s text to take into account the time it takes to install new candidates and to support compliance procedures set out by the Arbitrum Foundation.\n\nNote, the final wording for how to update the Constitution will be provided in a later revision. We simply want to notify the requirement that the text needs to be changed. At this stage, our request for feedback is focused on the implementation details of the smart contract suite.\n\nUpdate timeline for the election\nThe Section 4 of the Constitution contains the text:\n\nFrom T until T+7 days: Any DAO member may declare their candidacy for the Security Council; provided that a current Security Council member in one cohort may not be a candidate for a seat in the other cohort. To the extent that there are more than six candidates, each eligible candidate must be supported by pledged votes representing at least 0.2% of all Votable Tokens. In the event that fewer than six candidates are supported by pledged votes representing at least 0.2% of all Votable Tokens, the current Security Council members whose seats are up for election may become candidates (as randomly selected out of their Cohort) until there are 6 candidates.\n\nFrom T+7 days until T+28 days: Each DAO member or delegate may vote for any declared candidate. Each token may be cast for one candidate. Votes cast before T+14 days will have 100% weight. Votes cast between T+14 days and T+28 days will have weight based on the time of casting, decreasing linearly with time, with 100% weight at T+14 days, decreasing linearly to 0% weight at T+28 days.\n\nAt T+28 days: The 6 candidates who have received the most votes are elected and immediately join the Council, replacing the Cohort that was up for re-election.\n\nWe need to make three changes to the Arbitrum Constitution:\n\nNew timeline. A dedicated compliance process must be included between the nominee selection and member election phases. This will shift the timeline of events and the total election will now last at least 42 days alongside additional time to install the newly elected Security Council members via the on-chain governance smart contracts.\nLess than 6 eligible nominees. The Arbitrum Foundation has the authority to add new nominees during the Compliance stage if there are less than 6 eligible nominees.\nInstallation time. We need to remove the phrase \u2018immediately join the Council\u2019 to take into account the on-chain governance process for installing the newly elected candidates. For example, the various time locks to protect a user\u2019s right to exit Arbitrum during the upgrade and the time it takes to send an L2 \u2192 L1 message.\nWith the above in mind, we propose an update to Section 4 of the Constitution with the following text:\n\nNominee selection (T until T+7 days): Any DAO member may declare their candidacy for the Security Council; provided that a current Security Council member in one cohort may not be a candidate for a seat in the other cohort. To the extent that there are more than six candidates, each eligible candidate must be supported by pledged votes representing at least 0.2% of all Votable Tokens.\n\nCompliance process (T+7 until T+21 days): All candidates will cooperate with The Arbitrum Foundation and complete the compliance process. The Arbitrum Foundation is responsible for removing any candidates that fail the compliance process. In the event that fewer than six candidates are supported by pledged votes representing at least 0.2% of all Votable Tokens, the current Security Council members whose seats are up for election may become candidates (as randomly selected out of their Cohort) until there are 6 candidates.\n\nMember election (T+21 until T+42 days): Each DAO member or delegate may vote for any declared candidate. Each token may be cast for one candidate. Votes cast before T+28 days will have 100% weight. Votes cast between T+28 days and T+42 days will have weight based on the time of casting, decreasing linearly with time, with 100% weight at T+28 days, decreasing linearly to 0% weight at T+42 days.\n\nAt T+42 days: The process for replacing the cohort of Security Council members with the 6 candidates who received the most votes will be activated. The installation process must be executed via the on-chain governance smart contracts and it may take several days until the new Security Council members are installed.\n\n\nWe propose to update the Constitution with the following text:\n\nThe Arbitrum Foundation is allocated 14 days for the Compliance process and it should be executed between the Nominee selection and Member election. The Arbitrum Foundation has flexibility to update its compliance policy for every new election. This is required to allow The Arbitrum Foundation to comply with Cayman Island laws. Furthermore, The Arbitrum Foundation maintains the right to issue new procedures and guidelines for off-chain components of the Security Council election. All efforts should be made by The Arbitrum Foundation to ensure an orderly, fair, and transparent election.\nFinal update to the Constitution text.\nFor completeness, the amended text for Section 4 of the Arbitrum Constitution, including the changes from AIP-4:\n\nThe Security Council has 12 members, who are divided into two Cohorts of 6 members.\n\nThe initial Security Council Cohorts were determined by randomly splitting the 12 members into two 6-member cohorts - 6 members in the \u2018First Cohort\u2019 and 6 members in the \u2018Second Cohort\u2019. The members of the initial Security Council Cohorts are detailed in a transparency report  linked in the discussion",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1691510498,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-security-council-elections-proposed-implementation-spec/15425",
+        "end": 1692115298,
+        "flagged": false,
+        "id": "0xfd3551e2a0effc5d900e522b79300f68c351ec930cb05b62f537842508feceff",
+        "ipfs": "bafkreigj3kb2ipohgxemvdb7wni3dxd5qaybci76e4md6eha3443nld6zu",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xfd3551e2a0effc5d900e522b79300f68c351ec930cb05b62f537842508feceff",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          80668950.20360789,
+          178202.07603444194,
+          73082.77635965889
+        ],
+        "scores_by_strategy": [
+          [
+            80668950.20360789
+          ],
+          [
+            178202.07603444194
+          ],
+          [
+            73082.77635965889
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 80920235.05600224,
+        "scores_updated": 1692115602,
+        "snapshot": "119422145",
+        "start": 1691510498,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Proposal: Security Council Elections Proposed Implementation Spec",
+        "type": "basic",
+        "updated": null,
+        "votes": 53520
+      },
+      {
+        "author": "0xF8E93a7D954F7d31D5Fa54Bc0Eb0E384412a158d",
+        "body": "Abstract: This proposal seeks to onboard Matrixed.Link as a validator for the Arbitrum One chain.\n\nMotivation:\nMatrixed.Link is an experienced team that has been actively engaged with Arbitrum since 2021. We have successfully been servicing the Chainlink price feeds on Arbitrum to-date and have operated infrastructure and a Chainlink node for Gainsnetwork.io with a track record of fulfilling over 300,000 on-chain oracle requests on Arbitrum. We have also collaborated with the Tracer DAO in the early days of the chain. Our expertise in running infrastructure has contributed to the securing of hundreds of millions in Total Value Locked (TVL). With our experience and proven reliability, we aim to expand our services by also operating as a validator for the Arbitrum One chain. We are committed to the success of Arbitrum and aim to increase our involvement within the ecosystem with the support of the community.Our team consists of blockchain enthusiasts. We believe that this technology will make the world a better place.\nWe are a pioneer in the Chainlink Network contributing to the creation of the first custom DON, which is one of the most profitable Decentralized Oracle Network to date.\n\nRationale: \nGiven our current role in maintaining mission-critical infrastructure for Chainlink and Gainsnetwork.io, we are well-positioned to undertake the responsibilities of a validator. Our successful operation of bare-metal servers and utilization of reliable cloud providers globally demonstrates our ability to deliver highly secure and reliable services. By extending our capabilities to include validator services, we aim to further contribute to the stability and growth of the Arbitrum ecosystem.\n\nSpecifications:\nOur infrastructure includes multiple dedicated bare metal servers operating in collaboration with various cloud providers such as OVH, Hertzner and Digital Ocean. These servers are strategically distributed across different regions; including France, Germany, Finland and our own small data center/office in the Netherlands. To ensure comprehensive oversight and prompt response, we have implemented monitoring and alerting systems that incorporate Graphana and our own custom solutions. This robust infrastructure and our proficiency in running Chainlink nodes and handling on-chain oracle requests position us as a qualified candidate for the role of a validator in the Arbitrum One chain. By leveraging these established systems and our expertise, we are committed to delivering secure and reliable services consistently.\n\nValue Add:\nOur team at Matrixed.Link is honored to contribute as a veteran Chainlink Node Operator by leveraging our experience and expertise to serve as a reliable validator. By joining the active validator set, we aim to strengthen the overall security and performance of the Arbitrum One chain, ensuring its continued success.\n\nTeam:\nComprised of passionate individuals deeply immersed in the Blockchain and Chainlink space, the Matrixed.Link team has been actively operating Chainlink nodes and validators since 2021. Our strong understanding of the technology and unwavering commitment to the ecosystem make us well-suited to undertake the responsibilities of a validator.\n\nChainlink Nodes:\nWe have successfully managed multiple Chainlink nodes, including:\nPolygon (Matic) Network: \nView our node on Polygon at https://polygonscan.com/address/0x5543ff441d3b0fcce59aa08eb52f15d27294af21\nArbitrum Network: \nExplore our node on Arbitrum at https://arbiscan.io/address/0x64ae501217d502be8a1d9d4a4f669fbac6a0c062\nEthereum Network: \nDiscover our node on Ethereum at https://etherscan.io/address/0x1feec90f63b1927d1078d123a57f940e680a3abf\n\nRead about our experience as a Chainlink Node Operator here:\nhttps://medium.com/@Matrixed.link/matrixed-link-1-year-as-a-chainlink-node-operator-6afe8c6f7024https://twitter.com/chainlink/status/1512446920047923211\n\nOur nodes operate with exceptional reliability, boasting minimal downtime and earning us a stellar reputation for delivering dependable services.\nRead more about our other custom Chainlink solutions here:\nhttps://medium.com/@Matrixed.link/managed-node-services-spotlight-landx-cb1a6b404ad2\nhttps://medium.com/@Matrixed.link/weekly-project-spotlight-stake-link-bda1d9fe8be7https://medium.com/@Matrixed.link/managed-node-services-spotlight-gtrade-a8d1a240c974\n\nImplementation Steps:\nTo become an active validator, we will diligently execute the necessary implementation steps. This includes setting up the required infrastructure, including the installation of new bare-metal servers where applicable. Throughout the process, we will maintain close coordination with the Arbitrum team, ensuring a seamless integration and smooth operation of the validator. Our team is also willing to create extra resources to onboard/troubleshoot other validators.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1691866058,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-to-onboard-matrixed-link-as-a-validator-for-arbitrum-one/15387",
+        "end": 1692470858,
+        "flagged": false,
+        "id": "0xf34389495435823ac0297d6a5aa832e64cc9a5363ccbf9282351d111843fceea",
+        "ipfs": "bafkreidx22zvklh4szfrrfk4t57khwgdez7g7ef3qicwu5nyu633zotvqy",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xf34389495435823ac0297d6a5aa832e64cc9a5363ccbf9282351d111843fceea",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          28106999.3610026,
+          26848146.833631966,
+          627078.3983810381
+        ],
+        "scores_by_strategy": [
+          [
+            28106999.3610026
+          ],
+          [
+            26848146.833631966
+          ],
+          [
+            627078.3983810381
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 55582224.59301667,
+        "scores_updated": 1692470863,
+        "snapshot": "120754137",
+        "start": 1691866058,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Proposal to onboard Matrixed.Link as a validator for Arbitrum",
+        "type": "basic",
+        "updated": null,
+        "votes": 45087
+      },
+      {
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "body": "Category: Non-constitutional\nProposer: RARI Foundation\n\n## Abstract\nThe Rari Foundation is submitting a proposal to jumpstart the growth in the Arbitrum NFT ecosystem. The proposal involves integrating Arbitrum One with the open-source Rarible Protocol, which is an indexer, order book, and SDK powering NFT-based applications, which, once integrated, can be freely and easily used by the Artbitrum builders.\n\n## Motivation\nThe Arbitrum ecosystem is hard for independent developers to build NFT-based applications due to a lack of easy-to-use tooling and infrastructure. Without this support, the developer community will opt for other chains with more robust support for building.\n\nOptimism vs. Arbitrum NFT stats as of July 27, 2023, indicate Arbitrum is not the first choice for the creation of NFT assets or contracts. Source: [NFT Scan 3](https://arbitrum.nftscan.com/).\n\n![98d064c39ba85a45bcb0c4831594150174c0ad8c_2_1380x364.png](ipfs://bafkreibumjn6k4xpmflli2bplvqr73mph4t6uuhrzvrzwuw7izhdcnkll4)\n \n![54086dc9319855e9a48199d7ee4860def6b9399b_2_1380x360.png](ipfs://bafkreieaxoqoikmypdsggspy5vjlqzajm4iod2kq5ib5k5n4ouqpoybsrm)\n\nThe open-source Rarible Protocol is focused explicitly on the NFT use case and will enable builders to develop their next dapps choosing Arbitrum, resulting in bringing in new Arbitrum users and sequencer revenue.\n\nThe Rarible Protocol is a trusted choice as it\u2019s community governed, has an easy-to-use API, a comprehensive SDK, and is committed to expanding its capabilities to power innovative NFT use cases. Furthermore, the Protocol is used by [Rarible.com](https://rarible.com/) NFT marketplace, whose brand and community can be leveraged in raising awareness about Arbitrum venturing deeper into NFT tooling. Such signaling to the market will show that the Arbitrum community is serious about growing its ecosystem and flourishing NFTs. Rarible and the Rari Foundation will promote the integration in a cross-marketing push to ensure the NFT and crypto community knows that Arbitrum is serious about NFT growth. This support will consist of (and shall not be limited to):\n\n* Regular features on [Rarible.com](https://rarible.com/) 1 top spotlight section (1 million MAU)\n* Dedicated social support for the launch on Rarible\u2019s and Rari Foundation\u2019s owned channels (Twitter, Instagram, Discord, 800k+ followers combined)\n* Email blasts for the integration (500k+ subscribers)\n* Leveraging Rarible\u2019s and Rari Foundation\u2019s press relations\n* Potentially a hackathon\n\nThis proposal is being submitted outside of the pending grants framework in order to implement the integration asap, as waiting for the grants framework would result in significant implementation delays. As such, the Arbitrum DAO has an opportunity to express its willingness to incentivize ecosystem growth via strategic partnerships.\n\n## Rationale\n\nThe proposed AIP aligns with the Arbitrum community\u2019s mission and guiding values by enhancing the utility, scalability, and inclusivity of the Arbitrum network. The Rarible Protocol, a decentralized toolset for NFT applications, is open-source and free, mirroring Arbitrum\u2019s commitment to technical inclusivity and neutrality.\n\nBy integrating Arbitrum One into the Rarible Protocol, we empower developers to create more complex and innovative applications on Arbitrum. This integration increases accessibility to real-time and historical Arbitrum blockchain data, aligning closely with Arbitrum\u2019s commitment to user-centricity and technical inclusivity.\n\nKey Terms\nThe Rari Foundation: The legal entity for the Rari DAO community that is in possession of $RARI Treasury and on the path of possession of the Rarible Protocol\n\nRarible Inc.: A leading NFT marketplace that allows users to mint, buy, and sell NFTs. One of the applications using the Rarible Protocol.\n\nRarible Protocol: Open-source, free-to-use, community-governed Protocol (which includes an SDK, indexer, and order book) for the creation, transaction, and distribution of NFTs.\n\nRarible SDK: A part of the Rarible Protocol that provides a set of tools for developers to interact with multiple blockchains\n\nA few notes on the [Rarible Protocol](https://rarible.org/):\n* It is an open-source, EVM-based SDK and multichain indexer that currently powers 4,000+ NFT marketplaces (including [Rarible.com](https://rarible.org/), and a series of non-marketplace-based applications (like wallets and NFT analytics services - see more use cases [here](https://docs.rarible.org/use-cases/use-cases-overview/)).\n* Designed as a set of building blocks, the Rarible protocol empowers the creation of fully customized NFT experiences of any level and complexity. \ufe0f\n* API access is lightning-fast, unified, and comprehensive. You gain seamless access to NFT Items, Collections, Activities, and NFT Metadata across multiple blockchains, including ETH, POL, IMX, FLOW, and TEZ, to name a few \u2014all consolidated within a single endpoint.\n* The Protocol\u2019s indexer is the fastest on the market. It retrieves blockchain data through fast APIs, eliminating the need for your own indexer and reducing costs associated with maintaining Blockchain Nodes.\n* User-friendly SDK allows you to connect wallets seamlessly, mint NFTs, put them up for sale, purchase NFTs, showcase collections, and so much more. The Protocol is the feature-rich product on the market (you can do anything NFT related on our Protocol).\n* Comprehensive Marketplace Support: Our platform offers unrivaled support for various marketplaces, providing access to aggregated order books from major platforms like OS, LR, X2Y2, Sudoswap, and Tezos, so you can ensure your users have access to the most competitive listings in the market.\n* Cutting-Edge NFT API Integration: We pride ourselves on providing the best NFT API support, seamlessly integrating with popular communication tools such as Discord, Zendesk, VIP support, Slack, and TG.\n* Powerful Analytics Capabilities: Our platform boasts best-in-class analytics tools, including OLAP statistics and floor price analysis, empowering users with valuable insights into market trends and performance.\n* Unmatched Reliability: We maintain the highest level of reliability, ensuring a remarkable 99.99% uptime for our Protocol, making us the most dependable choice in the market.\n\n## Specifications\nBelow is a detailed breakdown of how the integration will take place and the platforms and technologies that will be used.\n\n### Rarible Protocol: Integrating Arbitrum One\nThe Rarible Protocol is a decentralized toolset that allows developers to build NFT applications. It includes smart contracts, an indexer, an SDK, and APIs. The integration of Arbitrum One into the Rarible Protocol will extend these capabilities to the Arbitrum ecosystem, enhancing its utility and inclusivity.\n\n1. Rarible Arbitrum SDK\n - The Rarible SDK will expedite Arbitrum application development. By extending the SDK to support Arbitrum One, we will provide developers with tools for interacting with smart contracts, supporting NFT operations like minting, transferring, and burning, and integrating with multiple wallets.\n2. Rarible Orderbook & Smart Contracts\n - Our contracts, specifically the Rarible Exchange V2, will be deployed to the Arbitrum chain, granting access to our off-chain order book. Certain actions, such as canceling, confirming, updating, or when price changes occur, are on-chain, but orders are created off-chain.\n3. Rarible Public API\n - With the integration of Arbitrum One, the API will offer extended support for these chains, allowing developers to easily access and interact with NFT data on Arbitrum.\n4. Rarible Arbitrum Indexer\n - Rarible\u2019s multichain indexer will be able to track and record NFT events on Arbitrum, providing developers with a comprehensive view of NFT activities on Arbitrum.\n\n## Steps to Implement\n### Arbitrum One integration into Rarible Protocol\n\nThe first key milestone will be integrating Arbitrum into the Rarible Protocol, which will set the foundation for future milestones involving building NFT applications on Arbitrum.\n\nTasks: Integration of Arbitrum One chain into Rarible Protocol\n\n* Arbitrum API Integration: This task involves integrating the Arbitrum API into the Rarible Protocol API to support Arbitrum One.\n* Node Preparation: A separate node for Arbitrum will be set up for rapid indexing upon approval\n* Contract Deployment: The Rarible Shared NFT, Rarible Factory (for creating collections), and Rarible ExchangeV2 contracts will be deployed to Arbitrum for users to interact with.\n* Orderbook: Rarible\u2019s order book will be able to store listings, orders, and bids made with the Protocol\n* Arbitrum Indexer: Index NFT contracts, ERC-721/1155, ERC-20 tokens, Exchange orders & bids (from Seaport & Rarible).\n* Arbitrum support on Rarible Multichain SDK: This involves adding a new blockchain, connectors to wallets, and ensuring functionality similar to ETH/Polygon.\n* Debugging and Testing: General debugging of all components will be conducted, along with testing on production with OpenSea orders.\n* Build Testnet for Arbitrum: An additional environment for the testnet will be set up, including indexing, reindexing, etc.\n\n## Timeline\n\nThe tentative timeline consists of 7 weeks, 5 of which are the integration phase. If the proposal is approved by early September 2023, the project implementation can be executed in early Q4 2023.\n\n![f2c50222937695d8622cbfc5429a99a48c1efaab_2_1380x274.png](ipfs://bafkreidspk3ghv2f32w5jfvtidmypu32j4pmzyf4lius3zl2nflisd2xsm)\n\n## Overall Cost\n\nAs the integration of the Rarible Protocol and Arbitrum will benefit both ecosystems, we are offering to split the Rarible Protocol integration costs between our two parties with an equal share.\n\nIntegration of Arbitrum One into the Rarible Protocol\n\nDuration: 5 Weeks\n\nCosts: 200,000 $ (Artibtrum portion = 100,000 $)\n\nPayment terms:\n* 50% payable upon proposal approval\n* 50% payable upon completion\n\nThe amount is payable in USDC or ETH.\n\nNote that the Rari Foundation will absorb costs related to the service and maintenance of the Protocol upkeep after the integration implementation.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1692990962,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-building-the-future-of-nfts-the-rarible-protocol-arbitrum-integration-proposal-revised/15615",
+        "end": 1693595762,
+        "flagged": false,
+        "id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "ipfs": "bafkreib7o6kpu2ouyi3kgrahas7axn5d7dlr7pm3brkpbk5dol6dvwmebq",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          107698883.00377052,
+          12753589.954503668,
+          326833.34466538153
+        ],
+        "scores_by_strategy": [
+          [
+            107698883.00377052
+          ],
+          [
+            12753589.954503668
+          ],
+          [
+            326833.34466538153
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 120779306.30293971,
+        "scores_updated": 1693596469,
+        "snapshot": "124919339",
+        "start": 1692990962,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "type": "basic",
+        "updated": null,
+        "votes": 50560
+      },
+      {
+        "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+        "body": "Informational Non-Constitutional AIP\n\n## Abstract\n\nTo optimize time and organization, we propose that all Snapshot voting, that is, Phase 1 (as displayed on our diagram on the details of the proposal below), start on Monday of each week.\n\nThis will be organized as follows:\n\n* 17 Votes for what remains of this 2023 (starting from September)\n* 53 Votes throughout 2024\n\n \n![Pwv_L9X7r2Zs_4OK7spesPWN4GJOFYzlx1Ni-eQUYpgPRWOq_9FHxdmxZm5VJvE_i05jcDemx3lHqisNdV1XFci35fslxQgzn0E2DTqMvsjECRH5mmVlbpSvQyTGoGOqP1kMApGOnBBqDXEQnRBJsrw.png](ipfs://bafybeifjml2bsdnsq4fidkrfkoucmzrks4z2jri5zpuxprgygnxi2a2lxu)\n    \n\n## Motivation\n\nOn April 2nd, the Arbitrum governance presented its first proposal for discussion. Since then, the forum has received about 39 proposals covering a variety of topics and motivations. Although most of these discussions have been managed in an orderly manner, an increase in the volume of daily proposals could lead to the disorganization of the DAO and an overload of work for the voters.\n\nThe order and predictability of the dates aim to make the DAO more efficient without losing its dynamism.\n\n## Justification\n\nWe consider it necessary to establish the basic infrastructure for the DAO. Therefore, we propose an improvement in the scheduling of proposals. As time goes on, we are likely to see more and more proposals being published; this growth in proposals is fundamental for Arbitrum's success, so we must be organized so that the flow of voting and proposal is as clear and simple as possible.\n\n## Details of the Proposal\n\nCurrently, the procedure to bring an AIP to a vote is as follows:\n\n![592b3c93c0daa6161427ffa1a5926933e33dfc76.png](ipfs://bafkreiemrsidr37dngxewbijvpe73vfluchh2clj42wagujei7ec45i5lm)\n    \nA proposal can be sent to Snapshot (by an address with a weighted vote of 0.01%) randomly any day of the week.\n\nWe propose that proposals only be sent to Snapshot every Monday so that the votes start at the beginning of the week. The votes for 1 month would look something like this:\n \n![d3ab2463d208946cc43eda4aa933f9f960f29010.png](ipfs://bafkreibt5u65pugwvi4puf5dr7x4xev5jgavo6wi32edemfusrfhrbgf44)\n    \n## Considerations\n\n* More than one proposal can be sent to Snapshot. This depends on the delegates who pass the proposals to vote.\n* This schedule does not interfere with the Security Council voting process.\n* Proposals should be sent to Snapshots every Monday from 00:00 until 23:59.\n* If a proposal is not sent to Snapshot the Monday after its publication, it can still be sent in the following weeks.\n* There may be some Mondays when there are no proposals to publish.\n* In case the Arbitrum Foundation integrates a Governance Facilitator, this should ensure that the schedule is followed.\n\nWe also have to emphasize that given the nature of onchain governance, this proposal isn\u2019t necessarily binding to delegates - since delegates can still push proposals at any moment, so it simply serves as a recommendation for better organizational practices and forum guidelines, making Arbitrum\u2019s governance more predictable for both contributors and voters.\n\n## Timeline\n\nThis proposal, if accepted, can be implemented the first Monday after it has been approved since it doesn't really require any technical implementations or funding.\n\n## General Cost\n\nThis AIP does not require funds.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1693454451,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-time-management-in-arbitrum-s-governance/15941/1",
+        "end": 1694059250,
+        "flagged": false,
+        "id": "0x5c0cecde14ec0b83c954b47c2d79348ce249019b83894f3938fc80b45e1232da",
+        "ipfs": "bafkreibvnespfriarr4seyp5pck4l3vffrxuosb67uaalbv2d7nqc2ty6u",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x5c0cecde14ec0b83c954b47c2d79348ce249019b83894f3938fc80b45e1232da",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          40735896.10155481,
+          375513.1997078153,
+          1037550.1388892804
+        ],
+        "scores_by_strategy": [
+          [
+            40735896.10155481
+          ],
+          [
+            375513.1997078153
+          ],
+          [
+            1037550.1388892804
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 42148959.440151975,
+        "scores_updated": 1694059682,
+        "snapshot": "126581425",
+        "start": 1693454450,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Time Management in Arbitrum\u2019s Governance",
+        "type": "basic",
+        "updated": null,
+        "votes": 50713
+      },
+      {
+        "author": "0xb29A655f3D67B2B6724Fb22B2C2303cB660c946B",
+        "body": "**Introduction:** This is a vote to elect the Domain Allocator for the Gaming domain within the Arbitrum ecosystem grants run through the Delegated Domain Allocation model. More details around the gaming domain and interested domain allocators can be found [here](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759).\n\n- Time Commitment: 15 hours per week, adjustable based on the volume of proposals.\n- Primary Responsibility: Sourcing, reviewing, funding grant proposals that fall under the gaming domain and sharing the rationale for their decisions on each proposal\n\n**Preferred Credentials:**\n\n- Experience in game development or a deep understanding of the Web3 gaming industry\n\n**Candidates:**\n\n- Jeremy: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/12), [Twitter](https://twitter.com/jerame30)\n- Idea2IDO Investing: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/13), [Twitter](https://twitter.com/idea2ido)\n- Bob Rossi: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/14), [Twitter](https://twitter.com/BobRossiETH)\n- Adam (Flook): [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/17), [Twitter](https://twitter.com/Flook_eth)",
+        "choices": [
+          "Jeremy",
+          "Idea2IDO Investing",
+          "Bob Rossi",
+          "Adam (Flook)"
+        ],
+        "created": 1694021972,
+        "discussion": "",
+        "end": 1694626772,
+        "flagged": false,
+        "id": "0x399ccb013b49076b1ec98dd48fb088c061d3a1db45b528d8854d59c4dabe2336",
+        "ipfs": "bafkreibjww3vp7ismgtrrvr3critluy37iy4mrzpyadduirus2lsyyjmje",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x399ccb013b49076b1ec98dd48fb088c061d3a1db45b528d8854d59c4dabe2336",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          26092572.15299356,
+          795773.8679203837,
+          14281724.398744864,
+          48437820.3762562
+        ],
+        "scores_by_strategy": [
+          [
+            26092572.15299356
+          ],
+          [
+            795773.8679203837
+          ],
+          [
+            14281724.398744864
+          ],
+          [
+            48437820.3762562
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 89607890.79591657,
+        "scores_updated": 1719474502,
+        "snapshot": "128642151",
+        "start": 1694021972,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Domain Allocator Election for the Gaming Domain",
+        "type": "single-choice",
+        "updated": null,
+        "votes": 48711
+      },
+      {
+        "author": "0xb29A655f3D67B2B6724Fb22B2C2303cB660c946B",
+        "body": "**Introduction:** This is a vote to elect the Domain Allocator for the Dev Tooling domain within the Arbitrum ecosystem grants run through the Delegated Domain Allocation model. More details around this domain and interested domain allocators can be found [here](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759).\n\n- Time Commitment: 15 hours per week, adjustable based on the volume of proposals.\n\n**Preferred Credentials:**\n\n- Core contributor to Arbitrum and popular L2s in Web 3\n\nCandidates:\n\n- Juandi: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/8), [Twitter](https://twitter.com/ImJuandi)\n- Hiko: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/36), [Twitter](http://twitter.com/HikoDeFi)\n- Shlok Mange: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/37), [Twitter](https://twitter.com/shlokm289)",
+        "choices": [
+          "Juandi",
+          "Hiko",
+          "Shlok Mange"
+        ],
+        "created": 1694022218,
+        "discussion": "",
+        "end": 1694627017,
+        "flagged": false,
+        "id": "0x6a578c12950f9367d2530b0324f06835bf9df5b957adcfe2bce1a240dcc09ae4",
+        "ipfs": "bafkreibpl6ofgwrfwgafrpgaorodcllenpccpgmwjbwo6znlyhxln5hdxi",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x6a578c12950f9367d2530b0324f06835bf9df5b957adcfe2bce1a240dcc09ae4",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          55381871.53351163,
+          27239748.18773291,
+          590706.6340536049
+        ],
+        "scores_by_strategy": [
+          [
+            55381871.53351163
+          ],
+          [
+            27239748.18773291
+          ],
+          [
+            590706.6340536049
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 83212326.3552984,
+        "scores_updated": 1719474495,
+        "snapshot": "128642925",
+        "start": 1694022217,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Domain Allocator Election for the Dev Tooling Domain",
+        "type": "single-choice",
+        "updated": null,
+        "votes": 48404
+      },
+      {
+        "author": "0xb29A655f3D67B2B6724Fb22B2C2303cB660c946B",
+        "body": "**Introduction:** This is a vote to elect the Domain Allocator for the New Protocol Ideas domain within the Arbitrum ecosystem grants run through the Delegated Domain Allocation model. More details around this domain and interested domain allocators can be found [here](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759).\n\n- Time Commitment: 15 hours per week, adjustable based on the volume of proposals.\n\n**Preferred Credentials:**\n\n- Core contributor to Arbitrum protocol\n\nCandidates:\n\n- Jojo: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/2), [Twitter](https://twitter.com/jojo17568)\n- Ceazor: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/6), [Twitter](https://twitter.com/Ceazor7)\n- Matt (StableLabs): [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/11), [Twitter](https://twitter.com/StableLab)\n- McFly: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/25), [Twitter](https://twitter.com/0xmcflyeth)\n- Blocktools: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/28), [Twitter](http://www.twitter.com/blocktoolbox)\n- Marc (blockshard): [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/29), [Twitter](https://twitter.com/BumpyTale)\n- Zer8: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/31), [Twitter](https://twitter.com/zer8_future)\n- Jonas: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/32), [Twitter](https://twitter.com/jooooo5as)\n- Apoorv Anand: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/38), [Twitter](https://twitter.com/Apoorvanand99)",
+        "choices": [
+          "Jojo",
+          "Ceazor",
+          "Matt (StableLabs)",
+          "McFly",
+          "Blocktools",
+          "Marc (Blockshard)",
+          "Zer8",
+          "Jonas",
+          "Apoorv Anand"
+        ],
+        "created": 1694022495,
+        "discussion": "",
+        "end": 1694627294,
+        "flagged": false,
+        "id": "0xfa78979a7afa0b0df5c885ebf3a0d46c3676152c6c95b482ed9e91c2ed2dcca5",
+        "ipfs": "bafkreify7zmys3g7dt437c3ermqmpe7xhqn3ljzdjwq7rex6kpfdflbihy",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xfa78979a7afa0b0df5c885ebf3a0d46c3676152c6c95b482ed9e91c2ed2dcca5",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          57964352.892102234,
+          1004403.6875868916,
+          45147948.328126274,
+          745270.2606302015,
+          189100.0387321559,
+          255592.53153481704,
+          114897.89931475864,
+          139801.7813851954,
+          109112.54888953811
+        ],
+        "scores_by_strategy": [
+          [
+            57964352.892102234
+          ],
+          [
+            1004403.6875868916
+          ],
+          [
+            45147948.328126274
+          ],
+          [
+            745270.2606302015
+          ],
+          [
+            189100.0387321559
+          ],
+          [
+            255592.53153481704
+          ],
+          [
+            114897.89931475864
+          ],
+          [
+            139801.7813851954
+          ],
+          [
+            109112.54888953811
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 105670479.96830286,
+        "scores_updated": 1719474482,
+        "snapshot": "128643808",
+        "start": 1694022494,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Domain Allocator Election for the New Protocol Ideas Domain",
+        "type": "single-choice",
+        "updated": null,
+        "votes": 48444
+      },
+      {
+        "author": "0xb29A655f3D67B2B6724Fb22B2C2303cB660c946B",
+        "body": "**Introduction:** This is a vote to elect the Domain Allocator for the Education, Community Growth and Events domain within the Arbitrum ecosystem grants run through the Delegated Domain Allocation model. More details around this domain and interested domain allocators can be found [here](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759).\n\n- Time Commitment: 15 hours per week, adjustable based on the volume of proposals.\n\n**Preferred Credentials:**\n\n- Experience in builder community growth and technical bootcamps\n\nCandidates:\n\n- Jengajojo: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/4), [Twitter](https://twitter.com/jengajojo),\n- Oyeniyi Abiola Peace: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/5), [Twitter](https://twitter.com/_iamoracle)\n- Steve: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/10), [Twitter](https://twitter.com/happyutok)\n- Dumbird: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/15), [Twitter](https://twitter.com/realdumbird)\n- Cattin(SEED Latam): [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/16), [Twitter](https://twitter.com/Cattin0x)\n- Raj: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/19), [Twitter](http://twitter.com/rajkaria_)\n- Shreddy: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/30), [Twitter](https://twitter.com/shreddydefi)\n- Vardhanam (The Other DAO): [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/33), [Twitter](https://twitter.com/vardhanam_eth)\n- Zer8: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/31), [Twitter](https://twitter.com/zer8_future)\n- Jonas: [Application](https://forum.arbitrum.foundation/t/arbitrum-dao-grants-domain-allocator-nominations/15759/32), [Twitter](https://twitter.com/jooooo5as)",
+        "choices": [
+          "Jengajojo",
+          "Oyeniyi Abiola Peace",
+          "Steve",
+          "Dumbird",
+          "Cattin (SEED Latam)",
+          "Raj",
+          "Shreddy",
+          "Vardhanam (The Other DAO)",
+          "Zer8",
+          "Jonas"
+        ],
+        "created": 1694022780,
+        "discussion": "",
+        "end": 1694627579,
+        "flagged": false,
+        "id": "0x84e841ad47a5ac7eae2c8ee87c05abc381f8e724598d939ae67060487268304f",
+        "ipfs": "bafkreifu26eqfidtlcim46gqeavcplri43k67m7ixjdpqp5z26oobnbo44",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x84e841ad47a5ac7eae2c8ee87c05abc381f8e724598d939ae67060487268304f",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          1042747.1057584172,
+          261059.6580321866,
+          383098.37672500167,
+          15520643.15022453,
+          52123104.816608146,
+          215494.6666204972,
+          38176870.64882928,
+          1520098.1678475044,
+          696506.961489537,
+          623504.838103533
+        ],
+        "scores_by_strategy": [
+          [
+            1042747.1057584172
+          ],
+          [
+            261059.6580321866
+          ],
+          [
+            383098.37672500167
+          ],
+          [
+            15520643.15022453
+          ],
+          [
+            52123104.816608146
+          ],
+          [
+            215494.6666204972
+          ],
+          [
+            38176870.64882928
+          ],
+          [
+            1520098.1678475044
+          ],
+          [
+            696506.961489537
+          ],
+          [
+            623504.838103533
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 110563128.39023991,
+        "scores_updated": 1719474458,
+        "snapshot": "128644783",
+        "start": 1694022779,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Domain Allocator Election for the Education, Community Growth and Events Domain",
+        "type": "single-choice",
+        "updated": null,
+        "votes": 49001
+      },
+      {
+        "author": "0xF92F185AbD9E00F56cb11B0b709029633d1E37B4",
+        "body": "Note: This proposal has been posted on behalf of the Arbitrum Incentives Working Group as a result of multiple community calls and workshops between multiple stakeholders. It does not exclude external incentive proposals from outside of the proposed structure.*\n\n**Abstract**\nThis proposal outlines a one-time, community-created program to distribute up to 75,000,000 ARB of DAO-funded incentives targeting active Arbitrum protocols. Aimed at fulfilling short-term community needs, the program plans to allocate DAO-owned ARB towards incentives while ensuring transparent consensus and distribution methods. It spans two voting rounds and provides incentives to eligible programs designed to fund incentives through the January 31, 2024. It asks all participating grantees to self report data, and dashboards, summarizing grant performance.\n\n**Motivation**\nThis provisional framework aims to distribute incentives fairly and effectively using transparent criteria agreed upon by the community, while a thorough system is developed (1 19, 2 7, 3 4, 4 5).\nThe goals of the program are to:\n\u2022\tSupport Network Growth: Accelerate the distribution of incentives to Arbitrum dApps to drive network and ecosystem growth.\n\u2022\tExperiment with Incentive Grants: Experiment with grant distribution to uncover new incentive strategies that increase user engagement and increase volume, transactions, and liquidity in the Arbitrum ecosystem.\n\u2022\tFind new models for grants and developer support that generate maximum activity on the Arbitrum network.\n\u2022\tCreate Incentive Data: Generate data on the efficacy of distributed grants to inform future incentive programs and incentive design.\n\n**Rationale**\nBy incentivizing the use of existing Arbitrum dApps through this proposal, we anticipate increased volume, transactions, users, and liquidity, laying the groundwork for a dynamic ecosystem. While the proposal acts as an experimental program, its primary goal is to ensure basic safeguards while promoting innovative incentive strategies.\n\nGiven that this proposal aims to be a one-time, short term incentive distribution, it lacks the accountability and operational rigor that a full program may provide. As such, we encourage protocols to consider that the use of funds will be both evaluated, and monitored by the community. Any misbehavior, or failure to comply with grant requests will likely result in ineligibility, or at the very least significant discernment, in future incentive or grant programs.\n\n**Specifications**\nThe Arbitrum Short-Term Incentive Program will comprise up to a 75,000,000 ARB budget earmarked for incentive grants for eligible protocols. In order to expedite the distribution of this capital to the ecosystem, the DAO will adopt a bifurcated process comprising two separate processes: the Financial Proposal and Application Process.\n\n**Steps to Implement**\n \n![8b05a5d34faf8659a144f1d35081a89ae83e237e.png](ipfs://bafkreiaizvrpzwo5bn6lxl5ikdywhfakyphtdukgkywpuzpvlrokaaj2oe)\n     \nFollowing a successful Snapshot Temperature Check, the DAO will launch an expedited application and review process, allowing applicants to apply for grants concurrent with the on-chain vote to distribute DAO funds from the treasury.\n\nThe Snapshot Temperature Check will be designed to both achieve consensus and approve funding across four options, where each vote will distinguish support of up to X ARB through the end of January 31, 2024:\n\u2022\tFor up to **25M ARB** through January 31, 2024.\n\u2022\tFor up to **50M ARB** through January 31, 2024.\n\u2022\tFor up to **75M ARB** through January 31, 2024.\n\u2022\tAgainst.\n\n**Financial Proposal**\nThe Financial Proposal will comprise the following:\n\u2022\tA ratification of the Arbitrum Short-Term Incentive Program and application template 37 as articulated in this document.\n\u2022\tApproval of the eligibility criteria, grant budget parameters, distribution strategy, and evaluation requirements.\n\u2022\tA 25,000,000, 50,000,000 or 75,000,000 ARB distribution to the program Multisig.\n\u2022\tA 32,000 ARB operational budget for community/project facilitation.\no\t20,000 ARB to @tnorm as retroactive payment for conducting community moderation:\n\uf0a7\tDraft and review of multiple iterations of incentive proposals.\n\uf0a7\tModeration of community calls and working group telegram.\n\uf0a7\tCoordination individually across dozens of stakeholders and community members over the past three weeks.\no\t12,000 ARB Multisig Signers (A new version of the PL-ARB Grants Safety Multisig 17 - 2K per signer).\n\n**Multisig Setup**\nA new multisig will be created with the signers from the original pl-ARB multisig, under the name of the Arbitrum DAO. The new multisig will include two features to ensure accountability of signers and grantees:\n\n1.\tClawback capability so the DAO can retrieve funds if the multisig violates the agreement.\n2.\tStreaming of funds to grantees every second week for the grants duration using Hedgey. This allows for the halting of funds if misuse is discovered with the goal to stop bad actors, not punish bad designs.\n\n**What are the Eligibility Requirements?**\n\nGrant Requirements:\n\u2022\tGrantees are required to keep distributions in ARB without converting to other assets.\n\u2022\tGrantees must not farm their own incentive programs.\n\u2022\tGrantees must outline a spending plan, provide a pro forma, and state the grant\u2019s objective.\n\u2022\tGrantees must commit to providing data on distributions, all ARB spending transactions, and key metrics like daily TVL, transactions, volumes, unique addresses, and transaction fees. This data should cover 30 days before, during, and after the Incentivization period, and be presented preferably in a Dune Spell/dashboard or alternatively in a report.\n\u2022\tGrantees must agree to share all contract addresses being used to distribute incentive rewards.\n\u2022\tGrantees must disclose the contracts being incentivized and denote any external contracts being incentivized as part of the program.\n\u2022\tGrantees can only incentive contracts on the Arbitrum Network.\n\u2022\tGrants are not to be used in DAO governance.\n\u2022\tGrantees are expected to not encourage or partake in sybil attacks against the forum to sway community opinion.\n\u2022\tGrantees must agree to KYC with the Arbitrum Foundation in order to receive funds.\n\u2022\tGrantees must apply using the approved program application template 15.\n\nBy streaming grant payments, the multisig will be empowered to hold grantees accountable to their proposals by halting fund streaming for any of the following reasons:\n\n\u2022\tAny use of funds not explicitly described in the grantees application.\n\u2022\tFailure to comply with data reporting standards.\no\tGrantee recipients will be required to provide Dune dashboards uploaded and posted to the forum by eligible teams by December 15, 2023.\n\u2022\t\u2022\tDashboard requirements are: Daily TVL, transactions, volumes, unique addresses, and transaction fees for incentivized protocols. This data should cover 30 days before, during, and after the Incentivization period. If a metric does not apply, or this is not achievable, it should be noted in the application.\n\u2022\t\u2022\tMore granular dashboards (including pool-level and user analysis) will be noted by the community for future programs.\no\tIf dashboards are not posted by this date, the multisig will be empowered to halt incentive funding streams for protocols at their discretion.\nIn that this proposal aims to be experimental, the multisig is not intended to provide quality control on the design of incentive programs. Rather, they are empowered to halt streaming in the event of negligence or misuse of funds.\n\n**Eligibility and Evaluation Guidelines**\nGrants span two award cycles, but projects can only be awarded once. Projects rejected in the first cycle are invited to address delegate/community feedback and reapply for the second cycle.\nProtocols can submit grant applications for amounts they feel appropriate. While there\u2019s no ARB limit, delegates and voters will assess each grant individually.\nAs such, the Arbitrum Working Group has included four grant categories, as well as some recommended metrics by which the community might consider evaluating the grants:\n\n\u2022\t**Beacon Grants (<= 200K ARB)**\no\tRecommendations:\n\uf0a7\tLive on Arbitrum for at least 2 months.\n\uf0a7\tMeets one of the following criteria:\n\uf0a7\t.> $1.5M TVL.\n\uf0a7\t.>$2M 30D cumulative Volume.\n\n\u2022\t**Siren Grants (Up to 750K ARB)**\no\tRecommendations:\n\uf0a7\tLive on Arbitrum for at least 4 months.\n\uf0a7\tMeets one of the following criteria:\n\uf0a7\t.> $4M TVL.\n\uf0a7\t.>$40M 30D cumulative Volume.\n\n\u2022\t**Lighthouse Grants* (Up to 2M ARB)**\no\tRecommendations:\n\uf0a7\tLive on Arbitrum for at least 6 months.\n\uf0a7\tMeets one of the following criteria:\n\uf0a7\t.> $15M Arbitrum Network TVL.\n\uf0a7\t.> $100M 30D cumulative Volume.\n\n\u2022\t**Pinnacle Grants* (> 2M ARB)**\no\tRecommendations:\n\uf0a7\tLive on Arbitrum for at least 12 months\n\uf0a7\tMeets one of the following criteria\n\uf0a7\t.> $30M Arbitrum Network TVL\n\uf0a7\t.> $200M 30D cumulative volume\n\n*Grants greater than $1M ARB will be asked to include milestone-based funding tranches in their application.\n\nOne could reasonably use the date of publication for this proposal to inform these metrics.\n\n**Steps to Implement (How does the DAO Approve Grants)?**\nGrants will be approved via a three week process across two cycles.\n\nCycle 1\n1.\tApplication Period (1 Week):\nDuring the Application Stage of the program, eligible protocols will be invited to post proposals in the \u201cIncentive Grant Applications\u201d Category of the Arbitrum Forum using the official Application Template 20.\nOnce posted, the community may provide feedback on the proposal through the end of the Review Period.\n\n2.\tReview Period (1 Week):\nDelegates and network stakeholders will be asked to provide feedback on grant applications upon each specific forum post. Delegates should engage with the goal of ensuring the responsible use of funds. This means an application should represent a comprehensive strategy for incentive distribution, align with the program goals and requirements, and present their plan to adhere to the aforementioned data standards.\nApplicants are expected to adjust, amend, and update their proposals in line with community feedback over this time period. Due to the accelerated timeline of the program, feedback and communication between delegates and applicants will be critical.\n\n3.\tVoting Period (1 Week):\nA delegate will sponsor the proposal throughout the governance process for each grant application. ARB holders and ARB delegates will be invited to vote on each submitted proposal via Snapshot Poll.\nTo succeed, eligible applications must receive a greater than 50% majority in favor of the proposal, and receive greater than 71.51 million ARB in favor of the application. If successful, applicants will coordinate with the Arbitrum Foundation and the PL-ARB multisig to secure the completion of KYC, and receive funding to the address included in their application.\n\nCycle 2\nRepeat the process outlined in Cycle 1, with the exception that the review period for the second round will comprise a 2 week review period.\n\n**Timeline**\n[See image above]\nSep. 01, 2023 - Forum Post\nSep. 09, 2023 - Snapshot Vote Begins\n\nCycle 1\nSep. 16, 2023 - On-Chain Vote and Application Period\nSep. 23, 2023 - Review Period Begins\nSep. 30, 2023 - Voting Round Begins\nOct. 07, 2023 - Funds Distributed\n\nCycle 2\nOct 07, 2023 - Application Period 2 Begins\nOct 14, 2023 - Review Period 2 Begins\nOct 28, 2023 - Voting Round 2 Begins\nNov. 04, 2023 - Funds Distributed\n\n**Overall Cost**\nUp to 75,032,000 ARB.\n\n**Outstanding Questions and Concerns**\n\nWhat happens if the budget is exceeded?\nWe do not expect applications to exceed the funding budget of 75M ARB. However, if requested grants do exceed the allocated budget, funding will be allocated on a first-come, first-serve basis dependent upon the time the proposal was submitted to the Arbitrum Forum. In the event that the budget is exceeded, the DAO may choose to unlock further funds for a third round, or backfund successful incentive proposals.\n\nWhat will happen to excess funds?\nFollowing Cycle 2, excess funds remaining in the multisig will be returned to the Arbitrum Treasury address by the multisig.\n\nWhat is the plan after the Short Term Incentive Program?\nThe Short Term Incentive Program is designed specifically as a one-time program, with the intention of allowing incentives while the DAO designs a more robust, sustainable program in the months throughout the end of the year.\nAt the end of the year, if there is no program in place, protocols can put forth direct votes to on-chain governance to extend their programs. This program offers an opportunity for participating protocols to demonstrate mission-aligned conduct as justification for future funding.\n\nWhat are the specific KPIs for this program - what determines its success?\n\u2022\tCommunity Support: The primary KPI for this proposal is aligning with both delegates and protocols to agree on the distribution of funds through the end of 2023, with an agreement to work towards a more efficient, comprehensive, and effective program in 2024.\n\u2022\tNetwork Activity: An increase in network metrics such as TVL, Volume, Users and Transactions on the incentivized protocols in addition to an increase in general network activity.\n\u2022\tCommunity Awareness: Raised awareness, collaboration, and understanding of incentive distribution strategies and tactics.\n\u2022\tIncentives Data: Increased data on incentives, grants, and protocol behavior to inform future Arbitrum incentive programs and iterations.\n\n**Forum Link **\n\nThis snapshot is replication of the forum post. The forum post includes link to various reference material, forms, etc... which can be reviewed on the link below \n\nhttps://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131/",
+        "choices": [
+          "Up to 25M ARB through Jan 2024",
+          "Up to 50M ARB through Jan 2024",
+          "Up to 75M ARB through Jan 2024",
+          "Against"
+        ],
+        "created": 1694404708,
+        "discussion": "https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131/",
+        "end": 1695009508,
+        "flagged": false,
+        "id": "0x5e0057920df9a278918e4de4ee1e6de7e2415d2af985e40a6c7a1a4b47a4ce01",
+        "ipfs": "bafkreig7rt4q3ipau7efw6gn532tpzjdolsuhnfatqekfst2cldupwj2tm",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x5e0057920df9a278918e4de4ee1e6de7e2415d2af985e40a6c7a1a4b47a4ce01",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          62609699.07880869,
+          119918144.1295113,
+          0,
+          0
+        ],
+        "scores_by_strategy": [
+          [
+            62609699.07880869
+          ],
+          [
+            119918144.1295113
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 182527843.20832,
+        "scores_updated": 1695009521,
+        "snapshot": "129991563",
+        "start": 1694404708,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Arbitrum Short-term incentive Program",
+        "type": "ranked-choice",
+        "updated": null,
+        "votes": 35455
+      },
+      {
+        "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+        "body": "### Abstract:\nEthereum Mexico is a driving force for Ethereum growth in Mexico, educating individuals on blockchain technology and promoting Ethereum values. Serving as a link between the Ethereum community, the Ethereum Foundation, and Mexico\u2019s local communities.\nOur organization offers IRL Meetups, Twitter Spaces, Workshops, and educational content. One of their major 2023 initiatives is a large event in Mexico City, set for October 21st, expecting over 800 attendees. This event aims to foster education and innovation within the Ethereum community.\nHaving engaged in events like, ETHMexico, #RoadToDevcon and EthLATAM since June 2022, Ethereum Mexico wants to move beyond just market talk and truly display Ethereum\u2019s transformative power.\n\nTo gain insights into our previous achievements, please review our metrics here: [Ethereum M\u00e9xico comunidad - Google Slides](https://docs.google.com/presentation/d/1dZMfscIjI2z48pGkG3Lr_IyqpX-ONcfqUy7f7ddPbf4/edit)\n\n### Motivation:\nThe project is fueled by a pressing need to fill the educational and resource gap in Mexico concerning Ethereum and blockchain technology. It aims to create a more inclusive and diverse Ethereum community in Mexico, thereby contributing to the global Ethereum ecosystem. Ethereum Mexico is not just another crypto initiative; it\u2019s a mission-driven project that focuses on real-world impact. Far from falling into speculative conversations, it aims to educate people about the transformative power of Ethereum as public infrastructure.\n\n### Primary Objectives:\n\n* To educate individuals about the safe and effective use of blockchain technology, focusing on the Ethereum ecosystem.\n* To disseminate the core values and tools of Ethereum and Web3 to a broader audience.\n* To provide unwavering support and assistance to local communities in conceptualizing, building, and scaling Ethereum-related projects.\n* Establishing strong collaborations with the Arbitrum Foundation and other key stakeholders in the Ethereum ecosystem.\n\n### Format of the event:\nOur one-day event will feature a diverse range of talks, workshops, and community showcases. With its significance in the local Web3 scene, we anticipate the event will generate substantial activity in Mexico City, including various side events. Leading up to the main event, we will also host multiple gatherings in different cities to foster networking among local communities.\n\n### Expected Audience:\n\n* Developers\n* End users\n* Potential contributors\n\n### Confirmed Sponsors:\n\n* Ethereum Foundation\n* Ledger\n* Metapool\n* Liquity\n\n### Deliverables:\n\n1. Registration area branding\n1. Logo present in event artwork\n1. Press release mention\n1. Social Media announcement\n1. Metallic stickers of your logo\n1. Talk about Arbitrum\u2019s technology, roadmap, and real-world applications\n1. Logo during streaming breaks\n1. Booth of 2x1.5 meters / On-site activation\n1. Workshop\n1. 1 Follow up support virtual session after the event\n1. 1 dedicated IRL event about your project to the community, devs and builders in M\u00e9xico City before or after the event for 30+ people.\n1. 2 scholarships for builders to attend the event (open to individuals within the national territory) + Twitter Post\n\n\n### Details about Scholarships:\nWe will open applications for scholarships to individuals within the national territory, covering accommodation and transportation expenses. Selection will be based on applicants\u2019 interest in building, prior contributions, and background.\n\n### Details about IRL Event in Mexico City:\nThis post-event IRL gathering in Mexico City will provide a platform for Arbitrum to engage with the community, including talks, panels, or workshops, accompanied by a coffee station.\n\n### Ticket Pricing and Courtesies:\nWe aim to keep ticket prices for the core event below $12 to ensure accessibility. A limited amount of merchandise will be available for purchase through pre-orders only, with around 200 tickets provided for free to select communities and students.\n\n### Reporting and Metrics:\nEngagement at Arbitrum booth:\nMinimum: 30-49 meaningful conversations about Arbitrum.\nExpected: 50-99 meaningful conversations about Arbitrum.\nExceeded: +100 meaningful conversations about Arbitrum.\nSource: Tracking of POAP received by individuals after engaging with Arbitrum.\n\nAttendance at Arbitrum workshop:\nMinimum: 15-29 attendees at Arbitrum workshop.\nExpected: 30-39 attendees at Arbitrum workshop.\nExceeded: +40 attendees at Arbitrum workshop.\nSource: POAP to participants after they complete the Arbitrum workshop.\n\nStreaming views during Arbitrum talk:\nMinimum: 700-999 views/streams during the talk.\nExpected: 1,000-2,999 views/streams during the talk.\nExceeded: +3,000 views/streams during the talk.\nSource: View counts will be monitored on our YouTube channel.\n\nAttendance at in-person (IRL) event about Arbitrum:\nMinimum: 15-29 attendees at IRL events.\nExpected: 30-49 attendees at IRL events.\nExceeded: +50 attendees at IRL events.\nSource: Attendance data will be collected and verified through the issuance of POAP to event attendees.\n\nTestimonial from scholarships\nSource: 1-3 min. recording of scholars sharing their experiences.\n\n---\n\n### Budget and Timeline:\n\n**Budget: 9483 ARB**\nBreakdown:\nRegistration area branding: 415\nLogo in event artwork: 415\nPress release mention: 237\nSocial Media Announcements: 355\nMetallic Stickers of Arbitrum Logo: 237\nTalk & Logo during Streaming Breaks: 1781\nBooth / On-site activation: 1781\nWorkshop focused on the Arbitrum Ecosystem: 1184\n1 Follow-up Support Virtual Session: 592\n1 dedicated IRL event about Arbitrum: 1184\n2 Scholarships: 1184 (592 each)\nTwitter Post: 118\n\n### Timeline:\nMilestone 1: Pre-Event Activation (Depending on Governance Process)\nContract finalization\nPreparation of marketing materials, including press releases, social media announcements, and branding materials\nMilestone 2: Event Execution (Q4 2023)\nOn-site activation, including Registration area branding, booth set-up, and social media promotions\nWorkshops, Talks, and other Interactive Sessions\nCollect metrics for reporting and tracking\nMilestone 3: Post-Event Follow-up (within 1 month after the event)\n1 follow-up support virtual session\n1 dedicated IRL event about Arbitrum in M\u00e9xico City\nFinal report and metrics evaluation\nTestimonial collections\n\n### Team:\nBricia Guzman: Bachelor in Public Accounting, Project Manager at General Magic, Co-Founder of Ethereum M\u00e9xico, and Optimism Delegate.\nAnaTech_eth: Community Manager Arbitrum Foundation.\nCo Founder and volunteer to Ethereum Mexico in free time.\nAriiellus: Bachelor in Mechanical and Electric Engineering, Project Management Specialist by Platzi, Token Engineer by TEA, Game Theory Course by Stanford University. Founder of Kairos Research and Co-Founder of Ethereum Mexico.\nFacunar97: Bachelor Degree in Business Administration, Researcher/Analyst at Espacio Cripto, and Co-founder and Content Lead for Ethereum Mexico.\nAcidlazzer: Animation and Visual Effects Engineer at the Universidad Politecnica de Sinaloa, visual artist specialized in the musical area, graphic designer, and project manager for multiple Web3 organizations.\nDmars300: Founder & CEO @Cryptoversidad, Sponsors relations @Ethereum Mexico.\n0xyNaMu: Experienced impact evaluation specialist with a background in public policy consulting and FinTech. She co-founded IEF and WAGMI LATAM, and is a Governor at HER LATAM. LauNaMu has been active in the web3 space since 2021, advising emerging projects on on-chain data strategies for effective impact measurement and ecosystem positioning.\nChuy Garc\u00eda: Film and music industries in M\u00e9xico, event planning and community building.\nKaren84.crypto: Master\u2019s degree in law, blockchain consultant and regulator, personal finance coach, Web3 educator, writer, and speaker, member of Naci\u00f3n Bankless committee, Ethereum M\u00e9xico core team member, and founder of B\u00faho Financiero.\n\n*We believe that together, we can propel Ethereum to new heights in Mexico. Your support is invaluable, and we look forward to realizing our shared vision. Thank you so much.*",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1695644253,
+        "discussion": "https://forum.arbitrum.foundation/t/proposal-arbitrum-as-official-sponsor-of-ethereum-mexico-2023/16279/17?u=cattin",
+        "end": 1696249052,
+        "flagged": false,
+        "id": "0x6fc671517d63e69232fafd581e9461c50150008aa61f5571d2767a150d24779c",
+        "ipfs": "bafkreiecofva2qhbrc4jy7dtrdsthmoxfb7dba7k7mgdbxbzmkmae5ncc4",
+        "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x6fc671517d63e69232fafd581e9461c50150008aa61f5571d2767a150d24779c",
+        "network": "42161",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          33993644.35347335,
+          18639075.592859868,
+          696226.9862036847
+        ],
+        "scores_by_strategy": [
+          [
+            33993644.35347335
+          ],
+          [
+            18639075.592859868
+          ],
+          [
+            696226.9862036847
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 53328946.932540245,
+        "scores_updated": 1696249887,
+        "snapshot": "134456934",
+        "start": 1695644252,
+        "state": "closed",
+        "symbol": "ARB",
+        "title": "Arbitrum as official sponsor of Ethereum Mexico 2023",
+        "type": "single-choice",
+        "updated": null,
+        "votes": 53609
+      }
     ]
-}
+  }
