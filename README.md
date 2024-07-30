@@ -19,9 +19,9 @@ For detailed instructions on both steps, refer to [Instructions.md](instructions
 
 For further assistance or questions, feel free to reach out to the community or the DAOstar support team.
 
-Contact: rashmi@daostar.org
-Telegram: [https://t.me/+3gf-K5c2iDllOGZl](https://t.me/+3gf-K5c2iDllOGZl)
-Documentation: https://docs.daostar.org/
+- Contact: rashmi@daostar.org
+- Telegram: [https://t.me/+3gf-K5c2iDllOGZl](https://t.me/+3gf-K5c2iDllOGZl)
+- Documentation: https://docs.daostar.org/
 
 
 
