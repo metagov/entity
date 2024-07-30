@@ -40,6 +40,7 @@
 
 1. **Commit the File**:
    - Once the JSON file is populated, commit the changes with a meaningful message, e.g., `Initial commit of DAO URI`.
+
      ```sh
      git commit -m "Initial commit of DAO URI"
      ```
