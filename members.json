@@ -1,9 +1,12 @@
 {
-  "@context": "<http://www.daostar.org/schemas>",
+  "@context": "https://www.daostar.org/schemas",
+  "type": "DAO",
   "members": [
-    {
-        "type": "EthereumAddress",
-        "id": "0x977841f226482F7938e179f6Fc6F45c175252114"
-    }
+      {
+          "id": "<CAIP-10 address, DID address, or other URI identifier>"
+      },
+      {
+          "id": "<CAIP-10 address, DID address, or other URI identifier>"
+      }
   ]
 }
