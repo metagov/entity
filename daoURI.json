@@ -8,5 +8,5 @@
   "issuersURI": "https://www.optimism.io/",
   "activityLogURI": "https://gov.optimism.io/",
   "governanceURI": "https://community.optimism.io/docs/governance/",
-  "contractsRegistryURI": "https://raw.githubusercontent.com/metagov/daostar/main/contractRegistryURI/opcollective.json",
+  "contractsRegistryURI": "https://raw.githubusercontent.com/metagov/daostar/main/contractRegistryURI/opcollective.json"
 }
