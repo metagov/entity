@@ -1,225 +1,355 @@
 {
-    "@context": "https://www.daostar.org/schemas",
+    "@context": "http://www.daostar.org/schemas",
+    "type": "DAO",
+    "name": "Optimism Collective",
     "contracts": [
-        {
-            "id": "arb-one:42161:0x912CE59144191C1204E64559FE8253a0e49E6548",
-            "name": "$ARB Token",
-            "description": "Primary token for Arb One"
-        },
-        {
-            "id": "ethereum:1:0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1",
-            "name": "$ARB Token (bridged)",
-            "description": "Bridged token on Ethereum"
-        },
-        {
-            "id": "nova:42170:0xf823C3cD3CeBE0a1fA952ba88Dc9EEf8e0Bf46AD",
-            "name": "$ARB Token (bridged)",
-            "description": "Bridged token on Nova"
-        },
-        {
-            "id": "arb-goerli:421613:0xF861378B543525ae0C47d33C90C954Dc774Ac1F9",
-            "name": "$ARB Token (testnet)",
-            "description": "Testnet token on Arb Goerli"
-        },
-        {
-            "id": "arb-one:42161:0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9",
-            "name": "Token Distributor",
-            "description": "Contract for distributing tokens on Arb One (self-destructed)"
-        },
-        {
-            "id": "arb-one:42161:0xF3FC178157fb3c87548bAA86F9d24BA38E649B58",
-            "name": "DAO Treasury",
-            "description": "Treasury for Arb DAO on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0x15533b77981cDa0F85c4F9a485237DF4285D6844",
-            "name": "Foundation Vesting Budget Wallet",
-            "description": "Vesting budget wallet on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0xCaD7828a19b363A2B44717AFB1786B5196974D8E",
-            "name": "$ARB Gateway (Arb1)",
-            "description": "Gateway contract on Arb One"
-        },
-        {
-            "id": "ethereum:1:0xbbcE8aA77782F13D4202a230d978F361B011dB27",
-            "name": "$ARB Gateway (L1)",
-            "description": "Gateway contract on Ethereum"
-        },
-        {
-            "id": "nova:42170:0xbf544970E6BD77b21C6492C281AB60d0770451F4",
-            "name": "$ARB Gateway (Nova)",
-            "description": "Gateway contract on Nova"
-        },
-        {
-            "id": "arb-goerli:421613:0x584d4D9bED1bEb39f02bb51dE07F493D3A5CdaA0",
-            "name": "$ARB Gateway (L2 testnet)",
-            "description": "Gateway contract on Arb Goerli"
-        },
-        {
-            "id": "goerli:5:0x33A7991a70AD174822ddfa2618Df9C8f17c04563",
-            "name": "$ARB Gateway (L1 testnet)",
-            "description": "Gateway contract on Goerli"
-        },
-        {
-            "id": "arb-one:42161:0xf07DeD9dC292157749B6Fd268E37DF6EA38395B9",
-            "name": "Core Governor",
-            "description": "Core governor contract on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0x789fC99093B09aD01C34DC7251D0C89ce743e5a4",
-            "name": "Treasury Governor",
-            "description": "Treasury governor contract on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0xCF57572261c7c2BCF21ffD220ea7d1a27D40A827",
-            "name": "Arb One Upgrade Executor",
-            "description": "Upgrade executor for Arb One"
-        },
-        {
-            "id": "nova:42170:0x86a02dD71363c440b21F4c0E5B2Ad01Ffe1A7482",
-            "name": "Nova Upgrade Executor",
-            "description": "Upgrade executor for Nova"
-        },
-        {
-            "id": "ethereum:1:0x3ffFbAdAF827559da092217e474760E2b2c3CeDd",
-            "name": "L1 Upgrade Executor",
-            "description": "Upgrade executor for Ethereum"
-        },
-        {
-            "id": "arb-one:42161:0x34d45e99f7D8c45ed05B5cA72D54bbD1fb3F98f0",
-            "name": "L2 Core Timelock",
-            "description": "Core timelock on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0xbFc1FECa8B09A5c5D3EFfE7429eBE24b9c09EF58",
-            "name": "L2 Treasury Timelock (ETH treasury)",
-            "description": "Treasury timelock on Arb One"
-        },
-        {
-            "id": "ethereum:1:0xE6841D92B0C345144506576eC13ECf5103aC7f49",
-            "name": "L1 Timelock",
-            "description": "Timelock on Ethereum"
-        },
-        {
-            "id": "arb-one:42161:0x423552c0F05baCCac5Bfa91C6dCF1dc53a0A1641",
-            "name": "Security Council (Arb One, emergency)",
-            "description": "Emergency security council on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0xADd68bCb0f66878aB9D37a447C7b9067C5dfa941",
-            "name": "Security Council (Arb One, non-emergency)",
-            "description": "Non-emergency security council on Arb One"
-        },
-        {
-            "id": "ethereum:1:0xF06E95eF589D9c38af242a8AAee8375f14023F85",
-            "name": "Security Council (L1, emergency)",
-            "description": "Emergency security council on Ethereum"
-        },
-        {
-            "id": "nova:42170:0xc232ee726E3C51B86778BB4dBe61C52cC07A60F3",
-            "name": "Security Council (Nova, emergency)",
-            "description": "Emergency security council on Nova"
-        },
-        {
-            "id": "arb-one:42161:0x8a1cDA8dee421cD06023470608605934c16A05a0",
-            "name": "Nominee Election Governor",
-            "description": "Nominee election governor on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0x467923B9AE90BDB36BA88eCA11604D45F13b712C",
-            "name": "Member Election Governor",
-            "description": "Member election governor on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0xD509E5f5aEe2A205F554f36E8a7d56094494eDFC",
-            "name": "Manager",
-            "description": "Manager contract on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0x7481716f05E315Fc4C4a64E56DcD9bc1D6F24C0a",
-            "name": "Upgrade Exec Route Builder",
-            "description": "Upgrade execution route builder on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0x6f3a242cA91A119F872f0073BC14BC8a74a315Ad",
-            "name": "Member Removal Governor",
-            "description": "Member removal governor on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0x9BF7b8884Fa381a45f8CB2525905fb36C996297a",
-            "name": "Member Sync Action",
-            "description": "Member sync action on Arb One"
-        },
-        {
-            "id": "ethereum:1:0x9BF7b8884Fa381a45f8CB2525905fb36C996297a",
-            "name": "Member Sync Action",
-            "description": "Member sync action on Ethereum"
-        },
-        {
-            "id": "nova:42170:0x9BF7b8884Fa381a45f8CB2525905fb36C996297a",
-            "name": "Member Sync Action",
-            "description": "Member sync action on Nova"
-        },
-        {
-            "id": "arb-one:42161:0x1D62fFeB72e4c360CcBbacf7c965153b00260417",
-            "name": "Constitution Hash",
-            "description": "Constitution hash on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0xdb216562328215E010F819B5aBe947bad4ca961e",
-            "name": "Arb One Proxy Admin",
-            "description": "Proxy admin for Arb One"
-        },
-        {
-            "id": "nova:42170:0xf58eA15B20983116c21b05c876cc8e6CDAe5C2b9",
-            "name": "Nova Proxy Admin",
-            "description": "Proxy admin for Nova"
-        },
-        {
-            "id": "ethereum:1:0x5613AF0474EB9c528A34701A5b1662E3C8FA0678",
-            "name": "L1 Proxy Admin",
-            "description": "Proxy admin for Ethereum"
-        },
-        {
-            "id": "arb-one:42161:0xE6ec2174539a849f9f3ec973C66b333eD08C0c18",
-            "name": "L1 Base Fee",
-            "description": "L1 base fee contract on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0x2E041280627800801E90E9Ac83532fadb6cAd99A",
-            "name": "L1 Surplus Fee",
-            "description": "L1 surplus fee contract on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0xbF5041Fc07E1c866D15c749156657B8eEd0fb649",
-            "name": "L2 Base Fee",
-            "description": "L2 base fee contract on Arb One"
-        },
-        {
-            "id": "arb-one:42161:0x32e7AF5A8151934F3787d0cD59EB6EDd0a736b1d",
-            "name": "L2 Surplus Fee",
-            "description": "L2 surplus fee contract on Arb One"
-        },
-        {
-            "id": "nova:42170:0xc9722CfDDFbC6aF4E77023E8B5Bd87489EFEbf5F",
-            "name": "L1 Base Fee",
-            "description": "L1 base fee contract on Nova"
-        },
-        {
-            "id": "nova:42170:0x509386DbF5C0BE6fd68Df97A05fdB375136c32De",
-            "name": "L1 Surplus Fee",
-            "description": "L1 surplus fee contract on Nova"
-        },
-        {
-            "id": "nova:42170:0x9fCB6F75D99029f28F6F4a1d277bae49c5CAC79f",
-            "name": "L2 Base Fee",
-            "description": "L2 base fee contract on Nova"
-        },
-        {
-            "id": "nova:42170:0x3B68a689c929327224dBfCe31C1bf72Ffd2559Ce",
-            "name": "L2 Surplus Fee",
-            "description": "L2 surplus fee contract on Nova"
-        }
+      {
+        "type": "EthereumAddress",
+        "id": "0xdE1FCfB0851916CA5101820A69b13a4E276bd81F",
+        "label": "AddressManager",
+        "networkId": 1
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x25ace71c97B33Cc4729CF772ae268934F7ab5fA1",
+        "label": "L1CrossDomainMessengerProxy",
+        "networkId": 1
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x5a7749f83b81B301cAb5f48EB8516B986DAef23D",
+        "label": "L1ERC721BridgeProxy",
+        "networkId": 1
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "label": "L1StandardBridgeProxy",
+        "networkId": 1
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0xdfe97868233d1aa22e815a266982f2cf17685a27",
+        "label": "L2OutputOracleProxy",
+        "networkId": 1
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x75505a97BD334E7BD3C476893285569C4136Fa0F",
+        "label": "OptimismMintableERC20FactoryProxy",
+        "networkId": 1
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0xbEb5Fc579115071764c7423A4f12eDde41f106Ed",
+        "label": "OptimismPortalProxy",
+        "networkId": 1
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x543bA4AADBAb8f9025686Bd03993043599c6fB04",
+        "label": "ProxyAdmin",
+        "networkId": 1
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x229047fed2591dbec1eF1118d64F7aF3dB9EB290",
+        "label": "SystemConfigProxy",
+        "networkId": 1
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000016",
+        "label": "L2ToL1MessagePasser",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000007",
+        "label": "L2CrossDomainMessenger",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000010",
+        "label": "L2StandardBridge",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000014",
+        "label": "L2ERC721Bridge",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000011",
+        "label": "SequencerFeeVault",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000012",
+        "label": "OptimismMintableERC20Factory",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000017",
+        "label": "OptimismMintableERC721Factory",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000015",
+        "label": "L1Block",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x420000000000000000000000000000000000000F",
+        "label": "GasPriceOracle",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000001",
+        "label": "L1MessageSender",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000002",
+        "label": "DeployerWhitelist",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+        "label": "LegacyERC20ETH",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000013",
+        "label": "L1BlockNumber",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000000",
+        "label": "LegacyMessagePasser",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000018",
+        "label": "ProxyAdmin",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000019",
+        "label": "BaseFeeVault",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x420000000000000000000000000000000000001A",
+        "label": "L1FeeVault",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000042",
+        "label": "GovernanceToken",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000020",
+        "label": "SchemaRegistry",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000021",
+        "label": "EAS",
+        "networkId": 10
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x9bFE9c5609311DF1c011c47642253B78a4f33F4B",
+        "label": "AddressManager",
+        "networkId": 11155111
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x58Cc85b8D04EA49cC6DBd3CbFFd00B4B8D6cb3ef",
+        "label": "L1CrossDomainMessengerProxy",
+        "networkId": 11155111
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0xd83e03D576d23C9AEab8cC44Fa98d058D2176D1f",
+        "label": "L1ERC721BridgeProxy",
+        "networkId": 11155111
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "label": "L1StandardBridgeProxy",
+        "networkId": 11155111
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x90E9c4f8a994a250F6aEfd61CAFb4F2e895D458F",
+        "label": "L2OutputOracleProxy",
+        "networkId": 11155111
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x868D59fF9710159C2B330Cc0fBDF57144dD7A13b",
+        "label": "OptimismMintableERC20FactoryProxy",
+        "networkId": 11155111
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x16Fc5058F25648194471939df75CF27A2fdC48BC",
+        "label": "OptimismPortalProxy",
+        "networkId": 11155111
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x189aBAAaa82DfC015A588A7dbaD6F13b1D3485Bc",
+        "label": "ProxyAdmin",
+        "networkId": 11155111
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x034edD2A225f7f429A63E0f1D2084B9E0A93b538",
+        "label": "SystemConfigProxy",
+        "networkId": 11155111
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000016",
+        "label": "L2ToL1MessagePasser",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000007",
+        "label": "L2CrossDomainMessenger",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000010",
+        "label": "L2StandardBridge",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000014",
+        "label": "L2ERC721Bridge",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000011",
+        "label": "SequencerFeeVault",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000012",
+        "label": "OptimismMintableERC20Factory",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000017",
+        "label": "OptimismMintableERC721Factory",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000015",
+        "label": "L1Block",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x420000000000000000000000000000000000000F",
+        "label": "GasPriceOracle",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000001",
+        "label": "L1MessageSender",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000002",
+        "label": "DeployerWhitelist",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+        "label": "LegacyERC20ETH",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000013",
+        "label": "L1BlockNumber",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000000",
+        "label": "LegacyMessagePasser",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000018",
+        "label": "ProxyAdmin",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000019",
+        "label": "BaseFeeVault",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x420000000000000000000000000000000000001A",
+        "label": "L1FeeVault",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000042",
+        "label": "GovernanceToken",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000020",
+        "label": "SchemaRegistry",
+        "networkId": 11155420
+      },
+      {
+        "type": "EthereumAddress",
+        "id": "0x4200000000000000000000000000000000000021",
+        "label": "EAS",
+        "networkId": 11155420
+      }
     ]
-}
+  }

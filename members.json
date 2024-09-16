@@ -1,88 +1,208 @@
 {
-    "@context": "http://daostar.org/schemas",
-    "members": [
-      {
-        "id": "0xfd81762F94a91D02B201c1d61d333125f09C0f6e",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0xE02B56B23472F9026D8f0bBf0Fb2aD92f1fd565b",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0xcb2834E357c86060982Ae2E542C79e27e8CEcC73",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0xda90f94194F093dB4f27e10a4d0289cEE9602459",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0xDD08c599318A71F9525ae7D3513525E16cb50F16",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x38d4cA782824988490329C5FBc0DCE1Cd6203DaF",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x95B9606161c68461003944A425980eBE2c0E0cb9",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x9D6225540BefBFC1451f50cf5Abb090F3b06b056",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x17A77d5Fd5E543Df8ccA8b36cc20e26f513C0958",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x615ff929F833d0dEd0287FB4eF19dC83ef5Bfad5",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x2b017459a42fec12d4CfFd9259f0727050bCfAe5",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x4C603bB0785B43336b9AB9b4a00D0F0B8dD301bD",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x296d78Ff818393CfbC1623c6A77926e28f02B3B3",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x215Ff6F57a27F674E34c251cD1190abfDF803927",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x0F90b53D9910ae2B7EB2fD2d641976ea270D1cf4",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x48B61678eA8748b81abc677D1Bd6050878a86d27",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x53580Ce22d515FfD5bDef474A055B36F99d8C668",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0xfcFFE7AeA3f70f7975cd64ace7717caa211a706f",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0xbd0c31D74B3282e17434D3061bE1E488bF8c1cE1",
-        "type": "EthereumAddress"
-      },
-      {
-        "id": "0x199859F14751f9E3d5696DaA951E3fF9cfdc7e71",
-        "type": "EthereumAddress"
-      }
-    ],
-    "name": "arbitrumfoundation.eth",
-    "next_cursor": 1680139020,
-    "type": "DAO"
-  }
+  "members": [
+    {
+      "id": "0x5e349eca2dc61aBCd9dD99Ce94d04136151a09Ee",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x429F9aDA43e9F345CbB85EC88681BB70Df808892",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x2B888954421b424C5D3D9Ce9bB67c9bD47537d12",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xF4B0556B9B6F53E00A1FDD2b0478Ce841991D8fA",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xB1EA5a3E5EA7fA1834d48058EcDa26d8c59e8251",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x406b607644c5D7BfDA95963201E45A4c6AB1c159",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x75536CF4f01c2bFa528F5c74DdC1232Db3aF3Ee5",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xa6e8772af29b29B9202a073f8E36f447689BEef6",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x48A63097E1Ac123b1f5A8bbfFafA4afa8192FaB0",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x4f41877773e44F2275dA1942FEe898556821bf66",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x3EEe61B92C36e97Be6319BF9096A1ac3c04a1466",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x839395e20bbB182fa440d08F850E6c7A8f6F0780",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xE93D59CC0bcECFD4ac204827eF67c5266079E2b5",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x46abFE1C972fCa43766d6aD70E1c1Df72F4Bb4d1",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x6EdA5aCafF7F5964E1EcC3FD61C62570C186cA0C",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x995013B47EF3A2B07b9e60dA6D1fFf8fa9C53Cf4",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x94Db037207F6fB697DBd33524aaDffD108819DC8",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x8f07bc36ff569312FDC41F3867D80bBd2FE94b76",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x3D2d722B443A5cAE8E41877BB7cD649f3650937C",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xed11e5eA95a5A3440fbAadc4CC404C56D0a5bb04",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x3FB19771947072629C8EEE7995a2eF23B72d4C8A",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x11cf2f033B079Fbb195425BfCb7D5dAc4dB2d752",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x070341aA5Ed571f0FB2c4a5641409B1A46b4961b",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xd23199F1222C418ffC74c385171330B21B16e452",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x8Ccde64D05a7677D80a5960cB75Fb8DE486Cf98d",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xB79294D00848a3A4C00c22D9367F19B4280689D7",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x7fC80faD32Ec41fd5CfcC14EeE9C31953b6B4a8B",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xB933AEe47C438f22DE0747D57fc239FE37878Dd1",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x7899d9b1181cbB427b0b1BE0684C096C260F7474",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x1f4BA000D042cA0045eF094691615f3912DebEa8",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x7575F04A46B6D76142723E765f7546c354773406",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x45a10F35BeFa4aB841c77860204b133118B7CcAE",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xDCF7bE2ff93E1a7671724598b1526F3A33B1eC25",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x6cea573473348367A5f66e0f261BFA25799E6a60",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x62a43123FE71f9764f26554b3F5017627996816a",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x0331969e189D63fBc31D771Bb04Ab44227D748D8",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x1de2A056508E0D0dd88A88f1f5cdf9cfa510795c",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x9E26e1B35164aFB1332592AF393edf5F2A2C7F51",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xdab0d648a2a771e6952916A822dddf738b535f5A",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xc94ae9860B37170c08e51f453F8124A86cd7c0Cd",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xf9551c66995eD3Ff9bb05C9Fd7ff148Bd75dc99a",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x01E6b50557eF1a2ca58A621998aCe3f278E808B8",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x0f9457824Adb0649F57b91f21fcaF598b7ed9230",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x8F5415415d9200cCd8523F3Ee88F96F476141CC3",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0xdb5781a835b60110298fF7205D8ef9678Ff1f800",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x1D1a13b16667c284b87de62CAEEfF0ce89E342B2",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x80FC5137886375E7E5C9FbAAf3F1bfCF86BcE482",
+      "type": "EthereumAddress"
+    },
+    {
+      "id": "0x2dEB7C0704f9696c976eD73d449Badefab67C399",
+      "type": "EthereumAddress"
+    }
+  ],
+  "@context":  [ "http://daostar.org/schemas", "https://services.daostar.org/api/v1/boardroom/members/10/optimism" ],
+  "type": "DAO",
+  "name": "optimism",
+  "nextCursor": "eyJhZGRyZXNzIjoiMHgyZEVCN0MwNzA0Zjk2OTZjOTc2ZUQ3M2Q0NDlCYWRlZmFiNjdDMzk5IiwicG93ZXIiOjEwMDA2MDU3LCJ0aW1lc3RhbXAiOiIxNzIxMTYzODkzIn0%3D"
+}
