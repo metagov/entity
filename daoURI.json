@@ -17,5 +17,6 @@
     "walletDashboard": "https://arbwallets.xyz",
     "gasDashboard": "https://gas-hub.vercel.app/",
     "crossChainMessageDashboard": "https://retryable-dashboard.arbitrum.io/tx"
-  }
+  },
+  "grantsPoolURI": "https://github.com/metagov/eip4824/raw/refs/heads/arbitrum/grantsPoolURI.json"
 }

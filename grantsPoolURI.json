@@ -8,7 +8,7 @@
             "id": "arb-one:42161:0xF3FC178157fb3c87548bAA86F9d24BA38E649B58?contractId=1",
             "name": "stip-1",
             "description": "Arbitrum Foundation Grant Pool",
-            "applicationsURI": "<A URI pointing to current and past applications received by the grant pool, following the DAOIP-5 Applications JSON-LD Schema.>",
+            "applicationsURI": "https://github.com/metagov/eip4824/raw/refs/heads/arbitrum/applicationsURI.json",
             "governanceURI": "https://arbitrumfoundation.notion.site/53ad99f665d946adb58bf92e82438fd5?v=efcd2d955fa54bcfaabaa46812732206"
         }
     ]
