@@ -1,0 +1,221 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Arbitrum Foundation",
+    "type": "DAO",
+    "grantPools": [
+      {
+        "type": "GrantPool",
+        "name": "STIP-1",
+        "applications": [
+          {
+            "type": "GrantApplication",
+            "id": "1",
+            "grantPoolId": "stip-1",
+            "grantPoolName": "STIP-1",
+            "projectsURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "projectId": "abracadabra",
+            "projectName": "Abracadabra",
+            "createdAt": "2023-12-01T00:00:00Z",
+            "contentURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "fundsAsked": [
+              {
+                "amount": 2625000.0,
+                "denomination": "USD"
+              }
+            ],
+            "fundsApproved": [
+              {
+                "amount": 1500000.0,
+                "denomination": "ARB"
+              }
+            ]
+          },
+          {
+            "type": "GrantApplication",
+            "id": "2",
+            "grantPoolId": "stip-1",
+            "grantPoolName": "STIP-1",
+            "projectsURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "projectId": "angle-protocol",
+            "projectName": "Angle Protocol",
+            "createdAt": "2023-12-01T00:00:00Z",
+            "contentURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "fundsAsked": [
+              {
+                "amount": 1225000.0,
+                "denomination": "USD"
+              }
+            ],
+            "fundsApproved": [
+              {
+                "amount": 700000.0,
+                "denomination": "ARB"
+              }
+            ]
+          },
+          {
+            "type": "GrantApplication",
+            "id": "3",
+            "grantPoolId": "stip-1",
+            "grantPoolName": "STIP-1",
+            "projectsURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "projectId": "balancer",
+            "projectName": "Balancer",
+            "createdAt": "2023-12-01T00:00:00Z",
+            "contentURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "fundsAsked": [
+              {
+                "amount": 2100000.0,
+                "denomination": "USD"
+              }
+            ],
+            "fundsApproved": [
+              {
+                "amount": 1200000.0,
+                "denomination": "ARB"
+              }
+            ]
+          },
+          {
+            "type": "GrantApplication",
+            "id": "4",
+            "grantPoolId": "stip-1",
+            "grantPoolName": "STIP-1",
+            "projectsURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "projectId": "camelotlabs",
+            "projectName": "Camelot",
+            "createdAt": "2023-12-01T00:00:00Z",
+            "contentURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "fundsAsked": [
+              {
+                "amount": 5407500.0,
+                "denomination": "USD"
+              }
+            ],
+            "fundsApproved": [
+              {
+                "amount": 3090000.0,
+                "denomination": "ARB"
+              }
+            ]
+          },
+          {
+            "type": "GrantApplication",
+            "id": "5",
+            "grantPoolId": "stip-1",
+            "grantPoolName": "STIP-1",
+            "projectsURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "projectId": "cowri",
+            "projectName": "Shell Protocol",
+            "createdAt": "2023-12-01T00:00:00Z",
+            "contentURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "fundsAsked": [
+              {
+                "amount": 1312500.0,
+                "denomination": "USD"
+              }
+            ],
+            "fundsApproved": [
+              {
+                "amount": 750000.0,
+                "denomination": "ARB"
+              }
+            ]
+          },
+          {
+            "type": "GrantApplication",
+            "id": "6",
+            "grantPoolId": "stip-1",
+            "grantPoolName": "STIP-1",
+            "projectsURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "projectId": "defiedge",
+            "projectName": "DefiEdge",
+            "createdAt": "2023-12-01T00:00:00Z",
+            "contentURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "fundsAsked": [
+              {
+                "amount": 350000.0,
+                "denomination": "USD"
+              }
+            ],
+            "fundsApproved": [
+              {
+                "amount": 200000.0,
+                "denomination": "ARB"
+              }
+            ]
+          },
+          {
+            "type": "GrantApplication",
+            "id": "7",
+            "grantPoolId": "stip-1",
+            "grantPoolName": "STIP-1",
+            "projectsURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "projectId": "dforce-network",
+            "projectName": "dForce",
+            "createdAt": "2023-12-01T00:00:00Z",
+            "contentURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "fundsAsked": [
+              {
+                "amount": 1750000.0,
+                "denomination": "USD"
+              }
+            ],
+            "fundsApproved": [
+              {
+                "amount": 1000000.0,
+                "denomination": "ARB"
+              }
+            ]
+          },
+          {
+            "type": "GrantApplication",
+            "id": "8",
+            "grantPoolId": "stip-1",
+            "grantPoolName": "STIP-1",
+            "projectsURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "projectId": "dinngo",
+            "projectName": "Furucombo",
+            "createdAt": "2023-12-01T00:00:00Z",
+            "contentURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "fundsAsked": [
+              {
+                "amount": 104125.0,
+                "denomination": "USD"
+              }
+            ],
+            "fundsApproved": [
+              {
+                "amount": 59500.0,
+                "denomination": "ARB"
+              }
+            ]
+          },
+          {
+            "type": "GrantApplication",
+            "id": "9",
+            "grantPoolId": "stip-1",
+            "grantPoolName": "STIP-1",
+            "projectsURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "projectId": "dolomite-exchange",
+            "projectName": "Dolomite",
+            "createdAt": "2023-12-01T00:00:00Z",
+            "contentURI": "https://forum.arbitrum.foundation/c/dao-grant-programs/incentive-framework/",
+            "fundsAsked": [
+              {
+                "amount": 1750000.0,
+                "denomination": "USD"
+              }
+            ],
+            "fundsApproved": [
+              {
+                "amount": 1000000.0,
+                "denomination": "ARB"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
