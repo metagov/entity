@@ -1,23 +1,1169 @@
 {
-    "@context": "https://www.daostar.org/schemas",
-    "proposals": [
-        {
-            "type": "proposal",
-            "id": "<proposal ID>",
-            "name": "<name or title of proposal>",
-            "contentURI": "<URI to content/text of the proposal>",
-            "discussionURI": "<URI to discussion or thread for the proposal>",
-            "status": "<status of proposal>",
-            "calls": [
-                {
-                    "type": "CallDataEVM",
-                    "operation": "<call or delegate call>",
-                    "from": "<EthereumAddress>",
-                    "to": "<EthereumAddress>",
-                    "value": "<value>",
-                    "data": "<call data>"
-                }
-            ]
-        }
+  "@context": ["http://daostar.org/schemas", "https://proposalsuri.daostar.org/proposals/opcollective.eth" ],
+  "name": "opcollective.eth",
+  "offchain_cursor": 1667513362,
+  "proposals": {
+    "offchain": [
+      {
+        "author": "0x47C88bb92B409fF25F6587EA611fac4e55f76007",
+        "body": "Following the approval of the Protocol Delegation Program, the Token House will elect 8 additional protocols to participate in the program. This Season 3 vote will utilize approval voting. Voting is set up such that you can place a vote for any number of nominees.  Voting for yourself is a violation of the delegate code of conduct. \n\nYou can see the full list of nominations here: https://gov.optimism.io/t/protocol-delegation-self-nominations/4357",
+        "choices": [
+          "2Pi Network",
+          "Atlantis World",
+          "ParaSwap",
+          "Revert",
+          "QiDao Protocol",
+          "KyberSwap",
+          "Thales",
+          "BeethovenX & Balancer",
+          "Connext",
+          "Polynomial Protocol",
+          "Kwenta",
+          "Lyra",
+          "ENS",
+          "dHEDGE",
+          "Code4rena",
+          "Agora",
+          "Premia",
+          "LI.FI"
+        ],
+        "created": 1673550676,
+        "discussion": "https://gov.optimism.io/t/protocol-delegation-self-nominations/4357",
+        "end": 1674068987,
+        "flagged": false,
+        "id": "0x88583c43b196ec86cee45345611b582108f1d6933ab688a7cae992a6baa552a6",
+        "ipfs": "bafkreicqlvogtn4hnoedd6mox3ahv6qcwpofplagrhli764c2vhdtofswy",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x88583c43b196ec86cee45345611b582108f1d6933ab688a7cae992a6baa552a6",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          348166.05624928226,
+          4537416.102421629,
+          6550065.264566755,
+          834015.0087814758,
+          1121118.994670262,
+          2112895.966476079,
+          10658494.540648583,
+          8665558.035183577,
+          6301551.02174165,
+          5767722.909202252,
+          8503663.837314842,
+          7516335.830113392,
+          12480697.05378226,
+          5335571.579173335,
+          2175320.9847489446,
+          4245078.515500894,
+          253340.45753096245,
+          4836833.133196017
+        ],
+        "scores_by_strategy": [
+          [
+            348166.05624928226
+          ],
+          [
+            4537416.102421629
+          ],
+          [
+            6550065.264566755
+          ],
+          [
+            834015.0087814758
+          ],
+          [
+            1121118.994670262
+          ],
+          [
+            2112895.966476079
+          ],
+          [
+            10658494.540648583
+          ],
+          [
+            8665558.035183577
+          ],
+          [
+            6301551.02174165
+          ],
+          [
+            5767722.909202252
+          ],
+          [
+            8503663.837314842
+          ],
+          [
+            7516335.830113392
+          ],
+          [
+            12480697.05378226
+          ],
+          [
+            5335571.579173335
+          ],
+          [
+            2175320.9847489446
+          ],
+          [
+            4245078.515500894
+          ],
+          [
+            253340.45753096245
+          ],
+          [
+            4836833.133196017
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 14629207.206238987,
+        "scores_updated": 1674068995,
+        "snapshot": "65257513",
+        "start": 1673550587,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Title: Special Voting Cycle #9b: Protocol Delegation Elections ",
+        "type": "approval",
+        "updated": null,
+        "votes": 62245
+      },
+      {
+        "author": "0x47C88bb92B409fF25F6587EA611fac4e55f76007",
+        "body": "Following the approval of the Grants Council, the Token House will elect 5 Reviewers to the Growth Experiments sub-committee. This Season 3 vote will utilize approval voting. Voting is set up such that you can place a vote for any number of nominees.  Voting for yourself is a violation of the delegate code of conduct. \n\nYou can see the full list of nominations here: https://gov.optimism.io/t/grant-council-reviewer-nominations/4372/18",
+        "choices": [
+          "GFX Labs ",
+          "Bobbay (Stablenode)  ",
+          "Joxes (DeFi LATAM)",
+          "Matt (Synthetix Ambassadors) ",
+          "HC_NATO ",
+          "Michael Vander Meiden",
+          "MoneyManDoug/Sugma.eth ",
+          "Fig (Flipside Crypto) ",
+          "Solarcurve ",
+          "Katie Garcia "
+        ],
+        "created": 1673550549,
+        "discussion": "https://gov.optimism.io/t/grant-council-reviewer-nominations/4372/18",
+        "end": 1674068901,
+        "flagged": false,
+        "id": "0xa9457a5344747a6c272de786419fc7a4e83fcf0f927ef9b1ce767452faa9b453",
+        "ipfs": "bafkreihhoeuq3wkomymmp4fueykhxmqx52dhfvvghjotvoe5k5tqvw65xy",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0xa9457a5344747a6c272de786419fc7a4e83fcf0f927ef9b1ce767452faa9b453",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          9821030.990377434,
+          5734824.108581537,
+          5381927.1399353845,
+          8518766.258846764,
+          1117104.400633462,
+          11642648.117443005,
+          7838582.637443187,
+          5070419.181323163,
+          5340995.537793288,
+          9842625.12759914
+        ],
+        "scores_by_strategy": [
+          [
+            9821030.990377434
+          ],
+          [
+            5734824.108581537
+          ],
+          [
+            5381927.1399353845
+          ],
+          [
+            8518766.258846764
+          ],
+          [
+            1117104.400633462
+          ],
+          [
+            11642648.117443005
+          ],
+          [
+            7838582.637443187
+          ],
+          [
+            5070419.181323163
+          ],
+          [
+            5340995.537793288
+          ],
+          [
+            9842625.12759914
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 16481503.661783978,
+        "scores_updated": 1674068913,
+        "snapshot": "65256918",
+        "start": 1673550501,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Title: Special Voting Cycle #9b: Grants Council Elections - Growth Experiments ",
+        "type": "approval",
+        "updated": null,
+        "votes": 63845
+      },
+      {
+        "author": "0x47C88bb92B409fF25F6587EA611fac4e55f76007",
+        "body": "Following the approval of the Grants Council, the Token House will elect 3 Reviewers to the Builders Grants sub-committee. This Season 3 vote will utilize approval voting. Voting is set up such that you can place a vote for any number of nominees.  Voting for yourself is a violation of the delegate code of conduct. \n\nYou can see the full list of nominations here: https://gov.optimism.io/t/grant-council-reviewer-nominations/4372/4",
+        "choices": [
+          "Dhannte",
+          "Juanbug (Penn Blockchain)  ",
+          "Jack Anorak ",
+          "Krzysztof Urba\u0144ski (L2BEAT)",
+          "OPUser"
+        ],
+        "created": 1673550317,
+        "discussion": "https://gov.optimism.io/t/grant-council-reviewer-nominations/4372/4",
+        "end": 1674068682,
+        "flagged": false,
+        "id": "0xdcff47b93fb17a11411bda1809e22cba72e5131d31624e4c0f2b9dbee6811f5c",
+        "ipfs": "bafkreih77tblfuqn23jokavp3bgcnweusejqkwzm375jcrjqrz3y2cgdqy",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0xdcff47b93fb17a11411bda1809e22cba72e5131d31624e4c0f2b9dbee6811f5c",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          12407169.24481851,
+          4216821.323100085,
+          9629513.518206565,
+          11423813.360834822,
+          5524621.1485430375
+        ],
+        "scores_by_strategy": [
+          [
+            12407169.24481851
+          ],
+          [
+            4216821.323100085
+          ],
+          [
+            9629513.518206565
+          ],
+          [
+            11423813.360834824
+          ],
+          [
+            5524621.148543039
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 13902617.340108002,
+        "scores_updated": 1674068701,
+        "snapshot": "65255266",
+        "start": 1673550282,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Title: Special Voting Cycle #9b: Grants Council Elections - Builders ",
+        "type": "approval",
+        "updated": null,
+        "votes": 61130
+      },
+      {
+        "author": "0x47C88bb92B409fF25F6587EA611fac4e55f76007",
+        "body": "As part of the recently announced [retroPGF 2](https://optimism.mirror.xyz/wqk1Yeyn2OhV9paDzbRXvQ0m0JYDu2npbSkMClwk1rY) , voting badges will be distributed to a set of 90 community members. One voting badge will be given to 10 Token House delegates. Below are all valid nominations (please see [the original post](https://gov.optimism.io/t/token-house-badgeholder-nominations/4196/12) and [Token House Badgeholder Election Information](https://gov.optimism.io/t/token-house-badgeholder-election-information/4195)  for more information.)",
+        "choices": [
+          " Katie Garcia",
+          "Linda Xie",
+          "Bobbay (via Stablenode)",
+          "Lefteris",
+          "OPUser",
+          "Fig (via Flipside Crypto)",
+          "Mastermojo (Synthetix Ambassador",
+          "Jrocki",
+          "Polynya",
+          "Jacob",
+          "Scott Moore",
+          "Joxes | DeFi LATAM",
+          "Nathan van der Heyden",
+          "Juanbug (via Penn Blockchain)",
+          "Dhannte",
+          "MinimalGravitas",
+          "Millie (Synthetix Ambassador)",
+          "Kris Kaczor",
+          "Jack Anorak"
+        ],
+        "created": 1671132659,
+        "discussion": "",
+        "end": 1671647448,
+        "flagged": false,
+        "id": "0x22d4c3ab56832de58c1774d1a0aeb61ba6dde8b16c0f8382f85d8935f3ee1f11",
+        "ipfs": "bafkreigvuc5cllaqeyqympib4smaue2ft6rig5zv5xafd6aovx3h73q3sy",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x22d4c3ab56832de58c1774d1a0aeb61ba6dde8b16c0f8382f85d8935f3ee1f11",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          4645676.097038617,
+          5135557.264315761,
+          5016902.92173114,
+          4526338.786723248,
+          2786174.0927586365,
+          3606524.946037117,
+          3899685.4601383023,
+          1245540.4105954263,
+          4326376.864549037,
+          2994636.0778314285,
+          3239270.970592864,
+          4097608.706352224,
+          462420.1304018552,
+          900707.5802895394,
+          1738972.036988071,
+          3324423.713903052,
+          1014823.452225273,
+          1950020.607090898,
+          1528330.330601734
+        ],
+        "scores_by_strategy": [
+          [
+            4645676.097038617
+          ],
+          [
+            5135557.264315761
+          ],
+          [
+            5016902.92173114
+          ],
+          [
+            4526338.786723248
+          ],
+          [
+            2786174.0927586365
+          ],
+          [
+            3606524.946037117
+          ],
+          [
+            3899685.4601383023
+          ],
+          [
+            1245540.4105954263
+          ],
+          [
+            4326376.864549037
+          ],
+          [
+            2994636.0778314285
+          ],
+          [
+            3239270.970592864
+          ],
+          [
+            4097608.706352224
+          ],
+          [
+            462420.1304018553
+          ],
+          [
+            900707.5802895394
+          ],
+          [
+            1738972.036988071
+          ],
+          [
+            3324423.713903052
+          ],
+          [
+            1014823.452225273
+          ],
+          [
+            1950020.607090898
+          ],
+          [
+            1528330.330601734
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 12874009.498810697,
+        "scores_updated": 1671647468,
+        "snapshot": "50161938",
+        "start": 1671132648,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Badgeholder Nomination Voting",
+        "type": "approval",
+        "updated": null,
+        "votes": 31041
+      },
+      {
+        "author": "0x47C88bb92B409fF25F6587EA611fac4e55f76007",
+        "body": "This Season 3 proposal is eligible for voting in Special Voting Cycle #9a\nProposal: https://gov.optimism.io/t/special-voting-cycle-9a-protocol-delegation-program/4200",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1670532314,
+        "discussion": "https://gov.optimism.io/t/special-voting-cycle-9a-protocol-delegation-program/4200",
+        "end": 1671648312,
+        "flagged": false,
+        "id": "0x3a1f9a30c47d6060f3b732404f3a6b2ceba3da07be0505ef0f93b6dab7fa3185",
+        "ipfs": "bafkreig6l7m24ua4yv35pa74cymvj2knrcn7vlyjdvtalnnhasfuwxnk7i",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x3a1f9a30c47d6060f3b732404f3a6b2ceba3da07be0505ef0f93b6dab7fa3185",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          14982473.206278114,
+          218171.8921243701,
+          180282.3173643461
+        ],
+        "scores_by_strategy": [
+          [
+            14982473.206278114
+          ],
+          [
+            218171.8921243701
+          ],
+          [
+            180282.3173643461
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15380927.415766822,
+        "scores_updated": 1671648330,
+        "snapshot": "46901532",
+        "start": 1670532312,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Special Voting Cycle #9a: Protocol Delegation Program",
+        "type": "basic",
+        "updated": null,
+        "votes": 33158
+      },
+      {
+        "author": "0x47C88bb92B409fF25F6587EA611fac4e55f76007",
+        "body": "This Season 3 proposal is eligible for voting in Special Voting Cycle #9a\nProposal: https://gov.optimism.io/t/special-voting-cycle-9a-grants-council/4198",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1670532072,
+        "discussion": "https://gov.optimism.io/t/special-voting-cycle-9a-grants-council/4198",
+        "end": 1671648039,
+        "flagged": false,
+        "id": "0x37fc8a6ae60cff2e4e72fe9c0567f739bb9a78262c2ada236892fcbc7af2c32d",
+        "ipfs": "bafkreigaqqkefvvw3vd5ge26i5d2hgc7tozktz43lc754ocqa4wud4mu2q",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x37fc8a6ae60cff2e4e72fe9c0567f739bb9a78262c2ada236892fcbc7af2c32d",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          15053954.766570048,
+          27424.81149608939,
+          192362.9686588154
+        ],
+        "scores_by_strategy": [
+          [
+            15053954.766570048
+          ],
+          [
+            27424.8114960894
+          ],
+          [
+            192362.9686588154
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15273742.546724932,
+        "scores_updated": 1671648053,
+        "snapshot": "46883420",
+        "start": 1670532039,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Special Voting Cycle #9a: Grants Council",
+        "type": "basic",
+        "updated": null,
+        "votes": 32839
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was not reviewed by [DeFi Committee A](https://gov.optimism.io/t/defi-committee-a-season-2-recommendations/3522/10?u=lavande). You can find committee recommendations below: [DeFi Committee A Recommendations](https://gov.optimism.io/t/defi-committee-a-season-2-recommendations/3522/10?u=lavande)\n    \nBy approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513967,
+        "discussion": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-velodrome-finance/3736",
+        "end": 1668111562,
+        "flagged": false,
+        "id": "0xfeb1832a75e2ef47dea4b08509a16e4e9176e9d2a962c9466c5d345b37428384",
+        "ipfs": "bafkreidxc75sxelanphfyve5zyhevazadfzjwr42o7q2jp3osuvgn2szyq",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0xfeb1832a75e2ef47dea4b08509a16e4e9176e9d2a962c9466c5d345b37428384",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          8585110.814420084,
+          4137297.490512968,
+          4239005.479922566
+        ],
+        "scores_by_strategy": [
+          [
+            8585110.814420084
+          ],
+          [
+            4137297.490512968
+          ],
+          [
+            4239005.479922566
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 16961413.784855466,
+        "scores_updated": 1668111568,
+        "snapshot": "30456637",
+        "start": 1667513962,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: Velodrome ",
+        "type": "basic",
+        "updated": null,
+        "votes": 15926
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by the [Tooling Committee](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)[.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/12?u=lavande) You can find committee recommendations below: [Tooling Committee Recommendations](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)\n\nBy approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513874,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-mochi/3427/3",
+        "end": 1668111470,
+        "flagged": false,
+        "id": "0x2a7436c5bebeaee1a369e484a212a183da549dfce0393d6dc1f84837e8c5c79d",
+        "ipfs": "bafkreicvqitbcqhkp2hzd7ohpsagxo5hq4zryxjpeqds2fosolsyka52vu",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x2a7436c5bebeaee1a369e484a212a183da549dfce0393d6dc1f84837e8c5c79d",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          15169759.193175675,
+          565491.6435349709,
+          61538.41386404833
+        ],
+        "scores_by_strategy": [
+          [
+            15169759.193175675
+          ],
+          [
+            565491.6435349709
+          ],
+          [
+            61538.41386404833
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15796789.250574645,
+        "scores_updated": 1668111476,
+        "snapshot": "30456637",
+        "start": 1667513870,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: Mochi",
+        "type": "basic",
+        "updated": null,
+        "votes": 14043
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by the [Tooling Committee](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)[.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/12?u=lavande) You can find committee recommendations below: [Tooling Committee Recommendations](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)\n\nBy approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513833,
+        "discussion": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-ambire-wallet/3806",
+        "end": 1668111428,
+        "flagged": false,
+        "id": "0x71f465ebc109ddbda430a6a0312a43c324d0653624eb22e126e7503681dceb10",
+        "ipfs": "bafkreibfebgv5szfhi5dhlqkzpadbrdd4dkeckiqdghwp7tglwllk5fepu",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x71f465ebc109ddbda430a6a0312a43c324d0653624eb22e126e7503681dceb10",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          488949.6523526265,
+          7700499.708149634,
+          6466496.828556226
+        ],
+        "scores_by_strategy": [
+          [
+            488949.6523526266
+          ],
+          [
+            7700499.708149634
+          ],
+          [
+            6466496.828556226
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 14655946.18905824,
+        "scores_updated": 1668111442,
+        "snapshot": "30456637",
+        "start": 1667513828,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: Ambire Wallet",
+        "type": "basic",
+        "updated": null,
+        "votes": 14524
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by the [Tooling Committee](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)[.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/12?u=lavande) You can find committee recommendations below: [Tooling Committee Recommendations](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)\n\nBy approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513792,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-proposal-agora/3752",
+        "end": 1668111388,
+        "flagged": false,
+        "id": "0x474cbf8c806f30d016ea4ca0ad3fb5605391df6a3fa34a1aead7df61a9e4cc28",
+        "ipfs": "bafkreigr3usy3wv2s5bkmik5kv55rthlsxb2wo22a7dzpsp64gg37j6ubm",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x474cbf8c806f30d016ea4ca0ad3fb5605391df6a3fa34a1aead7df61a9e4cc28",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          15316702.185844056,
+          115581.4845167108,
+          310935.6031550654
+        ],
+        "scores_by_strategy": [
+          [
+            15316702.185844056
+          ],
+          [
+            115581.4845167108
+          ],
+          [
+            310935.6031550654
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15743219.273515776,
+        "scores_updated": 1668111398,
+        "snapshot": "30456637",
+        "start": 1667513788,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: Agora",
+        "type": "basic",
+        "updated": null,
+        "votes": 13651
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by the [Tooling Committee](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)[.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/12?u=lavande) You can find committee recommendations below:\n[Tooling Committee Recommendations](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)\n    \nBy approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513752,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-proposal-defillama/3562",
+        "end": 1668111348,
+        "flagged": false,
+        "id": "0xe97adad42eb8c0072edee33de2c68191cd2e8a0ae615ab94ebb60bdc73a7d3f2",
+        "ipfs": "bafkreibjf4tvnw67g7ivs2vrei6vxaqhqxgrzm4grcixkudpy5xkwmf67q",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0xe97adad42eb8c0072edee33de2c68191cd2e8a0ae615ab94ebb60bdc73a7d3f2",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          14459571.876064008,
+          215194.02477175312,
+          1088593.709965533
+        ],
+        "scores_by_strategy": [
+          [
+            14459571.876064008
+          ],
+          [
+            215194.02477175312
+          ],
+          [
+            1088593.709965533
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15763359.61080124,
+        "scores_updated": 1668111367,
+        "snapshot": "30456637",
+        "start": 1667513748,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: DefiLlama",
+        "type": "basic",
+        "updated": null,
+        "votes": 14194
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by the [Tooling Committee](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)[.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/12?u=lavande) You can find committee recommendations below:\n[Tooling Committee Recommendations](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)\n    \n By approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513710,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-proposal-messari/3739/15",
+        "end": 1668111306,
+        "flagged": false,
+        "id": "0xcf871243191a3e0672caa7b7a29ee1be8f917288d844fc9345f56b777a595659",
+        "ipfs": "bafkreic7mpzodr3bsc6qengm3lrqge6kfxxmvp4nvrjpzauu2ohg3n3ika",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0xcf871243191a3e0672caa7b7a29ee1be8f917288d844fc9345f56b777a595659",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          1279547.305280677,
+          2409541.640163728,
+          11986304.984265223
+        ],
+        "scores_by_strategy": [
+          [
+            1279547.305280677
+          ],
+          [
+            2409541.640163728
+          ],
+          [
+            11986304.984265223
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15675393.929709392,
+        "scores_updated": 1668111309,
+        "snapshot": "30456637",
+        "start": 1667513706,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: Messari",
+        "type": "basic",
+        "updated": null,
+        "votes": 13697
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by the [Tooling Committee](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)[.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/12?u=lavande) You can find committee recommendations below:\n[Tooling Committee Recommendations](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)\n    \n By approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513673,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-proposal-optimism-tally-ho/3517",
+        "end": 1668111270,
+        "flagged": false,
+        "id": "0xf44f4767df0341611940e74316ff1aa5047761f04a97eb9681aa96b8c71da75a",
+        "ipfs": "bafkreihmt3qjosuv23wvwaxhj7skqzpwuwkrhzvw3kxtnr3wjpu53zuapm",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0xf44f4767df0341611940e74316ff1aa5047761f04a97eb9681aa96b8c71da75a",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          4105954.803127004,
+          3524512.3564563757,
+          6858016.2580471365
+        ],
+        "scores_by_strategy": [
+          [
+            4105954.803127004
+          ],
+          [
+            3524512.3564563757
+          ],
+          [
+            6858016.2580471365
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 14488483.417630324,
+        "scores_updated": 1668111289,
+        "snapshot": "30456637",
+        "start": 1667513670,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: Tally Ho",
+        "type": "basic",
+        "updated": null,
+        "votes": 13448
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by the [Tooling Committee](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)[.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/12?u=lavande) You can find committee recommendations below:\n[Tooling Committee Recommendations](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)\n    \nBy approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513626,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-proposal-cycle-8-ethernautdao/3800/6",
+        "end": 1668111223,
+        "flagged": false,
+        "id": "0x05126c50a6227f339b64d712e6bf070c769f410bcd7cdbe62ba6493ab49b08e6",
+        "ipfs": "bafkreiab4o3wz7qjoompf5tmjypjelpvrfaygkqyljjrsilfuynhxso2oi",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x05126c50a6227f339b64d712e6bf070c769f410bcd7cdbe62ba6493ab49b08e6",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          16181464.71453256,
+          76181.39697004716,
+          185693.02662236427
+        ],
+        "scores_by_strategy": [
+          [
+            16181464.71453256
+          ],
+          [
+            76181.39697004718
+          ],
+          [
+            185693.02662236427
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 16443339.138124902,
+        "scores_updated": 1668111243,
+        "snapshot": "30456637",
+        "start": 1667513623,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: EthernautDAO",
+        "type": "basic",
+        "updated": null,
+        "votes": 13343
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by the [Tooling Committee](https://gov.optimism.io/t/tooling-committee-season-2-recommendations/3551)[.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/12?u=lavande) You can find committee recommendations below:\n[Tooling Committee Recommendations](https://gov.optimism.io/t/ready-gf-phase-1-proposal-socket/3368/22?u=lavande)\n    \nBy approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513585,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-proposal-socket/3647/2",
+        "end": 1668111181,
+        "flagged": false,
+        "id": "0x066ab540856b7f00a42fbf5b96fbe627735b740bc009b356d69349afd023720f",
+        "ipfs": "bafkreid2qc2hsvi7qo2phrhzxmai5nhjvam6cywvfthrmkqunzkr6zhbxa",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x066ab540856b7f00a42fbf5b96fbe627735b740bc009b356d69349afd023720f",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          15288051.667413654,
+          328844.053887651,
+          30473.33038095819
+        ],
+        "scores_by_strategy": [
+          [
+            15288051.667413654
+          ],
+          [
+            328844.053887651
+          ],
+          [
+            30473.33038095819
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15647369.051682182,
+        "scores_updated": 1668111196,
+        "snapshot": "30456637",
+        "start": 1667513581,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: Socket",
+        "type": "basic",
+        "updated": null,
+        "votes": 13552
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by [DeFi Committee C.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/15?u=lavande) You can find committee recommendations below:\n[DeFi Committee C Recommendations](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/15?u=lavande)\n\nShadow DeFi Committee B is not an official committee but posts their own recommendations here: [https://gov.optimism.io/t/defi-shadow-committee-season-2-recommendations/3549/11](https://gov.optimism.io/t/defi-shadow-committee-season-2-recommendations/3549/11)\n    \n By approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513549,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-proposal-overnight-fi-v2/3772/",
+        "end": 1668111145,
+        "flagged": false,
+        "id": "0xc8d4c55645e133bb66f480f4f1a17307f73aedd99b0d64f796f4749ce355d7a5",
+        "ipfs": "bafkreibx72edzn5fxjdw6bcnoaklsvo2ysuzj74skyvxeygfuajwohaxpi",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0xc8d4c55645e133bb66f480f4f1a17307f73aedd99b0d64f796f4749ce355d7a5",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          15318215.501050493,
+          96777.1194534307,
+          45821.42738496934
+        ],
+        "scores_by_strategy": [
+          [
+            15318215.501050493
+          ],
+          [
+            96777.1194534307
+          ],
+          [
+            45821.427384969335
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15460814.04788884,
+        "scores_updated": 1668111164,
+        "snapshot": "30456637",
+        "start": 1667513545,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: Overnight",
+        "type": "basic",
+        "updated": null,
+        "votes": 12977
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by [DeFi Committee C.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/14?u=lavande) You can find committee recommendations below:\n[DeFi Committee C Recommendations](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/14?u=lavande)\n\nShadow DeFi Committee B is not an official committee but posts their own recommendations here: [https://gov.optimism.io/t/defi-shadow-committee-season-2-recommendations/3549/11](https://gov.optimism.io/t/defi-shadow-committee-season-2-recommendations/3549/11)\n    \n By approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513512,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-pooltogether/3747",
+        "end": 1668111107,
+        "flagged": false,
+        "id": "0x0a184f7fd0042e9e33ee545d0316b4d382f302a75806394e67dee4249b7dbd04",
+        "ipfs": "bafkreicuhaprmke7b3wwwecedb4q7t6paz4upatm5r5v5yvbvlpelbrimu",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x0a184f7fd0042e9e33ee545d0316b4d382f302a75806394e67dee4249b7dbd04",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          11828772.359385662,
+          1462043.952083625,
+          2405489.7035967163
+        ],
+        "scores_by_strategy": [
+          [
+            11828772.359385662
+          ],
+          [
+            1462043.952083625
+          ],
+          [
+            2405489.7035967163
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15696306.01506587,
+        "scores_updated": 1668111118,
+        "snapshot": "30456637",
+        "start": 1667513507,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: PoolTogether ",
+        "type": "basic",
+        "updated": null,
+        "votes": 13325
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n    \nThis proposal was reviewed by [DeFi Committee C.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/12?u=lavande) You can find committee recommendations below: [DeFi Committee C Recommendations](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/12?u=lavande)\n    \nShadow DeFi Committee B is not an official committee but posts their own recommendations here: [https://gov.optimism.io/t/defi-shadow-committee-season-2-recommendations/3549/11](https://gov.optimism.io/t/defi-shadow-committee-season-2-recommendations/3549/11)\n        \n By approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513473,
+        "discussion": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-curve/3089",
+        "end": 1668111067,
+        "flagged": false,
+        "id": "0xfba0828a2f887ce56f6c7a548e886fb2028cb062057ff3ca55c6eff95260c9a8",
+        "ipfs": "bafkreidra4nib36dkag3zq24kg75gor4lnwavvob7qkq5tt3alaxostooq",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0xfba0828a2f887ce56f6c7a548e886fb2028cb062057ff3ca55c6eff95260c9a8",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          15593771.40920806,
+          47960.76137744684,
+          44118.018629832
+        ],
+        "scores_by_strategy": [
+          [
+            15593771.40920806
+          ],
+          [
+            47960.76137744684
+          ],
+          [
+            44118.018629832
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15685850.189215282,
+        "scores_updated": 1668111086,
+        "snapshot": "30456637",
+        "start": 1667513467,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: Curve ",
+        "type": "basic",
+        "updated": null,
+        "votes": 13291
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by [DeFi Committee C](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/11?u=lavande)[.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/6?u=lavande) You can find committee recommendations below:\n[DeFi Committee C Recommendations](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/11?u=lavande)\n\nShadow DeFi Committee B is not an official committee but posts their own recommendations here: [https://gov.optimism.io/t/defi-shadow-committee-season-2-recommendations/3549/11](https://gov.optimism.io/t/defi-shadow-committee-season-2-recommendations/3549/11)\n    \nBy approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513401,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-insuredao/3584",
+        "end": 1668110997,
+        "flagged": false,
+        "id": "0x8160b000b3c2977889daf8ea63a7ead186efde83376c00e9dac3269fb4dcd544",
+        "ipfs": "bafkreiczbwbphphamrjkrncwbbjk6vkzdct5ausrpsgemd7xsfzjfveg7e",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0x8160b000b3c2977889daf8ea63a7ead186efde83376c00e9dac3269fb4dcd544",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          12353913.239095047,
+          692403.2512181018,
+          241762.86054912696
+        ],
+        "scores_by_strategy": [
+          [
+            12353913.239095047
+          ],
+          [
+            692403.2512181018
+          ],
+          [
+            241762.86054912696
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 13288079.350862233,
+        "scores_updated": 1668111009,
+        "snapshot": "30456637",
+        "start": 1667513397,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8:  InsureDAO",
+        "type": "basic",
+        "updated": null,
+        "votes": 12686
+      },
+      {
+        "author": "0x83E54889754e737Fb3CdF07BAaCC0eB9699B6Bdd",
+        "body": "This Governance Fund Phase 1 proposal is eligible for voting in Cycle 8. This is the last Voting Cycle of Season 2. \n\nThis proposal was reviewed by [DeFi Committee C.](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/13?u=lavande) You can find committee recommendations below:\n[DeFi Committee C Recommendations](https://gov.optimism.io/t/defi-committee-c-season-2-recommendations/3437/13?u=lavande)\n\nShadow DeFi Committee B is not an official committee but posts their own recommendations here: [https://gov.optimism.io/t/defi-shadow-committee-season-2-recommendations/3549/11](https://gov.optimism.io/t/defi-shadow-committee-season-2-recommendations/3549/11)\n    \nBy approving committees, the Token House entered a social contract to entrust and delegate the bulk of decision-making to official committees. However, delegates may vote against the recommendation of official committees but should provide a justification to the community as to why they voted differently.",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ],
+        "created": 1667513362,
+        "discussion": "https://gov.optimism.io/t/review-gf-phase-1-proposal-angle-protocol/2552/55",
+        "end": 1668110958,
+        "flagged": false,
+        "id": "0xc9c0a739a29ce6477708f49a2985e4c8cb2e4ba0be1d3761541ed189a9c341e1",
+        "ipfs": "bafkreia4vvwaa4huhtonsyq33assjtb5hgo3if3gqpmaxab2hvtrjiogn4",
+        "link": "https://snapshot.org/#/opcollective.eth/proposal/0xc9c0a739a29ce6477708f49a2985e4c8cb2e4ba0be1d3761541ed189a9c341e1",
+        "network": "10",
+        "plugins": {},
+        "privacy": "",
+        "quorum": 0,
+        "quorumType": "default",
+        "scores": [
+          15037138.311965097,
+          46748.2534368667,
+          385898.39635395905
+        ],
+        "scores_by_strategy": [
+          [
+            15037138.311965097
+          ],
+          [
+            46748.2534368667
+          ],
+          [
+            385898.39635395905
+          ]
+        ],
+        "scores_state": "final",
+        "scores_total": 15469784.961755872,
+        "scores_updated": 1668110978,
+        "snapshot": "30456637",
+        "start": 1667513358,
+        "state": "closed",
+        "symbol": "OP",
+        "title": "Season 2: Cycle 8: Angle",
+        "type": "basic",
+        "updated": null,
+        "votes": 12586
+      }
     ]
+  }
 }

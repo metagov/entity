@@ -1,11 +1,12 @@
 {
-  "@context": "https://www.daostar.org/schemas",
+  "@context": "http://www.daostar.org/schemas",
   "type": "DAO",
-  "name": "DAO Name",
-  "description": "DAO Name Description",
-  "membersURI": "<URI>",
-  "proposalsURI": "<URI>",
-  "activityLogURI": "<URI>",
-  "governanceURI": "<URI>",
-  "contractsURI": "<URI>"
+  "name": "Optimism Collective",
+  "description": "The Optimism Collective is a large-scale experiment in non-plutocratic governance and funding public goods for a more aligned internet. It is a band of companies, communities, and citizens bound by a mutually beneficial pact to uphold the fairness ratio: Impact = Profit. Initially, the Collective's model of digital democratic governance will consist of two houses: the Token House and the Citizens' House. The specifics of this system will evolve as the Collective grows. Please treat this daoURI as an initial version, containing only essential information. It will be updated as the Collective evolves.",
+  "membersURI": "https://services.daostar.org/api/v1/boardroom/members/10/optimism",
+  "proposalsURI": "https://proposalsuri.daostar.org/api/v1/boardroom/proposals/10/optimism",
+  "issuersURI": "https://www.optimism.io/",
+  "activityLogURI": "https://gov.optimism.io/",
+  "governanceURI": "https://community.optimism.io/docs/governance/",
+  "contractsRegistryURI": "https://raw.githubusercontent.com/metagov/daostar/main/contractRegistryURI/opcollective.json"
 }
