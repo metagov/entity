@@ -1,20 +1,51 @@
 {
     "@context": "https://www.daostar.org/schemas",
+    "type": "Foundation",
     "contracts": [
         {
-            "id": "<CAIP-10 address, DID address, or other URI identifier>",
-            "name": "<name, e.g. Treasury>",
-            "description": "<description, e.g. Primary operating treasury for the DAO>"
+            "id": "stellar:1500:GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ",
+            "name": "Direct Development, Available Funds",
+            "link": "https://stellar.expert/explorer/public/account/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ"
         },
         {
-            "id": "<CAIP-10 address, DID address, or other URI identifier>",
-            "name": "<name, e.g. Governance Token>",
-            "description": "<description, e.g. ERC20 governance token contract>"
+            "id": "stellar:1500:GBA6XT7YBQOERXT656T74LYUVJ6MEIOC5EUETGAQNHQHEPUFPKCW5GYM",
+            "name": "Jan 2021 Escrow",
+            "link": "https://stellar.expert/explorer/public/account/GBA6XT7YBQOERXT656T74LYUVJ6MEIOC5EUETGAQNHQHEPUFPKCW5GYM"
         },
         {
-            "id": "<CAIP-10 address, DID address, or other URI identifier>",
-            "name": "<name, e.g. Registration Contract>",
-            "description": "<description, e.g. ERC-4824 registration contract>"
+            "id": "stellar:1500:GD2D6JG6D3V52ZMPIYSVHYFKVNIMXGYVLYJQ3HYHG5YDPGJ3DCRGPLTP",
+            "name": "Jan 2022 Escrow",
+            "link": "https://stellar.expert/explorer/public/account/GD2D6JG6D3V52ZMPIYSVHYFKVNIMXGYVLYJQ3HYHG5YDPGJ3DCRGPLTP"
+        },
+        {
+            "id": "stellar:1500:GA2VRL65L3ZFEDDJ357RGI3MAOKPJZ2Z3IJTPSC24I4KDTNFSVEQURRA",
+            "name": "Jan 2023 Escrow",
+            "link": "https://stellar.expert/explorer/public/account/GA2VRL65L3ZFEDDJ357RGI3MAOKPJZ2Z3IJTPSC24I4KDTNFSVEQURRA"
+        },
+        {
+            "id": "stellar:1500:GCEZYB47RSSSR6RMHQDTBWL4L6RY5CY2SPJU3QHP3YPB6ALPVRLPN7OQ",
+            "name": "Direct Development (Hot 1)",
+            "link": "https://stellar.expert/explorer/public/account/GCEZYB47RSSSR6RMHQDTBWL4L6RY5CY2SPJU3QHP3YPB6ALPVRLPN7OQ"
+        },
+        {
+            "id": "stellar:1500:GATL3ETTZ3XDGFXX2ELPIKCZL7S5D2HY3VK4T7LRPD6DW5JOLAEZSZBA",
+            "name": "Direct Development (Hot 2)",
+            "link": "https://stellar.expert/explorer/public/account/GATL3ETTZ3XDGFXX2ELPIKCZL7S5D2HY3VK4T7LRPD6DW5JOLAEZSZBA"
+        },
+        {
+            "id": "stellar:1500:GCVLWV5B3L3YE6DSCCMHLCK7QIB365NYOLQLW3ZKHI5XINNMRLJ6YHVX",
+            "name": "Direct Development (Hot 3)",
+            "link": "https://stellar.expert/explorer/public/account/GCVLWV5B3L3YE6DSCCMHLCK7QIB365NYOLQLW3ZKHI5XINNMRLJ6YHVX"
+        },
+        {
+            "id": "stellar:1500:GAKGC35HMNB7A3Q2V5SQU6VJC2JFTZB6I7ZW77SJSMRCOX2ZFBGJOCHH",
+            "name": "Direct Development (Hot 4)",
+            "link": "https://stellar.expert/explorer/public/account/GAKGC35HMNB7A3Q2V5SQU6VJC2JFTZB6I7ZW77SJSMRCOX2ZFBGJOCHH"
+        },
+        {
+            "id": "stellar:1500:GAPV2C4BTHXPL2IVYDXJ5PUU7Q3LAXU7OAQDP7KVYHLCNM2JTAJNOQQI",
+            "name": "Direct Development (Hot 5)",
+            "link": "https://stellar.expert/explorer/public/account/GAPV2C4BTHXPL2IVYDXJ5PUU7Q3LAXU7OAQDP7KVYHLCNM2JTAJNOQQI"
         }
     ]
 }
