@@ -1,6 +1,6 @@
 {
   "@context": "https://www.daostar.org/schemas",
-  "type": "Entity",
+  "type": "Foundation",
   "name": "Stellar Development Foundation",
   "description": "The Stellar Development Foundation (SDF) is a non-profit organization whose mission is to create equitable access to the global financial system. Founded in 2014, the Foundation helps shepherd and maintain the Stellar network’s codebase, supports the technical and business communities around the Stellar network, and provides thought leadership to regulators and other stakeholders",
   "membersURI": "https://stellar.org/foundation/team",
