@@ -1,0 +1,10 @@
+{
+  "@context": "https://www.daostar.org/schemas",
+  "type": "Entity",
+  "name": "Stellar Community Fund",
+  "description": "The Stellar Community Fund is an open-application program that draws on community input to distribute awards to support projects built on Stellar",
+  "activityLogURI": "https://stellarcommunityfund.gitbook.io/scf-handbook",
+  "contractsURI": "https://raw.githubusercontent.com/metagov/eip4824/refs/heads/stellar/contracts.json",
+  "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+  "grantsPoolURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/grants_pool.json"
+}
