@@ -1,11 +1,11 @@
 {
   "@context": "https://www.daostar.org/schemas",
-  "type": "DAO",
-  "name": "DAO Name",
-  "description": "DAO Name Description",
-  "membersURI": "<URI>",
+  "type": "entity",
+  "name": "Metagov",
+  "description": "Metagov is a research lab for engineering institutions.",
+  "membersURI": "https://raw.githubusercontent.com/metagov/entity/refs/heads/main/members.json",
   "proposalsURI": "<URI>",
   "activityLogURI": "<URI>",
-  "governanceURI": "<URI>",
+  "governanceURI": "https://metagov.pubpub.org/metagov-governance",
   "contractsURI": "<URI>"
 }
